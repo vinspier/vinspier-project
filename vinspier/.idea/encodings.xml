@@ -5,13 +5,9 @@
     <file url="file://$PROJECT_DIR$/register-center" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/service-gateway" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/vinspie-ritem" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/vinspie-ritem/test" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/vinspie-ritem/vinspier-item-interface" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/vinspie-ritem/vinspier-item-service" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/vinspier-ritem-interface" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/vinspier-ritem-interface" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/vinspiertest" charset="UTF-8" />
-    <file url="file://$PROJECT_DIR$/vinspiertest" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/vinspier-common" charset="UTF-8" />
     <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>

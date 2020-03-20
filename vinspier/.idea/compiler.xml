@@ -8,6 +8,7 @@
         <outputRelativeToContentRoot value="true" />
         <module name="register-center" />
         <module name="service-gateway" />
+        <module name="vinspier-common" />
         <module name="vinspier-item-interface" />
         <module name="vinspier-item-service" />
       </profile>
@@ -18,6 +19,8 @@
       <module name="test" target="1.8" />
       <module name="vinspie-ritem" target="1.8" />
       <module name="vinspier" target="1.8" />
+      <module name="vinspier-common" target="1.8" />
+      <module name="vinspier-item" target="1.8" />
       <module name="vinspier-item-interface" target="1.8" />
       <module name="vinspier-item-service" target="1.8" />
       <module name="vinspier-ritem-interface" target="1.8" />

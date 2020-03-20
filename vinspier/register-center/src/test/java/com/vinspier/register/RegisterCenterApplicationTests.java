@@ -1,4 +1,4 @@
-package com.vinspier.common.register;
+package com.vinspier.register;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;

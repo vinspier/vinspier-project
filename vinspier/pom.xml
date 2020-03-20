@@ -11,6 +11,7 @@
         <module>register-center</module>
         <module>service-gateway</module>
         <module>vinspie-ritem</module>
+        <module>vinspier-common</module>
     </modules>
     <packaging>pom</packaging>
 
@@ -34,9 +35,11 @@
         <mapper.starter.version>2.0.2</mapper.starter.version>
         <druid.starter.version>1.1.10</druid.starter.version>
         <mysql.version>5.1.32</mysql.version>
+        <javax.persistence.version>1.0</javax.persistence.version>
         <pageHelper.starter.version>1.2.3</pageHelper.starter.version>
         <vinspier.latest.version>1.0.0-SNAPSHOT</vinspier.latest.version>
         <fastDFS.client.version>1.26.1-RELEASE</fastDFS.client.version>
+        <lombok.version>1.16.22</lombok.version>
     </properties>
 
     <dependencyManagement>
@@ -49,6 +52,13 @@
                 <version>${spring-cloud.version}</version>
                 <type>pom</type>
                 <scope>import</scope>
+            </dependency>
+
+            <!-- Druid连接池 -->
+            <dependency>
+                <groupId>com.github.drtrang</groupId>
+                <artifactId>druid-spring-boot2-starter</artifactId>
+                <version>${druid.starter.version}</version>
             </dependency>
 
             <!-- mybatis启动器 -->

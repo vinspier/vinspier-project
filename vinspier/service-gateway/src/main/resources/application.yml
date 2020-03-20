@@ -11,4 +11,6 @@ eureka:
     service-url:
       defaultZone: http://localhost:8080/eureka/
 zuul:
-  prefix: /vinspier #路由前缀
+  routes:
+    item-service: /item/** # 商品微服务的映射路径
+  prefix: /vinspier # 路由前缀

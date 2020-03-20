@@ -1,4 +1,4 @@
-package com.vinspier.common.register;
+package com.vinspier.register;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

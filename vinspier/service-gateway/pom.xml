@@ -10,19 +10,24 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.vinspier.common</groupId>
-    <artifactId>register-center</artifactId>
+    <artifactId>service-gateway</artifactId>
     <version>1.0.0-SNAPSHOT</version>
 
     <dependencies>
-        <!--Eureka-->
+        <!--zuul-->
         <dependency>
             <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-netflix-eureka-server</artifactId>
+            <artifactId>spring-cloud-starter-netflix-zuul</artifactId>
         </dependency>
-
+        <!--eureka client-->
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
+        </dependency>
+        <!-- springboot提供微服务检测接口，默认对外提供几个接口 -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-test</artifactId>
+            <artifactId>spring-boot-starter-actuator</artifactId>
         </dependency>
     </dependencies>
 

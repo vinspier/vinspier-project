@@ -1,0 +1,14 @@
+server:
+  port: 8888
+
+spring:
+  application:
+    name: zull-gateway
+
+eureka:
+  client:
+    registry-fetch-interval-seconds: 5 # 服务抓取列表间隔时间
+    service-url:
+      defaultZone: http://localhost:8080/eureka/
+zuul:
+  prefix: /vinspier #路由前缀

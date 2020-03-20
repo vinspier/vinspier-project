@@ -7,11 +7,21 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="register-center" />
+        <module name="service-gateway" />
+        <module name="vinspier-item-interface" />
+        <module name="vinspier-item-service" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="1.8">
       <module name="register-center" target="1.8" />
+      <module name="service-gateway" target="1.8" />
+      <module name="test" target="1.8" />
+      <module name="vinspie-ritem" target="1.8" />
       <module name="vinspier" target="1.8" />
+      <module name="vinspier-item-interface" target="1.8" />
+      <module name="vinspier-item-service" target="1.8" />
+      <module name="vinspier-ritem-interface" target="1.8" />
+      <module name="vinspiertest" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

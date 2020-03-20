@@ -3,7 +3,11 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/register-center/register-center.iml" filepath="$PROJECT_DIR$/register-center/register-center.iml" />
+      <module fileurl="file://$PROJECT_DIR$/service-gateway/service-gateway.iml" filepath="$PROJECT_DIR$/service-gateway/service-gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/vinspie-ritem/vinspie-ritem.iml" filepath="$PROJECT_DIR$/vinspie-ritem/vinspie-ritem.iml" />
       <module fileurl="file://$PROJECT_DIR$/vinspier.iml" filepath="$PROJECT_DIR$/vinspier.iml" />
+      <module fileurl="file://$PROJECT_DIR$/vinspie-ritem/vinspier-item-interface/vinspier-item-interface.iml" filepath="$PROJECT_DIR$/vinspie-ritem/vinspier-item-interface/vinspier-item-interface.iml" />
+      <module fileurl="file://$PROJECT_DIR$/vinspie-ritem/vinspier-item-service/vinspier-item-service.iml" filepath="$PROJECT_DIR$/vinspie-ritem/vinspier-item-service/vinspier-item-service.iml" />
     </modules>
   </component>
 </project>

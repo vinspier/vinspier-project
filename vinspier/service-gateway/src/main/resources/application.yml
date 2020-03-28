@@ -13,4 +13,4 @@ eureka:
 zuul:
   routes:
     item-service: /item/** # 商品微服务的映射路径
-  prefix: /vinspier # 路由前缀
+  prefix: / # 路由前缀

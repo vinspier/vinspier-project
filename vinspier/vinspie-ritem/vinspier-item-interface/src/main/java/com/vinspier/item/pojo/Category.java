@@ -12,22 +12,21 @@ import javax.persistence.Table;
 
 @Table(name="tb_category")
 @ToString
+@Data
 public class Category {
     @Id
     @GeneratedValue(strategy= GenerationType.IDENTITY)
-    @Getter
-    @Setter
     private Long id;
-    @Getter
-    @Setter
+
+    // 名称
     private String name;
-    @Getter
-    @Setter
+
+    // 父栏目id
     private Long parentId;
-    @Getter
-    @Setter
+
+    // 是否是父级栏目
     private Boolean isParent;
-    @Getter
-    @Setter
+
+    // 排序号
     private Integer sort;
 }

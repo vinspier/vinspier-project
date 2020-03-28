@@ -51,11 +51,14 @@ public class LoginFilter extends ZuulFilter {
 
     @Override
     public Object run() throws ZuulException {
+        System.out.println("===========进入服务网关拦截器 根据规则路由到具体服务===========");
         return null;
     }
 
     /**
      * 过滤器执行时 实际进行的逻辑操作
+     * 例如用户的验证
+     * 请求头的验证
      * */
     public Object run1() throws ZuulException {
         // 获取zuul提供的上下文对象

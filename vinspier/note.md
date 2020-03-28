@@ -1,0 +1,19 @@
+
+## 本地于域名地址
+
+- 后台地址 127.0.0.1:9001 manage.vinspier.com
+- 服务网关地址 127.0.0.1:8888 api.vinspier.com
+- 本地上传 127.0.0.1:9002 upload.vinspier.com
+- 虚拟机文件服务器 192.168.124.27 image.vinspier.com
+- 主域名 127.0.0.1:10010 www.vinspier.com
+
+## nginx配置微服务地址和端口
+
+- 启动：`start nginx.exe`
+- 停止：`nginx.exe -s stop`
+- 重新加载：`nginx.exe -s reload`
+
+- 注册中心 8080 register-center
+- 网关地址 8888 zull-gateway
+- 服务rest接口 81 item-service 
+

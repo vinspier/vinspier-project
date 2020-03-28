@@ -150,5 +150,6 @@
     <orderEntry type="module" module-name="vinspier-item-interface" />
     <orderEntry type="library" name="Maven: javax.persistence:persistence-api:1.0" level="project" />
     <orderEntry type="library" name="Maven: org.projectlombok:lombok:1.16.22" level="project" />
+    <orderEntry type="module" module-name="vinspier-common" />
   </component>
 </module>

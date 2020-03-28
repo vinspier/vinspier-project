@@ -18,4 +18,11 @@ public class CategoryServiceImpl implements CategoryService {
     public List<Category> findAll() {
         return categoryMapper.selectAll();
     }
+
+    @Override
+    public List<Category> queryByPid(Long pid) {
+        Category category = new Category();
+        category.setParentId(pid);
+        return categoryMapper.select(category);
+    }
 }

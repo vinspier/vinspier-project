@@ -13,9 +13,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.multipart.MultipartFile;
 
-import java.io.File;
-import java.io.FileInputStream;
-import java.io.FileNotFoundException;
+import java.io.IOException;
 
 /**
  * FastDFS分布式文件上传
@@ -25,24 +23,18 @@ import java.io.FileNotFoundException;
 public class FastDfsController {
 
     @Autowired
-    private FastFileStorageClient storageClient;
-
-    @Autowired
-    private ThumbImageConfig thumbImageConfig;
-
-    @Autowired
     private UploadService uploadService;
 
     @PostMapping("upload")
     @ResponseBody
-    public ResponseTemplate upload(@RequestParam("file") MultipartFile file) throws FileNotFoundException {
+    public ResponseTemplate upload(@RequestParam("file") MultipartFile file) throws IOException {
         String path = uploadService.uploadFast(file);
         return ResponseTemplate.ok(path);
     }
 
     @PostMapping("uploadThumb")
     @ResponseBody
-    public ResponseTemplate uploadThumb(@RequestParam("file") MultipartFile file) throws FileNotFoundException {
+    public ResponseTemplate uploadThumb(@RequestParam("file") MultipartFile file) throws IOException {
         String path = uploadService.uploadFastThumb(file);
         return ResponseTemplate.ok(path);
     }

@@ -17,12 +17,12 @@ public interface UploadService {
      * fastDFS客户端上传到fastFDS服务器
      * 返回全路径
      * */
-    String uploadFast(MultipartFile file) throws FileNotFoundException,IOException;
+    String uploadFast(MultipartFile file) throws IOException;
 
     /**
      * fastDFS客户端上传到fastFDS服务器
      * 返回全路径 生成缩略图
      * */
-    String uploadFastThumb(MultipartFile file) throws FileNotFoundException,IOException;
+    String uploadFastThumb(MultipartFile file) throws IOException;
 
 }

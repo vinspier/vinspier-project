@@ -6,6 +6,7 @@ import com.github.tobato.fastdfs.service.FastFileStorageClient;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Service;
 import org.springframework.util.StringUtils;
 import org.springframework.web.multipart.MultipartFile;
@@ -13,10 +14,8 @@ import org.springframework.web.multipart.MultipartFile;
 import javax.imageio.ImageIO;
 import java.awt.image.BufferedImage;
 import java.io.File;
-import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.text.SimpleDateFormat;
-import java.time.LocalDate;
 import java.util.Arrays;
 import java.util.Date;
 import java.util.List;
@@ -30,6 +29,9 @@ public class UploadServiceImpl implements UploadService {
     private static final Logger LOGGER = LoggerFactory.getLogger(UploadService.class);
 
     private static final List<String> CONTENT_TYPES = Arrays.asList("image/jpeg", "image/gif","image/png","image/jpg");
+
+    @Value("upload.path")
+    private String uploadPath;
 
     @Autowired
     private FastFileStorageClient storageClient;
@@ -46,7 +48,7 @@ public class UploadServiceImpl implements UploadService {
         }
         // ToDo 定义全局报错返回
         try {
-            File uploadFile = new File("G:\\vinspier-project\\upload\\" + dateFormat.format(new Date()) + "\\" + file.getOriginalFilename());
+            File uploadFile = new File(uploadPath + dateFormat.format(new Date()) + "\\" + file.getOriginalFilename());
             if (!uploadFile.getParentFile().exists()){
                 uploadFile.getParentFile().mkdirs();
             }
@@ -63,7 +65,7 @@ public class UploadServiceImpl implements UploadService {
     }
 
     @Override
-    public String uploadFast(MultipartFile file) throws FileNotFoundException,IOException {
+    public String uploadFast(MultipartFile file) throws IOException {
         String validateResult = validateFile(file);
         if (StringUtils.hasText(validateResult)){
             return validateResult;
@@ -75,7 +77,7 @@ public class UploadServiceImpl implements UploadService {
     }
 
     @Override
-    public String uploadFastThumb(MultipartFile file) throws FileNotFoundException,IOException{
+    public String uploadFastThumb(MultipartFile file) throws IOException{
         String validateResult = validateFile(file);
         if (StringUtils.hasText(validateResult)){
             return validateResult;

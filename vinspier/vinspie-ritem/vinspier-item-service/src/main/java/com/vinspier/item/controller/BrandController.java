@@ -45,10 +45,22 @@ public class BrandController {
      * @param brand
      * @param cids
      */
-    @PostMapping
+    @PostMapping("save")
+    @ResponseBody
     public ResponseTemplate saveBrand(Brand brand, @RequestParam("cids") List<Long> cids){
         this.brandService.saveBrand(brand, cids);
         return ResponseTemplate.ok();
+    }
+
+    /**
+     * 更新品牌
+     * @param brand
+     * @param cids
+     */
+    @PostMapping("update")
+    @ResponseBody
+    public ResponseTemplate updateBrand(Brand brand, @RequestParam("cids") List<Long> cids){
+        return null;
     }
 
 }

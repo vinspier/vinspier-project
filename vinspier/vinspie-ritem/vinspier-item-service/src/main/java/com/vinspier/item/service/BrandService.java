@@ -26,4 +26,17 @@ public interface BrandService {
      */
     void saveBrand(Brand brand, List<Long> cids);
 
+    /**
+     * 更新品牌
+     * @param brand
+     * @param cids 分类信息
+     */
+    void updateBrand(Brand brand, List<Long> cids);
+
+    /**
+     * 删除品牌
+     * @param bid
+     * */
+    void removeById(Long bid);
+
 }

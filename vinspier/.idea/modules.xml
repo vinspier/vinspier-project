@@ -9,6 +9,7 @@
       <module fileurl="file://$PROJECT_DIR$/vinspie-ritem/vinspier-item.iml" filepath="$PROJECT_DIR$/vinspie-ritem/vinspier-item.iml" />
       <module fileurl="file://$PROJECT_DIR$/vinspie-ritem/vinspier-item-interface/vinspier-item-interface.iml" filepath="$PROJECT_DIR$/vinspie-ritem/vinspier-item-interface/vinspier-item-interface.iml" />
       <module fileurl="file://$PROJECT_DIR$/vinspie-ritem/vinspier-item-service/vinspier-item-service.iml" filepath="$PROJECT_DIR$/vinspie-ritem/vinspier-item-service/vinspier-item-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/vinspier-upload/vinspier-upload.iml" filepath="$PROJECT_DIR$/vinspier-upload/vinspier-upload.iml" />
     </modules>
   </component>
 </project>

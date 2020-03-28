@@ -12,6 +12,7 @@
         <module>service-gateway</module>
         <module>vinspie-ritem</module>
         <module>vinspier-common</module>
+        <module>vinspier-upload</module>
     </modules>
     <packaging>pom</packaging>
 

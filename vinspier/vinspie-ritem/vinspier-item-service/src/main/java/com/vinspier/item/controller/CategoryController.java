@@ -6,10 +6,7 @@ import com.vinspier.item.service.CategoryService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Controller;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.ResponseBody;
+import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
@@ -26,6 +23,9 @@ public class CategoryController {
         return ResponseEntity.ok(categoryService.findAll());
     }
 
+    /**
+     * 获取指定父级节点下的子节点
+     * */
     @GetMapping(value = "/list")
     @ResponseBody
     public ResponseTemplate list(@RequestParam("pid") Long pid){
@@ -34,6 +34,15 @@ public class CategoryController {
         }
         List<Category> categories = this.categoryService.queryByPid(pid);
         return ResponseTemplate.ok(categories);
+    }
+
+    /**
+     * 查询某一品牌所属的分类
+     * */
+    @GetMapping(value = "/queryByBid/{bid}")
+    @ResponseBody
+    public ResponseTemplate queryByBid(@PathVariable("bid") Long bid){
+        return ResponseTemplate.ok();
     }
 
 }

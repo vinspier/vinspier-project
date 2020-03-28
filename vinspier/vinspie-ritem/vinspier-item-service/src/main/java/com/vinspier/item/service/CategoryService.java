@@ -18,4 +18,11 @@ public interface CategoryService {
      * @return
      */
     List<Category> queryByPid(Long pid);
+
+    /**
+     * 获取某一品牌所属的分类
+     * @param bid
+     * @return
+     */
+    List<Category> queryByBid(Long bid);
 }

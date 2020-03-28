@@ -1,6 +1,7 @@
 package com.vinspier.item.mapper;
 
 import com.vinspier.item.pojo.Brand;
+import org.apache.ibatis.annotations.Delete;
 import org.apache.ibatis.annotations.Insert;
 import org.apache.ibatis.annotations.Param;
 import tk.mybatis.mapper.common.Mapper;
@@ -15,5 +16,12 @@ public interface BrandMapper extends Mapper<Brand> {
      */
     @Insert("INSERT INTO tb_category_brand(category_id, brand_id) VALUES (#{cid},#{bid})")
     int insertBrandAndCategory(@Param("cid") Long cid, @Param("bid") Long bid);
+
+    /**
+     * 更新或删除商品品牌时
+     * 清楚中间表关联数据
+     * */
+    @Delete("DELETE FROM tb_category_brand WHERE brand_id = #{bid}")
+    void deleteCategoryByBid(Long bid);
 
 }

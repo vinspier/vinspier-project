@@ -4,6 +4,7 @@ import com.github.pagehelper.PageHelper;
 import com.github.pagehelper.PageInfo;
 import com.vinspier.common.pojo.PageResult;
 import com.vinspier.item.mapper.BrandMapper;
+import com.vinspier.item.mapper.CategoryMapper;
 import com.vinspier.item.pojo.Brand;
 import com.vinspier.item.service.BrandService;
 import com.vinspier.item.service.CategoryService;
@@ -20,8 +21,6 @@ public class BrandServiceImpl implements BrandService {
 
     @Autowired
     private BrandMapper brandMapper;
-    @Autowired
-    private CategoryService categoryService;
 
     @Override
     public PageResult<Brand> queryByPage(String key, Integer page, Integer rows, String sortBy, Boolean desc) {
@@ -49,10 +48,27 @@ public class BrandServiceImpl implements BrandService {
     @Transactional
     public void saveBrand(Brand brand, List<Long> cids) {
         // 先新增brand
-        this.brandMapper.insertSelective(brand);
-        // 在新增中间表
-        cids.forEach(cid -> {
-            this.brandMapper.insertBrandAndCategory(cid, brand.getId());
-        });
+        brandMapper.insertSelective(brand);
+        // 在新增中间表关联数据
+        cids.forEach(cid -> brandMapper.insertBrandAndCategory(cid, brand.getId()));
+    }
+
+    @Override
+    @Transactional
+    public void updateBrand(Brand brand, List<Long> cids) {
+        // 更新品牌信息
+        brandMapper.updateByPrimaryKey(brand);
+        // 删除原先绑定的分类信息
+        brandMapper.deleteCategoryByBid(brand.getId());
+        //重新保存分类信息
+        cids.forEach(cid -> brandMapper.insertBrandAndCategory(cid,brand.getId()));
+    }
+
+    @Override
+    public void removeById(Long bid) {
+        // 删除品牌关联的分类信息
+        brandMapper.deleteCategoryByBid(bid);
+        // 删除品牌
+        brandMapper.deleteByPrimaryKey(bid);
     }
 }

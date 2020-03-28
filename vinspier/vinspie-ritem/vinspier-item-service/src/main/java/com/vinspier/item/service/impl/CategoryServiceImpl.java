@@ -5,6 +5,7 @@ import com.vinspier.item.pojo.Category;
 import com.vinspier.item.service.CategoryService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import org.springframework.web.bind.annotation.ResponseBody;
 
 import java.util.List;
 
@@ -20,9 +21,21 @@ public class CategoryServiceImpl implements CategoryService {
     }
 
     @Override
+    @ResponseBody
     public List<Category> queryByPid(Long pid) {
         Category category = new Category();
         category.setParentId(pid);
-        return categoryMapper.select(category);
+        // return categoryMapper.select(category);
+        return categoryMapper.queryByPid(pid);
+    }
+
+    /**
+     * 通过品牌id查询商品分类
+     * @param bid
+     * @return
+     */
+    @Override
+    public List<Category> queryByBid(Long bid) {
+        return categoryMapper.queryByBid(bid);
     }
 }

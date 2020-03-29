@@ -3,6 +3,7 @@ package com.vinspier.upload.service;
 import com.github.tobato.fastdfs.domain.StorePath;
 import com.github.tobato.fastdfs.domain.ThumbImageConfig;
 import com.github.tobato.fastdfs.service.FastFileStorageClient;
+import com.vinspier.upload.properties.ConfigFileProperties;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -30,14 +31,14 @@ public class UploadServiceImpl implements UploadService {
 
     private static final List<String> CONTENT_TYPES = Arrays.asList("image/jpeg", "image/gif","image/png","image/jpg");
 
-    @Value("upload.path")
-    private String uploadPath;
-
     @Autowired
     private FastFileStorageClient storageClient;
 
     @Autowired
     private ThumbImageConfig thumbImageConfig;
+
+    @Autowired
+    private ConfigFileProperties configFileProperties;
 
     @Override
     public String upload(MultipartFile file) throws IOException{
@@ -48,7 +49,7 @@ public class UploadServiceImpl implements UploadService {
         }
         // ToDo 定义全局报错返回
         try {
-            File uploadFile = new File(uploadPath + dateFormat.format(new Date()) + "\\" + file.getOriginalFilename());
+            File uploadFile = new File(configFileProperties.getImageLocalPrefix() + dateFormat.format(new Date()) + "\\" + file.getOriginalFilename());
             if (!uploadFile.getParentFile().exists()){
                 uploadFile.getParentFile().mkdirs();
             }
@@ -56,7 +57,7 @@ public class UploadServiceImpl implements UploadService {
             // ToDo 保存到文件服务器
             file.transferTo(uploadFile);
             // 生成url地址，返回
-            return "http://image.vinspier.com/" + file.getOriginalFilename();
+            return configFileProperties.getImageLocalPrefix() + "\\" + file.getOriginalFilename();
         } catch (IOException e) {
             LOGGER.info("服务器内部错误：{}", file.getOriginalFilename());
             e.printStackTrace();
@@ -73,7 +74,7 @@ public class UploadServiceImpl implements UploadService {
         String ext = file.getOriginalFilename().substring(file.getOriginalFilename().lastIndexOf("."));
         StorePath storePath = this.storageClient.uploadFile(file.getInputStream(), file.getSize(), ext, null);
         // 生成url地址，返回
-        return "http://image.vinspier.com/" + storePath.getFullPath();
+        return configFileProperties.getImageServer() + storePath.getFullPath();
     }
 
     @Override
@@ -84,7 +85,7 @@ public class UploadServiceImpl implements UploadService {
         }
         String ext = file.getOriginalFilename().substring(file.getOriginalFilename().lastIndexOf("."));
         StorePath storePath = this.storageClient.uploadImageAndCrtThumbImage(file.getInputStream(), file.getSize(), ext, null);
-        return "http://image.vinspier.com/" + storePath.getFullPath();
+        return configFileProperties.getImageServer() + storePath.getFullPath();
     }
 
     /**
@@ -96,13 +97,13 @@ public class UploadServiceImpl implements UploadService {
         String contentType = file.getContentType();
         if (!CONTENT_TYPES.contains(contentType)){
             // 文件类型不合法，直接返回null
-            LOGGER.info("文件类型不合法：{}", originalFilename);
+            LOGGER.info("文件类型不合法：{image/jpeg,image/jpg,image/png,image/gif}", originalFilename);
             return "文件类型不合法";
         }
         // 校验文件的内容
         BufferedImage bufferedImage = ImageIO.read(file.getInputStream());
         if (bufferedImage == null){
-            LOGGER.info("文件内容不合法：{}", originalFilename);
+            LOGGER.info("文件内容不合法：{image/jpeg,image/jpg,image/png,image/gif}", originalFilename);
             return null;
         }
         return null;

@@ -25,4 +25,6 @@ public interface CategoryService {
      * @return
      */
     List<Category> queryByBid(Long bid);
+
+    List<String> queryNamesByIds(List<Long> ids);
 }

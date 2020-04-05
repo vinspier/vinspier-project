@@ -6,6 +6,8 @@ import org.apache.ibatis.annotations.Insert;
 import org.apache.ibatis.annotations.Param;
 import tk.mybatis.mapper.common.Mapper;
 
+import java.util.List;
+
 public interface BrandMapper extends Mapper<Brand> {
 
     /**
@@ -22,6 +24,15 @@ public interface BrandMapper extends Mapper<Brand> {
      * 清楚中间表关联数据
      * */
     @Delete("DELETE FROM tb_category_brand WHERE brand_id = #{bid}")
-    void deleteCategoryByBid(Long bid);
+    void deleteBrandsAndCategoryByBid(Long bid);
 
+    /**
+     * 批量删除品牌
+     * */
+    void removeBrandsByBids(@Param("bids") List<Long> bids);
+
+    /**
+     * 批量删除品牌分类中间表信息
+     * */
+    void removeBrandsAndCategoryByBids(@Param("bids") List<Long> bids);
 }

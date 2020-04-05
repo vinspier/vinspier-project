@@ -2,6 +2,7 @@ package com.vinspier.item.service;
 
 import com.vinspier.common.pojo.PageResult;
 import com.vinspier.item.pojo.Brand;
+import org.springframework.web.bind.annotation.RequestParam;
 
 import java.util.List;
 
@@ -39,4 +40,8 @@ public interface BrandService {
      * */
     void removeById(Long bid);
 
+    /**
+     * 批量删除品牌
+     */
+    void removeBrands(List<Long> bids);
 }

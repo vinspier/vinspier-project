@@ -59,16 +59,24 @@ public class BrandServiceImpl implements BrandService {
         // 更新品牌信息
         brandMapper.updateByPrimaryKey(brand);
         // 删除原先绑定的分类信息
-        brandMapper.deleteCategoryByBid(brand.getId());
+        brandMapper.deleteBrandsAndCategoryByBid(brand.getId());
         //重新保存分类信息
         cids.forEach(cid -> brandMapper.insertBrandAndCategory(cid,brand.getId()));
     }
 
     @Override
+    @Transactional
     public void removeById(Long bid) {
         // 删除品牌关联的分类信息
-        brandMapper.deleteCategoryByBid(bid);
+        brandMapper.deleteBrandsAndCategoryByBid(bid);
         // 删除品牌
         brandMapper.deleteByPrimaryKey(bid);
+    }
+
+    @Override
+    @Transactional
+    public void removeBrands(List<Long> bids) {
+        brandMapper.removeBrandsAndCategoryByBids(bids);
+        brandMapper.removeBrandsByBids(bids);
     }
 }

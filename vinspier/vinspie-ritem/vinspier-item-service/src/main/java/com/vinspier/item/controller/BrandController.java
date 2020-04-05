@@ -60,7 +60,19 @@ public class BrandController {
     @PostMapping("update")
     @ResponseBody
     public ResponseTemplate updateBrand(Brand brand, @RequestParam("cids") List<Long> cids){
-        return null;
+        brandService.updateBrand(brand,cids);
+        return ResponseTemplate.ok();
+    }
+
+    /**
+     * 删除品牌
+     * @param bids
+     */
+    @PostMapping("remove")
+    @ResponseBody
+    public ResponseTemplate removeBrands(@RequestParam("bid") List<Long> bids){
+        brandService.removeBrands(bids);
+        return ResponseTemplate.ok();
     }
 
 }

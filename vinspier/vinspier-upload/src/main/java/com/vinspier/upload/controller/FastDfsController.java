@@ -25,6 +25,11 @@ public class FastDfsController {
     @Autowired
     private UploadService uploadService;
 
+    /**
+     * 图片上传
+     * @param file
+     * @return
+     */
     @PostMapping("upload")
     @ResponseBody
     public ResponseTemplate upload(@RequestParam("file") MultipartFile file) throws IOException {
@@ -32,6 +37,11 @@ public class FastDfsController {
         return ResponseTemplate.ok(path);
     }
 
+    /**
+     * 图片上传 生成缩略图
+     * @param file
+     * @return
+     */
     @PostMapping("uploadThumb")
     @ResponseBody
     public ResponseTemplate uploadThumb(@RequestParam("file") MultipartFile file) throws IOException {

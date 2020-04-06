@@ -75,4 +75,15 @@ public class BrandController {
         return ResponseTemplate.ok();
     }
 
+    /**
+     * 删除品牌
+     * @param cid
+     */
+    @GetMapping("cid/{cid}")
+    @ResponseBody
+    public ResponseTemplate queryBrandsByCid(@PathVariable("cid")Long cid){
+        List<Brand> brands = this.brandService.queryBrandsByCid(cid);
+        return ResponseTemplate.ok(brands);
+    }
+
 }

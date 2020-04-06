@@ -44,4 +44,9 @@ public interface BrandService {
      * 批量删除品牌
      */
     void removeBrands(List<Long> bids);
+
+    /**
+     * 获取某一分类下的品牌
+     * */
+    List<Brand> queryBrandsByCid(Long cid);
 }

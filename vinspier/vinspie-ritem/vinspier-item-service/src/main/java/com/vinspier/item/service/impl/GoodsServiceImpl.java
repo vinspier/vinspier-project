@@ -161,6 +161,7 @@ public class GoodsServiceImpl implements GoodsService {
     }
 
     @Override
+    @Transactional
     public void deleteBySpuId(Long spuId) {
         /** 删除stock库存信息 */
         this.stockMapper.deleteBySpuId(spuId);

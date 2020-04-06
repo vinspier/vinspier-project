@@ -36,6 +36,5 @@ public class Sku {
     private Date lastUpdateTime;// 最后修改时间
     // @Transient表示该属性并非一个到数据库表的字段的映射
     @Transient
-
     private Integer stock;// 忽略库存
 }

@@ -17,6 +17,7 @@ import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
+import org.springframework.util.Assert;
 import tk.mybatis.mapper.entity.Example;
 
 import java.util.ArrayList;
@@ -126,6 +127,12 @@ public class GoodsServiceImpl implements GoodsService {
         /** 4、更新商品spuDetail信息 */
         this.spuDetailMapper.updateByPrimaryKeySelective(spuBo.getSpuDetail());
 
+    }
+
+    @Override
+    public int updateSaleable(SpuBo spuBo) {
+        Assert.notNull(spuBo.getId(),"必须提供必要的主键ID");
+        return spuMapper.updateByPrimaryKeySelective(spuBo);
     }
 
     @Override

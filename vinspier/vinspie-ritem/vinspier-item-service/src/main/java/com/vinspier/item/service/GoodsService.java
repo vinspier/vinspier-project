@@ -26,6 +26,12 @@ public interface GoodsService {
     void updateGoods(SpuBo spuBo);
 
     /**
+     * 更新商品信息
+     * @param spuBo
+     */
+    int updateSaleable(SpuBo spuBo);
+
+    /**
      * 查询商品详细信息
      * @param spuId
      * @return

@@ -78,11 +78,27 @@ public class GoodsController {
      */
     @PutMapping("goods")
     @ResponseBody
-    public ResponseTemplate  Goods(@RequestBody SpuBo spuBo){
+    public ResponseTemplate  updateGoods(@RequestBody SpuBo spuBo){
         this.goodsService.updateGoods(spuBo);
         return ResponseTemplate.ok();
     }
 
+    /**
+     * 更新 商品信息 上下架
+     * @param spuBo
+     * @return
+     */
+    @PostMapping("goods/updateSaleable")
+    @ResponseBody
+    public ResponseTemplate  updateSaleable(@RequestBody SpuBo spuBo){
+        this.goodsService.updateSaleable(spuBo);
+        return ResponseTemplate.ok();
+    }
+
+
+    /**
+     * 删除商品
+     * */
     @GetMapping("goods/{spuId}")
     @ResponseBody
     public ResponseTemplate deleteBySpuId(@PathVariable("spuId")Long spuId){

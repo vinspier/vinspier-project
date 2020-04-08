@@ -45,6 +45,11 @@ public class BrandServiceImpl implements BrandService {
     }
 
     @Override
+    public Brand findById(Long bid) {
+        return brandMapper.selectByPrimaryKey(bid);
+    }
+
+    @Override
     @Transactional
     public void saveBrand(Brand brand, List<Long> cids) {
         // 先新增brand

@@ -42,7 +42,18 @@ public class CategoryController {
     @GetMapping(value = "/queryByBid/{bid}")
     @ResponseBody
     public ResponseTemplate queryByBid(@PathVariable("bid") Long bid){
-        return ResponseTemplate.ok();
+        List<Category> categoryList = this.categoryService.queryByBid(bid);
+        return ResponseTemplate.ok(categoryList);
+    }
+
+    /**
+     * 通过ids查询分类名称集合
+     * */
+    @GetMapping(value = "/queryNamesByIds")
+    @ResponseBody
+    public ResponseTemplate queryNamesByIds(@RequestParam("ids")List<Long> ids){
+        List<String> categoryNames = categoryService.queryNamesByIds(ids);
+        return ResponseTemplate.ok(categoryNames);
     }
 
 }

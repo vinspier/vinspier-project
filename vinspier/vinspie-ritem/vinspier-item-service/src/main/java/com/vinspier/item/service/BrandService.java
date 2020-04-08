@@ -19,6 +19,10 @@ public interface BrandService {
      */
     PageResult<Brand> queryByPage(String key, Integer page, Integer rows, String sortBy, Boolean desc);
 
+    /**
+     * 根据id查询
+     * */
+    Brand findById(Long bid);
 
     /**
      * 新增品牌

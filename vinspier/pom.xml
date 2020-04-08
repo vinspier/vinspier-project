@@ -13,6 +13,7 @@
         <module>vinspie-ritem</module>
         <module>vinspier-common</module>
         <module>vinspier-upload</module>
+        <module>vinspier-search</module>
     </modules>
     <packaging>pom</packaging>
 

@@ -41,6 +41,16 @@ public class BrandController {
     }
 
     /**
+     * 通过id查询品牌
+     * */
+    @GetMapping("findById/{bid}")
+    @ResponseBody
+    public ResponseTemplate findById(@PathVariable("bid")Long bid){
+        Brand brand = brandService.findById(bid);
+        return ResponseTemplate.ok(brand);
+    }
+
+    /**
      * 新增品牌
      * @param brand
      * @param cids

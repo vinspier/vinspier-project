@@ -11,6 +11,7 @@
         <module name="vinspier-common" />
         <module name="vinspier-item-interface" />
         <module name="vinspier-item-service" />
+        <module name="vinspier-search" />
         <module name="vinspier-upload" />
       </profile>
     </annotationProcessing>
@@ -25,6 +26,7 @@
       <module name="vinspier-item-interface" target="1.8" />
       <module name="vinspier-item-service" target="1.8" />
       <module name="vinspier-ritem-interface" target="1.8" />
+      <module name="vinspier-search" target="1.8" />
       <module name="vinspier-upload" target="1.8" />
       <module name="vinspiertest" target="1.8" />
     </bytecodeTargetLevel>

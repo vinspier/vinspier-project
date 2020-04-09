@@ -6,6 +6,7 @@
 - 本地上传 127.0.0.1:82 upload.vinspier.com
 - 虚拟机文件服务器 192.168.124.27 image.vinspier.com
 - 主域名 127.0.0.1:10010 www.vinspier.com
+- elasticSearch 192.168.124.18:9200
 
 ## nginx配置微服务地址和端口
 

@@ -1,20 +1,25 @@
 package com.vinspier.item.api;
 
+import com.vinspier.common.pojo.PageResult;
 import com.vinspier.common.template.ResponseTemplate;
+import com.vinspier.item.bo.SpuBo;
+import com.vinspier.item.pojo.Sku;
+import com.vinspier.item.pojo.SpuDetail;
 import org.springframework.web.bind.annotation.*;
+
+import java.util.List;
 
 
 /**
  * 商品操作统一接口
  * */
-@RequestMapping("/goods")
 public interface GoodsApi {
 
     /**
      * 查询商品列表Spu，返回分页结果集
      */
-    @GetMapping("spu/page")
-    ResponseTemplate querySpuBoByPage(
+    @GetMapping("/spu/page")
+    ResponseTemplate<PageResult<SpuBo>> querySpuBoByPage(
             @RequestParam(value = "key", required = false)String key,
             @RequestParam(value = "saleable", required = false)Boolean saleable,
             @RequestParam(value = "page", defaultValue = "1")Integer page,
@@ -25,8 +30,8 @@ public interface GoodsApi {
      * @param spuId
      * @return
      */
-    @GetMapping("spu/detail/{spuId}")
-    ResponseTemplate querySpuDetailBySpuId(@PathVariable("spuId")Long spuId);
+    @GetMapping("/spu/detail/{spuId}")
+    ResponseTemplate<SpuDetail> querySpuDetailBySpuId(@PathVariable("spuId")Long spuId);
 
 
     /**
@@ -34,6 +39,6 @@ public interface GoodsApi {
      * @param spuId
      * @return
      */
-    @GetMapping("sku/list")
-    ResponseTemplate querySkusBySpuId(@RequestParam("id")Long spuId);
+    @GetMapping("/sku/list")
+    ResponseTemplate<List<Sku>> querySkusBySpuId(@RequestParam("id")Long spuId);
 }

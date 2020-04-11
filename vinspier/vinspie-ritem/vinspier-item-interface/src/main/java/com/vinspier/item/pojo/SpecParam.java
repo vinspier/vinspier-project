@@ -8,7 +8,6 @@ import lombok.ToString;
 import javax.persistence.*;
 
 @Table(name = "tb_spec_param")
-@ToString
 @Data
 public class SpecParam {
     @Id

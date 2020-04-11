@@ -17,6 +17,6 @@ public interface CategoryApi {
      * 通过ids查询分类名称集合
      * */
     @GetMapping(value = "/queryNamesByIds")
-    ResponseTemplate queryNamesByIds(@RequestParam("ids")List<Long> ids);
+    ResponseTemplate<List<String>> queryNamesByIds(@RequestParam("ids")List<Long> ids);
 
 }

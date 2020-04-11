@@ -27,4 +27,9 @@ public interface CategoryService {
     List<Category> queryByBid(Long bid);
 
     List<String> queryNamesByIds(List<Long> ids);
+
+    /**
+     *  根据第三级cid 获取全部级别的名称
+     */
+    List<Category> queryAllByCid3(Long id);
 }

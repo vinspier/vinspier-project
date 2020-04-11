@@ -45,7 +45,7 @@ public class BrandController {
      * */
     @GetMapping("findById/{bid}")
     @ResponseBody
-    public ResponseTemplate findById(@PathVariable("bid")Long bid){
+    public ResponseTemplate<Brand> findById(@PathVariable("bid")Long bid){
         Brand brand = brandService.findById(bid);
         return ResponseTemplate.ok(brand);
     }
@@ -57,7 +57,7 @@ public class BrandController {
      */
     @PostMapping("save")
     @ResponseBody
-    public ResponseTemplate saveBrand(Brand brand, @RequestParam("cids") List<Long> cids){
+    public ResponseTemplate<Brand> saveBrand(Brand brand, @RequestParam("cids") List<Long> cids){
         this.brandService.saveBrand(brand, cids);
         return ResponseTemplate.ok();
     }
@@ -91,7 +91,7 @@ public class BrandController {
      */
     @GetMapping("cid/{cid}")
     @ResponseBody
-    public ResponseTemplate queryBrandsByCid(@PathVariable("cid")Long cid){
+    public ResponseTemplate<List<Brand>> queryBrandsByCid(@PathVariable("cid")Long cid){
         List<Brand> brands = this.brandService.queryBrandsByCid(cid);
         return ResponseTemplate.ok(brands);
     }

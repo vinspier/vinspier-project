@@ -28,7 +28,7 @@ public class SpecController {
      */
     @GetMapping("groups/{cid}")
     @ResponseBody
-    public ResponseTemplate queryGroupsByCid(@PathVariable("cid")Long cid){
+    public ResponseTemplate<List<SpecGroup>> queryGroupsByCid(@PathVariable("cid")Long cid){
         List<SpecGroup> groups = this.specService.queryGroupsByCid(cid);
         if (CollectionUtils.isEmpty(groups)){
             return ResponseTemplate.ok("no data");
@@ -75,14 +75,11 @@ public class SpecController {
      */
     @GetMapping("params")
     @ResponseBody
-    public ResponseTemplate queryParams(@RequestParam(value = "gid", required = false)Long gid,
+    public ResponseTemplate<List<SpecParam>> queryParams(@RequestParam(value = "gid", required = false)Long gid,
                                                        @RequestParam(value = "cid", required = false)Long cid,
                                                        @RequestParam(value = "generic", required = false)Boolean generic,
                                                        @RequestParam(value = "searching", required = false)Boolean searching){
         List<SpecParam>  params = this.specService.queryParams(gid,cid,generic,searching);
-        if (CollectionUtils.isEmpty(params)){
-            return ResponseTemplate.ok("no data");
-        }
         return ResponseTemplate.ok(params);
     }
 

@@ -28,7 +28,7 @@ public class CategoryController {
      * */
     @GetMapping(value = "/list")
     @ResponseBody
-    public ResponseTemplate list(@RequestParam("pid") Long pid){
+    public ResponseTemplate<List<Category>> list(@RequestParam("pid") Long pid){
         if (pid == null){
             return ResponseTemplate.error("param pid must not be null");
         }
@@ -41,7 +41,7 @@ public class CategoryController {
      * */
     @GetMapping(value = "/queryByBid/{bid}")
     @ResponseBody
-    public ResponseTemplate queryByBid(@PathVariable("bid") Long bid){
+    public ResponseTemplate<List<Category>> queryByBid(@PathVariable("bid") Long bid){
         List<Category> categoryList = this.categoryService.queryByBid(bid);
         return ResponseTemplate.ok(categoryList);
     }
@@ -51,9 +51,20 @@ public class CategoryController {
      * */
     @GetMapping(value = "/queryNamesByIds")
     @ResponseBody
-    public ResponseTemplate queryNamesByIds(@RequestParam("ids")List<Long> ids){
+    public ResponseTemplate<List<String>> queryNamesByIds(@RequestParam("ids")List<Long> ids){
         List<String> categoryNames = categoryService.queryNamesByIds(ids);
         return ResponseTemplate.ok(categoryNames);
+    }
+
+    /**
+     * 根据3级分类id，查询1~3级的分类
+     * @param id
+     * @return
+     */
+    @GetMapping("all/level")
+    public ResponseTemplate<List<Category>> queryAllByCid3(@RequestParam("id") Long id){
+        List<Category> list = this.categoryService.queryAllByCid3(id);
+        return ResponseTemplate.ok(list);
     }
 
 }

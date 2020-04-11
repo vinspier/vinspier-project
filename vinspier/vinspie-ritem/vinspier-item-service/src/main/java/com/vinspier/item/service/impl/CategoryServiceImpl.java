@@ -8,6 +8,7 @@ import org.springframework.stereotype.Service;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 @Service
@@ -53,5 +54,13 @@ public class CategoryServiceImpl implements CategoryService {
             names.add(category.getName());
         }
         return names;
+    }
+
+    @Override
+    public List<Category> queryAllByCid3(Long id) {
+        Category c3 = this.categoryMapper.selectByPrimaryKey(id);
+        Category c2 = this.categoryMapper.selectByPrimaryKey(c3.getParentId());
+        Category c1 = this.categoryMapper.selectByPrimaryKey(c2.getParentId());
+        return Arrays.asList(c1,c2,c3);
     }
 }

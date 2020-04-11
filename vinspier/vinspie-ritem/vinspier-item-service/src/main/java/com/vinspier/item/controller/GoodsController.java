@@ -7,6 +7,7 @@ import com.vinspier.item.pojo.Sku;
 import com.vinspier.item.pojo.SpuDetail;
 import com.vinspier.item.service.GoodsService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
 import org.springframework.util.CollectionUtils;
 import org.springframework.web.bind.annotation.*;
 
@@ -15,6 +16,7 @@ import java.util.List;
 /**
  * 商品信息
  * */
+@Controller
 public class GoodsController {
 
     @Autowired
@@ -23,8 +25,9 @@ public class GoodsController {
     /**
      * 查询商品列表Spu，返回分页结果集
      */
-    @GetMapping("spu/page")
-    public ResponseTemplate querySpuBoByPage(
+    @GetMapping("/spu/page")
+    @ResponseBody
+    public ResponseTemplate<PageResult<SpuBo>> querySpuBoByPage(
             @RequestParam(value = "key", required = false)String key,
             @RequestParam(value = "saleable", required = false)Boolean saleable,
             @RequestParam(value = "page", defaultValue = "1")Integer page,
@@ -39,9 +42,9 @@ public class GoodsController {
      * @param spuId
      * @return
      */
-    @GetMapping("spu/detail/{spuId}")
+    @GetMapping("/spu/detail/{spuId}")
     @ResponseBody
-    public ResponseTemplate querySpuDetailBySpuId(@PathVariable("spuId")Long spuId){
+    public ResponseTemplate<SpuDetail> querySpuDetailBySpuId(@PathVariable("spuId")Long spuId){
         SpuDetail spuDetail = this.goodsService.querySpuDetailBySpuId(spuId);
         return ResponseTemplate.ok(spuDetail);
     }
@@ -52,9 +55,9 @@ public class GoodsController {
      * @param spuId
      * @return
      */
-    @GetMapping("sku/list")
+    @GetMapping("/sku/list")
     @ResponseBody
-    public ResponseTemplate querySkusBySpuId(@RequestParam("id")Long spuId){
+    public ResponseTemplate<List<Sku>> querySkusBySpuId(@RequestParam("id")Long spuId){
         List<Sku> skus = this.goodsService.querySkusBySpuId(spuId);
         return ResponseTemplate.ok(skus);
     }
@@ -64,7 +67,7 @@ public class GoodsController {
      * @param spuBo
      * @return
      */
-    @PostMapping("goods")
+    @PostMapping("/goods")
     @ResponseBody
     public ResponseTemplate saveGoods(@RequestBody SpuBo spuBo){
         this.goodsService.saveGoods(spuBo);
@@ -76,7 +79,7 @@ public class GoodsController {
      * @param spuBo
      * @return
      */
-    @PutMapping("goods")
+    @PutMapping("/goods")
     @ResponseBody
     public ResponseTemplate  updateGoods(@RequestBody SpuBo spuBo){
         this.goodsService.updateGoods(spuBo);
@@ -88,7 +91,7 @@ public class GoodsController {
      * @param spuBo
      * @return
      */
-    @PostMapping("goods/updateSaleable")
+    @PostMapping("/goods/updateSaleable")
     @ResponseBody
     public ResponseTemplate  updateSaleable(@RequestBody SpuBo spuBo){
         this.goodsService.updateSaleable(spuBo);
@@ -99,7 +102,7 @@ public class GoodsController {
     /**
      * 删除商品
      * */
-    @GetMapping("goods/{spuId}")
+    @GetMapping("/goods/{spuId}")
     @ResponseBody
     public ResponseTemplate deleteBySpuId(@PathVariable("spuId")Long spuId){
         this.goodsService.deleteBySpuId(spuId);

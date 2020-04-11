@@ -9,6 +9,8 @@ spring:
       cluster-nodes: 192.168.124.18:9300
   main:
     allow-bean-definition-overriding: true
+  jackson:
+    default-property-inclusion: non_null # 配置json处理时忽略空值
 # Eureka
 eureka:
   client:

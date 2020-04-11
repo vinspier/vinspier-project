@@ -13,6 +13,7 @@ eureka:
 zuul:
   routes:
     item-service: /item/** # 商品微服务的映射路径
+    search-service: /search/** # 商品搜索服务映射路径
   prefix: /api # 路由前缀
   # 路径匹配
   # ignored-services: /upload/**

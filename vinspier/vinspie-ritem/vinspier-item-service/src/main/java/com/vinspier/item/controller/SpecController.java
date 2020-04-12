@@ -30,10 +30,20 @@ public class SpecController {
     @ResponseBody
     public ResponseTemplate<List<SpecGroup>> queryGroupsByCid(@PathVariable("cid")Long cid){
         List<SpecGroup> groups = this.specService.queryGroupsByCid(cid);
-        if (CollectionUtils.isEmpty(groups)){
-            return ResponseTemplate.ok("no data");
-        }
         return ResponseTemplate.ok(groups);
+    }
+
+    /**
+     * 根据分类id查询分组
+     * 携带每个分组的具体规格参数
+     * @param cid
+     * @return
+     */
+    @GetMapping("{cid}")
+    @ResponseBody
+    public ResponseTemplate<List<SpecGroup>> querySpecsByCid(@PathVariable("cid") Long cid){
+        List<SpecGroup> list = this.specService.querySpecsByCid(cid);
+        return ResponseTemplate.ok(list);
     }
 
     /**

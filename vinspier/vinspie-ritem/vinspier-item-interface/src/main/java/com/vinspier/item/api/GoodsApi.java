@@ -4,6 +4,7 @@ import com.vinspier.common.pojo.PageResult;
 import com.vinspier.common.template.ResponseTemplate;
 import com.vinspier.item.bo.SpuBo;
 import com.vinspier.item.pojo.Sku;
+import com.vinspier.item.pojo.Spu;
 import com.vinspier.item.pojo.SpuDetail;
 import org.springframework.web.bind.annotation.*;
 
@@ -24,6 +25,14 @@ public interface GoodsApi {
             @RequestParam(value = "saleable", required = false)Boolean saleable,
             @RequestParam(value = "page", defaultValue = "1")Integer page,
             @RequestParam(value = "rows", defaultValue = "5")Integer rows);
+
+    /**
+     * 查询商品的基础信息
+     * @param spuId
+     * @return
+     */
+    @GetMapping("/spu/{spuId}")
+    ResponseTemplate<Spu> querySpuBySpuId(@PathVariable("spuId")Long spuId);
 
     /**
      * 查询商品的详细信息

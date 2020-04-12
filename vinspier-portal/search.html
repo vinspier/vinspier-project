@@ -342,7 +342,7 @@
                     <li class="yui3-u-1-5" v-for="goods in goodsList" :key="goods.id">
                         <div class="list-wrap">
                             <div class="p-img">
-                                <a href="item.html" target="_blank"><img src="goods.selected.image" height="200"/></a>
+                                <a :href="'item/' + goods.id + '.html'" target="_blank"><img src="goods.selected.image" height="200"/></a>
                                 <!--
                                 <ul class="skus">
                                     <li class="selected"><img src="img/_/mobile01.png"></li>
@@ -538,12 +538,12 @@
                     // 分类添加到过滤集合：filters
                     this.filters.push({
                         k: "分类",
-                        options: data.categories
+                        options: resp.data.data.categories
                     });
                     // 品牌添加到过滤集合：filters
                     this.filters.push({
                         k: "品牌",
-                        options: data.brands
+                        options: resp.data.data.brands
                     });
                     resp.data.data.items.forEach(goods => {
                         goods.skus = JSON.parse(goods.skus);

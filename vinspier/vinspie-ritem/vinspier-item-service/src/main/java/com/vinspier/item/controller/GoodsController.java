@@ -4,6 +4,7 @@ import com.vinspier.common.pojo.PageResult;
 import com.vinspier.common.template.ResponseTemplate;
 import com.vinspier.item.bo.SpuBo;
 import com.vinspier.item.pojo.Sku;
+import com.vinspier.item.pojo.Spu;
 import com.vinspier.item.pojo.SpuDetail;
 import com.vinspier.item.service.GoodsService;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -35,6 +36,18 @@ public class GoodsController {
         PageResult<SpuBo> pageResult = this.goodsService.querySpuBoByPage(key, saleable, page, rows);
        // return ResponseEntity.ok(pageResult);
         return ResponseTemplate.ok(pageResult);
+    }
+
+    /**
+     * 查询商品的基础信息
+     * @param spuId
+     * @return
+     */
+    @GetMapping("/spu/{spuId}")
+    @ResponseBody
+    public ResponseTemplate<Spu> querySpuBySpuId(@PathVariable("spuId")Long spuId){
+        Spu spu = this.goodsService.querySpuBySpuId(spuId);
+        return ResponseTemplate.ok(spu);
     }
 
     /**

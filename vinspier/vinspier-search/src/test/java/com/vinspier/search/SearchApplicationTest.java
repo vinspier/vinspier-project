@@ -76,4 +76,11 @@ public class SearchApplicationTest {
         }while (rows == 100);
     }
 
+    /**
+     * 删除索引数据
+     * */
+    public void deleteDocs(){
+        goodsRepository.deleteAll();
+    }
+
 }

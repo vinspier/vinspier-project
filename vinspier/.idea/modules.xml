@@ -6,6 +6,7 @@
       <module fileurl="file://$PROJECT_DIR$/service-gateway/service-gateway.iml" filepath="$PROJECT_DIR$/service-gateway/service-gateway.iml" />
       <module fileurl="file://$PROJECT_DIR$/vinspier.iml" filepath="$PROJECT_DIR$/vinspier.iml" />
       <module fileurl="file://$PROJECT_DIR$/vinspier-common/vinspier-common.iml" filepath="$PROJECT_DIR$/vinspier-common/vinspier-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/vinspier-goods-web/vinspier-goods-web.iml" filepath="$PROJECT_DIR$/vinspier-goods-web/vinspier-goods-web.iml" />
       <module fileurl="file://$PROJECT_DIR$/vinspie-ritem/vinspier-item.iml" filepath="$PROJECT_DIR$/vinspie-ritem/vinspier-item.iml" />
       <module fileurl="file://$PROJECT_DIR$/vinspie-ritem/vinspier-item-interface/vinspier-item-interface.iml" filepath="$PROJECT_DIR$/vinspie-ritem/vinspier-item-interface/vinspier-item-interface.iml" />
       <module fileurl="file://$PROJECT_DIR$/vinspie-ritem/vinspier-item-service/vinspier-item-service.iml" filepath="$PROJECT_DIR$/vinspie-ritem/vinspier-item-service/vinspier-item-service.iml" />

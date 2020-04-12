@@ -9,6 +9,7 @@
         <module name="register-center" />
         <module name="service-gateway" />
         <module name="vinspier-common" />
+        <module name="vinspier-goods-web" />
         <module name="vinspier-item-interface" />
         <module name="vinspier-item-service" />
         <module name="vinspier-search" />
@@ -22,6 +23,7 @@
       <module name="vinspie-ritem" target="1.8" />
       <module name="vinspier" target="1.8" />
       <module name="vinspier-common" target="1.8" />
+      <module name="vinspier-goods-web" target="1.8" />
       <module name="vinspier-item" target="1.8" />
       <module name="vinspier-item-interface" target="1.8" />
       <module name="vinspier-item-service" target="1.8" />

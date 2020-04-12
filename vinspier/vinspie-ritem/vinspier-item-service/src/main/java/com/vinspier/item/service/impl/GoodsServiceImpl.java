@@ -136,6 +136,11 @@ public class GoodsServiceImpl implements GoodsService {
     }
 
     @Override
+    public Spu querySpuBySpuId(Long spuId) {
+        return spuMapper.selectByPrimaryKey(spuId);
+    }
+
+    @Override
     public SpuDetail querySpuDetailBySpuId(Long spuId) {
         return this.spuDetailMapper.selectByPrimaryKey(spuId);
     }

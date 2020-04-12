@@ -30,6 +30,19 @@ public class SpecServiceImpl implements SpecService {
     }
 
     /**
+     * 根据分类id查询 属性分组的集合
+     * 携带每个分组的具体规格参数
+     * */
+    @Override
+    public List<SpecGroup> querySpecsByCid(Long cid) {
+        List<SpecGroup> groupList = queryGroupsByCid(cid);
+        groupList.forEach(g -> {
+            g.setParams(queryParams(g.getId(),null,null,null));
+        });
+        return groupList;
+    }
+
+    /**
      * 保存新增分组
      * */
     @Override

@@ -4,6 +4,7 @@ package com.vinspier.item.service;
 import com.vinspier.common.pojo.PageResult;
 import com.vinspier.item.bo.SpuBo;
 import com.vinspier.item.pojo.Sku;
+import com.vinspier.item.pojo.Spu;
 import com.vinspier.item.pojo.SpuDetail;
 
 import java.util.List;
@@ -30,6 +31,13 @@ public interface GoodsService {
      * @param spuBo
      */
     int updateSaleable(SpuBo spuBo);
+
+    /**
+     * 查询商品基本信息
+     * @param spuId
+     * @return
+     */
+    Spu querySpuBySpuId(Long spuId);
 
     /**
      * 查询商品详细信息

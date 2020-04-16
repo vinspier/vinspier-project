@@ -178,6 +178,23 @@ public class SearchServiceImpl implements SearchService{
     }
 
     /**
+     * 新增和更新是相同的方法入口
+     * */
+    @Override
+    public void createIndex(Long id) throws Exception{
+        Spu spu = goodsClient.querySpuBySpuId(id).getData();
+        // 处理包装成索引信息商品对象
+        Goods goods = this.buildGoods(spu);
+        // 保存到索引中去
+        goodsRepository.save(goods);
+    }
+
+    @Override
+    public void deleteIndex(Long id) throws Exception{
+        goodsRepository.deleteById(id);
+    }
+
+    /**
      * 解析分类的聚合结果集
      * @param aggregation
      * @return

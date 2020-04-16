@@ -3,6 +3,7 @@ package com.vinspier.item.service.impl;
 
 import com.github.pagehelper.PageHelper;
 import com.github.pagehelper.PageInfo;
+import com.vinspier.common.enums.RabbitRouteKeyEnum;
 import com.vinspier.common.pojo.PageResult;
 import com.vinspier.item.bo.SpuBo;
 import com.vinspier.item.mapper.*;
@@ -12,6 +13,7 @@ import com.vinspier.item.pojo.SpuDetail;
 import com.vinspier.item.pojo.Stock;
 import com.vinspier.item.service.CategoryService;
 import com.vinspier.item.service.GoodsService;
+import com.vinspier.item.service.RabbitMsgService;
 import org.apache.commons.lang.StringUtils;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -40,6 +42,8 @@ public class GoodsServiceImpl implements GoodsService {
     private SpuDetailMapper spuDetailMapper;
     @Autowired
     private StockMapper stockMapper;
+    @Autowired
+    private RabbitMsgService rabbitMsgService;
 
     @Override
     public PageResult<SpuBo> querySpuBoByPage(String key, Boolean saleable, Integer page, Integer rows) {
@@ -102,6 +106,9 @@ public class GoodsServiceImpl implements GoodsService {
 
         /** 3、增加商品sku组 以及 库存信息 */
         saveSkuAndStock(spuBo);
+
+        /** 发送消息给队列 */
+        rabbitMsgService.sendMsg(RabbitRouteKeyEnum.INSERT.getKey(),spuBo.getId());
     }
 
     /**
@@ -126,7 +133,8 @@ public class GoodsServiceImpl implements GoodsService {
         this.spuMapper.updateByPrimaryKeySelective(spuBo);
         /** 4、更新商品spuDetail信息 */
         this.spuDetailMapper.updateByPrimaryKeySelective(spuBo.getSpuDetail());
-
+        /** 发送消息给队列 */
+        rabbitMsgService.sendMsg(RabbitRouteKeyEnum.UPDATE.getKey(),spuBo.getId());
     }
 
     @Override
@@ -183,5 +191,7 @@ public class GoodsServiceImpl implements GoodsService {
         this.spuDetailMapper.deleteBySpuId(spuId);
         /** 删除基本信息 */
         this.spuMapper.deleteByPrimaryKey(spuId);
+        /** 发送消息给队列 */
+        rabbitMsgService.sendMsg(RabbitRouteKeyEnum.DELETE.getKey(),spuId);
     }
 }

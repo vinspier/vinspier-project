@@ -75,6 +75,9 @@ public class GoodsHtmlServiceImpl implements GoodsHtmlService {
     @Override
     public void deleteHtml(Long spuId) {
         File file = new File(NGINX_PREFIX_PATH + spuId + ".html");
-        file.deleteOnExit();
+        if (file.exists()){
+            file.delete();
+        }
+       // file.deleteOnExit();
     }
 }

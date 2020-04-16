@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.vinspier.item.mapper.BrandMapper">
+
+    <delete id="removeBrandsByBids" parameterType="java.util.List">
+        delete FROM tb_brand
+        <where>
+            <choose>
+                <when test="bids != null and bids.size() > 0">
+                    id IN
+                    <foreach collection="bids" item="bid" index="i" open="(" close=")" separator=",">
+                        #{bid}
+                    </foreach>
+                </when>
+                <otherwise>
+                    1=0
+                </otherwise>
+            </choose>
+        </where>
+    </delete>
+
+    <delete id="removeBrandsAndCategoryByBids" parameterType="java.util.List">
+        delete FROM tb_brand_category
+        <where>
+            <choose>
+                <when test="bids != null and bids.size() > 0">
+                    id IN
+                    <foreach collection="bids" item="bid" index="i" open="(" close=")" separator=",">
+                        #{bid}
+                    </foreach>
+                </when>
+                <otherwise>
+                    1=0
+                </otherwise>
+            </choose>
+        </where>
+    </delete>
+</mapper>

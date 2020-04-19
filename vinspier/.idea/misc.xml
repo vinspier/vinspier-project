@@ -13,6 +13,7 @@
     </option>
     <option name="ignoredFiles">
       <set>
+        <option value="$PROJECT_DIR$/vinspier-user/pom.xml" />
         <option value="$PROJECT_DIR$/vinspiertest/pom.xml" />
       </set>
     </option>

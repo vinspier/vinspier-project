@@ -15,6 +15,8 @@
         <module>vinspier-upload</module>
         <module>vinspier-search</module>
         <module>vinspier-goods-web</module>
+        <module>vinspier-user</module>
+        <module>vinspier-sms</module>
     </modules>
     <packaging>pom</packaging>
 

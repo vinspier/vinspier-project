@@ -1,7 +1,49 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="27ce5c01-fc3e-43fe-8b6f-903d49a3f098" name="Default" comment="增加消息队列 当商品删除、修改、新增时 对应的搜索和静态页面也做相应的变化" />
+    <list default="true" id="27ce5c01-fc3e-43fe-8b6f-903d49a3f098" name="Default" comment="添加用户注册模块和短信发送模块">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_aliyun_aliyun_java_sdk_core_3_3_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_aliyun_aliyun_java_sdk_dysmsapi_1_0_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_9_6.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_lettuce_lettuce_core_5_1_8_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__io_projectreactor_reactor_core_3_2_15_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_validator_5_3_6_Final.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_json_json_20170516.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_redis_2_1_13_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_keyvalue_2_1_16_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_redis_2_1_16_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_oxm_5_1_14_RELEASE.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vinspier-common/src/main/java/com/vinspier/common/util/NumberUtils.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vinspier-sms/pom.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vinspier-sms/src/main/java/com/vinspier/sms/SmsApplication.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vinspier-sms/src/main/java/com/vinspier/sms/config/SmsProperties.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vinspier-sms/src/main/java/com/vinspier/sms/listener/SmsListener.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vinspier-sms/src/main/java/com/vinspier/sms/util/SmsUtils.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vinspier-sms/src/main/resources/application.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vinspier-sms/vinspier-sms.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vinspier-user/pom.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vinspier-user/user-interface/pom.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vinspier-user/user-interface/src/main/java/com/vinspier/user/api/UserApi.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vinspier-user/user-interface/src/main/java/com/vinspier/user/pojo/User.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vinspier-user/user-interface/user-interface.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vinspier-user/user-service/pom.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vinspier-user/user-service/src/main/java/com/vinspier/user/UserApplication.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vinspier-user/user-service/src/main/java/com/vinspier/user/controller/UserController.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vinspier-user/user-service/src/main/java/com/vinspier/user/mapper/UserMapper.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vinspier-user/user-service/src/main/java/com/vinspier/user/service/UserService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vinspier-user/user-service/src/main/java/com/vinspier/user/service/impl/UserServiceImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vinspier-user/user-service/src/main/java/com/vinspier/user/util/CodecUtils.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vinspier-user/user-service/src/main/resources/application.yml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vinspier-user/user-service/user-service.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/vinspier-user/vinspier-user.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service-gateway/src/main/resources/application.yml" afterPath="$PROJECT_DIR$/service-gateway/src/main/resources/application.yml" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <ignored path="$PROJECT_DIR$/register-center/target/" />
@@ -14,6 +56,10 @@
     <ignored path="$PROJECT_DIR$/vinspier-upload/target/" />
     <ignored path="$PROJECT_DIR$/vinspier-search/target/" />
     <ignored path="$PROJECT_DIR$/vinspier-goods-web/target/" />
+    <ignored path="$PROJECT_DIR$/vinspier-user/target/" />
+    <ignored path="$PROJECT_DIR$/vinspier-user/user-interface/target/" />
+    <ignored path="$PROJECT_DIR$/vinspier-user/user-service/target/" />
+    <ignored path="$PROJECT_DIR$/vinspier-sms/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -22,212 +68,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vinspier-search/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="40" column="21" lean-forward="false" selection-start-line="36" selection-start-column="8" selection-end-line="40" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="application.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vinspier-search/src/main/resources/application.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="21" column="70" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="21" selection-end-column="70" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vinspier-goods-web/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="557">
-              <caret line="32" column="21" lean-forward="false" selection-start-line="32" selection-start-column="21" selection-end-line="32" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="application.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vinspier-goods-web/src/main/resources/application.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="6" column="18" lean-forward="false" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GoodsListener.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vinspier-goods-web/src/main/java/com/vinspier/goods/listener/GoodsListener.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="177">
-              <caret line="53" column="39" lean-forward="false" selection-start-line="53" selection-start-column="29" selection-end-line="53" selection-end-column="39" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GoodsWebApplication.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vinspier-goods-web/src/main/java/com/vinspier/goods/GoodsWebApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GoodsController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vinspie-ritem/vinspier-item-service/src/main/java/com/vinspier/item/controller/GoodsController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="120" column="39" lean-forward="false" selection-start-line="120" selection-start-column="26" selection-end-line="120" selection-end-column="39" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GoodsServiceImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vinspie-ritem/vinspier-item-service/src/main/java/com/vinspier/item/service/impl/GoodsServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="122">
-              <caret line="194" column="32" lean-forward="false" selection-start-line="194" selection-start-column="25" selection-end-line="194" selection-end-column="32" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vinspie-ritem/vinspier-item-service/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="55" column="21" lean-forward="true" selection-start-line="55" selection-start-column="21" selection-end-line="55" selection-end-column="21" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RabbitMsgServiceImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vinspie-ritem/vinspier-item-service/src/main/java/com/vinspier/item/service/impl/RabbitMsgServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="159">
-              <caret line="30" column="70" lean-forward="false" selection-start-line="30" selection-start-column="70" selection-end-line="30" selection-end-column="70" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GoodsService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vinspie-ritem/vinspier-item-service/src/main/java/com/vinspier/item/service/GoodsService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="155">
-              <caret line="60" column="0" lean-forward="false" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RabbitRouteKeyEnum.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vinspier-common/src/main/java/com/vinspier/common/enums/RabbitRouteKeyEnum.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="5" column="4" lean-forward="false" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
-              <folding>
-                <element signature="e#311#312#0" expanded="true" />
-                <element signature="e#341#342#0" expanded="true" />
-                <element signature="e#371#372#0" expanded="true" />
-                <element signature="e#397#398#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SearchApplication.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vinspier-search/src/main/java/com/vinspier/search/SearchApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="98">
-              <caret line="17" column="13" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ItemServiceApplication.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vinspie-ritem/vinspier-item-service/src/main/java/com/vinspier/item/ItemServiceApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="98">
-              <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GoodsListener.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vinspier-search/src/main/java/com/vinspier/search/listener/GoodsListener.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="79">
-              <caret line="52" column="56" lean-forward="true" selection-start-line="52" selection-start-column="56" selection-end-line="52" selection-end-column="56" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GoodsHtmlServiceImpl.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/vinspier-goods-web/src/main/java/com/vinspier/goods/service/impl/GoodsHtmlServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="159">
-              <caret line="78" column="26" lean-forward="false" selection-start-line="78" selection-start-column="26" selection-end-line="78" selection-end-column="26" />
-              <folding>
-                <element signature="e#1038#1039#0" expanded="true" />
-                <element signature="e#1101#1102#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RegisterCenterApplication.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/register-center/src/main/java/com/vinspier/register/RegisterCenterApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="114">
-              <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GoodsController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vinspier-goods-web/src/main/java/com/vinspier/goods/controller/GoodsController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="372">
-              <caret line="36" column="37" lean-forward="false" selection-start-line="36" selection-start-column="25" selection-end-line="36" selection-end-column="37" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GoodsHtmlService.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vinspier-goods-web/src/main/java/com/vinspier/goods/service/GoodsHtmlService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="4" column="7" lean-forward="true" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -235,8 +76,8 @@
         <option value="Kotlin Class" />
         <option value="FxmlFile" />
         <option value="JUnit4 Test Class" />
-        <option value="Interface" />
         <option value="Enum" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -256,6 +97,7 @@
       <find>handler</find>
       <find>log</find>
       <find>buildGoods</find>
+      <find>common-code</find>
     </findStrings>
     <replaceStrings>
       <replace>specService</replace>
@@ -274,27 +116,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/vinspier-search/src/test/java/com/vinspier/search/CategoryClientTest.java" />
-        <option value="$PROJECT_DIR$/vinspier-search/src/test/java/com/vinspier/search/client/CategoryClientTest.java" />
-        <option value="$PROJECT_DIR$/vinspier-search/src/main/java/com/vinspier/search/repository/GoodsRepository.java" />
-        <option value="$PROJECT_DIR$/vinspier-search/src/main/java/com/vinspier/search/client/GoodsClient.java" />
-        <option value="$PROJECT_DIR$/vinspier-search/src/test/java/com/vinspier/search/client/BrandClientTest.java" />
-        <option value="$PROJECT_DIR$/vinspier-search/src/test/java/com/vinspier/search/client/GoodsClientTest.java" />
-        <option value="$PROJECT_DIR$/vinspie-ritem/vinspier-item-interface/src/main/java/com/vinspier/item/api/BrandApi.java" />
-        <option value="$PROJECT_DIR$/vinspie-ritem/vinspier-item-service/src/main/java/com/vinspier/item/controller/BrandController.java" />
-        <option value="$PROJECT_DIR$/vinspie-ritem/vinspier-item-interface/src/main/java/com/vinspier/item/api/CategoryApi.java" />
-        <option value="$PROJECT_DIR$/vinspier-search/src/test/java/com/vinspier/search/client/SpecClientTest.java" />
-        <option value="$PROJECT_DIR$/vinspie-ritem/vinspier-item-interface/src/main/java/com/vinspier/item/pojo/SpecParam.java" />
-        <option value="$PROJECT_DIR$/service-gateway/src/main/java/com/vinspier/zuul/config/CorsConfig.java" />
-        <option value="$PROJECT_DIR$/vinspier-common/src/main/java/com/vinspier/common/pojo/PageResult.java" />
-        <option value="$PROJECT_DIR$/service-gateway/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/vinspier-search/src/main/java/com/vinspier/search/controller/SearchController.java" />
-        <option value="$PROJECT_DIR$/vinspier-search/src/main/java/com/vinspier/search/vo/SearchResult.java" />
-        <option value="$PROJECT_DIR$/vinspier-search/src/main/java/com/vinspier/search/vo/SearchResultVo.java" />
-        <option value="$PROJECT_DIR$/vinspier-search/src/main/java/com/vinspier/search/vo/SearchVo.java" />
-        <option value="$PROJECT_DIR$/vinspie-ritem/vinspier-item-service/src/main/java/com/vinspier/item/service/CategoryService.java" />
-        <option value="$PROJECT_DIR$/vinspie-ritem/vinspier-item-service/src/main/java/com/vinspier/item/service/impl/CategoryServiceImpl.java" />
-        <option value="$PROJECT_DIR$/vinspie-ritem/vinspier-item-service/src/main/java/com/vinspier/item/controller/CategoryController.java" />
         <option value="$PROJECT_DIR$/vinspie-ritem/vinspier-item-service/src/main/java/com/vinspier/item/service/GoodsService.java" />
         <option value="$PROJECT_DIR$/vinspie-ritem/vinspier-item-service/src/main/java/com/vinspier/item/controller/GoodsController.java" />
         <option value="$PROJECT_DIR$/vinspie-ritem/vinspier-item-interface/src/main/java/com/vinspier/item/api/GoodsApi.java" />
@@ -325,6 +146,27 @@
         <option value="$PROJECT_DIR$/vinspier-goods-web/src/main/java/com/vinspier/goods/listener/GoodsListener.java" />
         <option value="$PROJECT_DIR$/vinspier-search/src/main/java/com/vinspier/search/listener/GoodsListener.java" />
         <option value="$PROJECT_DIR$/vinspier-goods-web/src/main/java/com/vinspier/goods/service/impl/GoodsHtmlServiceImpl.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/vinspier-user/pom.xml" />
+        <option value="$PROJECT_DIR$/vinspier-user/user-interface/src/main/java/com/vinspier/user/pojo/User.java" />
+        <option value="$PROJECT_DIR$/vinspier-user/user-interface/pom.xml" />
+        <option value="$PROJECT_DIR$/vinspier-user/user-interface/src/main/java/com/vinspier/user/api/UserApi.java" />
+        <option value="$PROJECT_DIR$/service-gateway/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/vinspier-common/src/main/java/com/vinspier/common/util/NumberUtils.java" />
+        <option value="$PROJECT_DIR$/vinspier-user/user-service/src/main/java/com/vinspier/user/util/CodecUtils.java" />
+        <option value="$PROJECT_DIR$/vinspier-user/user-service/pom.xml" />
+        <option value="$PROJECT_DIR$/vinspier-user/user-service/src/main/java/com/vinspier/user/UserApplication.java" />
+        <option value="$PROJECT_DIR$/vinspier-user/user-service/src/main/java/com/vinspier/user/mapper/UserMapper.java" />
+        <option value="$PROJECT_DIR$/vinspier-user/user-service/src/main/java/com/vinspier/user/service/UserService.java" />
+        <option value="$PROJECT_DIR$/vinspier-user/user-service/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/vinspier-user/user-service/src/main/java/com/vinspier/user/service/impl/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/vinspier-user/user-service/src/main/java/com/vinspier/user/controller/UserController.java" />
+        <option value="$PROJECT_DIR$/vinspier-sms/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/vinspier-sms/pom.xml" />
+        <option value="$PROJECT_DIR$/vinspier-sms/src/main/java/com/vinspier/sms/SmsApplication.java" />
+        <option value="$PROJECT_DIR$/vinspier-sms/src/main/java/com/vinspier/sms/util/SmsUtils.java" />
+        <option value="$PROJECT_DIR$/vinspier-sms/src/main/java/com/vinspier/sms/config/SmsProperties.java" />
+        <option value="$PROJECT_DIR$/vinspier-sms/src/main/java/com/vinspier/sms/listener/SmsListener.java" />
       </list>
     </option>
   </component>
@@ -355,7 +197,7 @@
       <expand>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="vinspier-goods-web" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="vinspier-sms" type="9519ce18:MavenProjectsStructure$ProjectNode" />
         </path>
       </expand>
       <select />
@@ -385,9 +227,10 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="Scratches" />
+      <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -395,167 +238,10 @@
               <item name="vinspier" type="b2602c69:ProjectViewProjectNode" />
               <item name="vinspier" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="vinspier" type="b2602c69:ProjectViewProjectNode" />
-              <item name="vinspier" type="462c0819:PsiDirectoryNode" />
-              <item name="vinspie-ritem" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="vinspier" type="b2602c69:ProjectViewProjectNode" />
-              <item name="vinspier" type="462c0819:PsiDirectoryNode" />
-              <item name="vinspie-ritem" type="462c0819:PsiDirectoryNode" />
-              <item name="vinspier-item-service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="vinspier" type="b2602c69:ProjectViewProjectNode" />
-              <item name="vinspier" type="462c0819:PsiDirectoryNode" />
-              <item name="vinspie-ritem" type="462c0819:PsiDirectoryNode" />
-              <item name="vinspier-item-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="vinspier" type="b2602c69:ProjectViewProjectNode" />
-              <item name="vinspier" type="462c0819:PsiDirectoryNode" />
-              <item name="vinspie-ritem" type="462c0819:PsiDirectoryNode" />
-              <item name="vinspier-item-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="vinspier" type="b2602c69:ProjectViewProjectNode" />
-              <item name="vinspier" type="462c0819:PsiDirectoryNode" />
-              <item name="vinspie-ritem" type="462c0819:PsiDirectoryNode" />
-              <item name="vinspier-item-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="vinspier" type="b2602c69:ProjectViewProjectNode" />
-              <item name="vinspier" type="462c0819:PsiDirectoryNode" />
-              <item name="vinspie-ritem" type="462c0819:PsiDirectoryNode" />
-              <item name="vinspier-item-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="item" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="vinspier" type="b2602c69:ProjectViewProjectNode" />
-              <item name="vinspier" type="462c0819:PsiDirectoryNode" />
-              <item name="vinspie-ritem" type="462c0819:PsiDirectoryNode" />
-              <item name="vinspier-item-service" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="item" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="vinspier" type="b2602c69:ProjectViewProjectNode" />
-              <item name="vinspier" type="462c0819:PsiDirectoryNode" />
-              <item name="vinspier-goods-web" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="vinspier" type="b2602c69:ProjectViewProjectNode" />
-              <item name="vinspier" type="462c0819:PsiDirectoryNode" />
-              <item name="vinspier-goods-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="vinspier" type="b2602c69:ProjectViewProjectNode" />
-              <item name="vinspier" type="462c0819:PsiDirectoryNode" />
-              <item name="vinspier-goods-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="vinspier" type="b2602c69:ProjectViewProjectNode" />
-              <item name="vinspier" type="462c0819:PsiDirectoryNode" />
-              <item name="vinspier-goods-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="vinspier" type="b2602c69:ProjectViewProjectNode" />
-              <item name="vinspier" type="462c0819:PsiDirectoryNode" />
-              <item name="vinspier-goods-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="goods" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="vinspier" type="b2602c69:ProjectViewProjectNode" />
-              <item name="vinspier" type="462c0819:PsiDirectoryNode" />
-              <item name="vinspier-goods-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="goods" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="vinspier" type="b2602c69:ProjectViewProjectNode" />
-              <item name="vinspier" type="462c0819:PsiDirectoryNode" />
-              <item name="vinspier-goods-web" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="goods" type="462c0819:PsiDirectoryNode" />
-              <item name="listener" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="vinspier" type="b2602c69:ProjectViewProjectNode" />
-              <item name="vinspier" type="462c0819:PsiDirectoryNode" />
-              <item name="vinspier-search" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="vinspier" type="b2602c69:ProjectViewProjectNode" />
-              <item name="vinspier" type="462c0819:PsiDirectoryNode" />
-              <item name="vinspier-search" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="vinspier" type="b2602c69:ProjectViewProjectNode" />
-              <item name="vinspier" type="462c0819:PsiDirectoryNode" />
-              <item name="vinspier-search" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="vinspier" type="b2602c69:ProjectViewProjectNode" />
-              <item name="vinspier" type="462c0819:PsiDirectoryNode" />
-              <item name="vinspier-search" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="vinspier" type="b2602c69:ProjectViewProjectNode" />
-              <item name="vinspier" type="462c0819:PsiDirectoryNode" />
-              <item name="vinspier-search" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="search" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="vinspier" type="b2602c69:ProjectViewProjectNode" />
-              <item name="vinspier" type="462c0819:PsiDirectoryNode" />
-              <item name="vinspier-search" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="search" type="462c0819:PsiDirectoryNode" />
-              <item name="listener" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -566,7 +252,7 @@
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Problems" />
     <property name="project.structure.proportion" value="0.15332031" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="RequestMappingsPanelWidth0" value="75" />
@@ -582,22 +268,22 @@
     <key name="CreateTestDialog.RecentsKey">
       <recent name="com.vinspier.search.client" />
     </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.vinspier.goods.listener" />
-      <recent name="com.vinspier.search.vo" />
-      <recent name="com.vinspier.item.service.impl" />
-      <recent name="com.vinspier.item.pojo" />
-      <recent name="com.vinspier.item.service" />
-    </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.vinspier.sms.listener" />
+      <recent name="com.vinspier.sms.util" />
+      <recent name="com.vinspier.sms.config" />
+      <recent name="com.vinspier.common.util" />
+      <recent name="com.vinspier.user.util" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\vinspier-project\vinspier\vinspier-goods-web\src\main\java\com\vinspier\goods\client" />
-      <recent name="E:\vinspier-project\vinspier\vinspier-goods-web\src\main\resources\templates" />
-      <recent name="E:\vinspier-project\vinspier\vinspier-goods-web\src\main\resources" />
+      <recent name="E:\vinspier-project\vinspier\vinspier-sms\src\main\resources" />
+      <recent name="E:\vinspier-project\vinspier\vinspier-user\user-interface\src\main\java\com\vinspier\user" />
+      <recent name="E:\vinspier-project\vinspier\vinspier-user\user-service\src\main\resources" />
       <recent name="E:\vinspier-project\vinspier" />
-      <recent name="E:\vinspier-project\vinspier\vinspie-ritem\vinspier-item-service\src\main\java\com\vinspier\item\mapper" />
+      <recent name="E:\vinspier-project\vinspier\vinspier-goods-web\src\main\java\com\vinspier\goods\client" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -753,6 +439,13 @@
       <module name="vinspier-upload" />
       <envs />
     </configuration>
+    <configuration name="UserApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.vinspier.user.UserApplication" />
+      <option name="SHOW_IN_DASHBOARD" value="true" />
+      <module name="user-service" />
+      <envs />
+    </configuration>
     <configuration name="ZuulGatewayApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.vinspier.zuul.ZuulGatewayApplication" />
@@ -847,7 +540,7 @@
       <properties />
       <listeners />
     </configuration>
-    <list size="10">
+    <list size="11">
       <item index="0" class="java.lang.String" itemvalue="Spring Boot.ZuulGatewayApplication" />
       <item index="1" class="java.lang.String" itemvalue="Spring Boot.RegisterCenterApplication" />
       <item index="2" class="java.lang.String" itemvalue="Spring Boot.ItemServiceApplication" />
@@ -858,6 +551,7 @@
       <item index="7" class="java.lang.String" itemvalue="JUnit.SearchApplicationTest.createDocs" />
       <item index="8" class="java.lang.String" itemvalue="JUnit.SpecClientTest.createDocs" />
       <item index="9" class="java.lang.String" itemvalue="Spring Boot.GoodsWebApplication" />
+      <item index="10" class="java.lang.String" itemvalue="Spring Boot.UserApplication" />
     </list>
     <recent_temporary>
       <list size="5">
@@ -906,7 +600,8 @@
       <workItem from="1586691229469" duration="513000" />
       <workItem from="1586701966073" duration="2021000" />
       <workItem from="1586963049965" duration="982000" />
-      <workItem from="1587040557943" duration="7071000" />
+      <workItem from="1587040557943" duration="7624000" />
+      <workItem from="1587263536997" duration="5448000" />
     </task>
     <task id="LOCAL-00001" summary="简单电商后台管理项目初始搭建">
       <created>1584640950705</created>
@@ -1118,7 +813,14 @@
       <option name="project" value="LOCAL" />
       <updated>1586691554785</updated>
     </task>
-    <option name="localTasksCounter" value="31" />
+    <task id="LOCAL-00031" summary="增加消息队列 当商品删除、修改、新增时 对应的搜索和静态页面也做相应的变化">
+      <created>1587048205693</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1587048205693</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1154,42 +856,42 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="111250000" />
+    <option name="totallyTimeSpent" value="117251000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294893" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4364599" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30937973" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4497529" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294893" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run Dashboard" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.41186163" sideWeight="0.5" order="8" side_tool="false" content_ui="combo" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294893" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run Dashboard" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41186163" sideWeight="0.5" order="8" side_tool="false" content_ui="combo" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4364599" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5403624" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294893" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28290468" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28744328" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294893" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30937973" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4497529" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294893" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294893" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1202,23 +904,23 @@
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30484116" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30937973" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.48105437" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4497529" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294893" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run Dashboard" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4151565" sideWeight="0.5" order="13" side_tool="false" content_ui="combo" />
+      <window_info id="Run Dashboard" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41186163" sideWeight="0.5" order="13" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294893" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5403624" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294893" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23524962" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28744328" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294893" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -1247,7 +949,8 @@
     <MESSAGE value="添加elasticsearch服务 编写查询商品相关信息" />
     <MESSAGE value="添加elasticsearch服务 编写商品详情信息" />
     <MESSAGE value="增加消息队列 当商品删除、修改、新增时 对应的搜索和静态页面也做相应的变化" />
-    <option name="LAST_COMMIT_MESSAGE" value="增加消息队列 当商品删除、修改、新增时 对应的搜索和静态页面也做相应的变化" />
+    <MESSAGE value="添加用户注册模块和短信发送模块" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加用户注册模块和短信发送模块" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1259,249 +962,9 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/vinspie-ritem/vinspier-item-service/src/main/java/com/vinspier/item/controller/SpecController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1020">
-          <caret line="30" column="91" lean-forward="false" selection-start-line="23" selection-start-column="4" selection-end-line="30" selection-end-column="91" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vinspier-goods-web/src/main/resources/templates/item.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7543">
-          <caret line="468" column="70" lean-forward="false" selection-start-line="468" selection-start-column="70" selection-end-line="468" selection-end-column="70" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vinspier-goods-web/src/main/java/com/vinspier/goods/service/GoodsService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="24" lean-forward="false" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vinspier-search/src/test/java/com/vinspier/search/client/GoodsClientTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="24" column="69" lean-forward="false" selection-start-line="24" selection-start-column="69" selection-end-line="24" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-commons/2.1.16.RELEASE/spring-data-commons-2.1.16.RELEASE.jar!/org/springframework/data/repository/CrudRepository.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="429">
-          <caret line="31" column="9" lean-forward="false" selection-start-line="31" selection-start-column="9" selection-end-line="31" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vinspier-search/src/main/java/com/vinspier/search/repository/GoodsRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="5" column="17" lean-forward="false" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vinspier-search/src/test/java/com/vinspier/search/SearchApplicationTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1121">
-          <caret line="82" column="36" lean-forward="false" selection-start-line="82" selection-start-column="36" selection-end-line="82" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_74/src.zip!/java/lang/Thread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="181" column="31" lean-forward="false" selection-start-line="181" selection-start-column="31" selection-end-line="181" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0_74/src.zip!/java/lang/ThreadLocal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="364" column="8" lean-forward="false" selection-start-line="364" selection-start-column="8" selection-end-line="364" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.4.6/mybatis-3.4.6.jar!/org/apache/ibatis/parsing/TokenHandler.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="8" column="11" lean-forward="false" selection-start-line="8" selection-start-column="11" selection-end-line="8" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.4.6/mybatis-3.4.6.jar!/org/apache/ibatis/parsing/GenericTokenParser.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1045">
-          <caret line="58" column="60" lean-forward="false" selection-start-line="58" selection-start-column="60" selection-end-line="58" selection-end-column="60" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.4.6/mybatis-3.4.6.jar!/org/apache/ibatis/parsing/PropertyParser.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="703">
-          <caret line="40" column="22" lean-forward="false" selection-start-line="40" selection-start-column="22" selection-end-line="40" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.4.6/mybatis-3.4.6.jar!/org/apache/ibatis/builder/SqlSourceBuilder.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="57" column="33" lean-forward="false" selection-start-line="57" selection-start-column="33" selection-end-line="57" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vinspie-ritem/vinspier-item-service/src/main/java/com/vinspier/item/service/SpecService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="10" column="20" lean-forward="false" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vinspie-ritem/vinspier-item-service/src/main/java/com/vinspier/item/service/RabbitMsgService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="17" lean-forward="false" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar!/org/slf4j/LoggerFactory.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="193">
-          <caret line="297" column="20" lean-forward="false" selection-start-line="297" selection-start-column="20" selection-end-line="297" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar!/org/slf4j/Logger.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="7" column="17" lean-forward="false" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vinspie-ritem/vinspier-item-service/src/main/java/com/vinspier/item/service/impl/BrandServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="19" column="13" lean-forward="false" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vinspie-ritem/vinspier-item-service/src/main/java/com/vinspier/item/service/impl/CategoryServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="950">
-          <caret line="63" column="39" lean-forward="false" selection-start-line="63" selection-start-column="39" selection-end-line="63" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vinspier-upload/src/main/java/com/vinspier/upload/service/UploadServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="29" column="31" lean-forward="false" selection-start-line="29" selection-start-column="25" selection-end-line="29" selection-end-column="31" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vinspie-ritem/vinspier-item-service/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="28" column="70" lean-forward="true" selection-start-line="20" selection-start-column="2" selection-end-line="28" selection-end-column="70" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vinspie-ritem/vinspier-item-interface/src/main/java/com/vinspier/item/api/GoodsApi.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="34" column="41" lean-forward="false" selection-start-line="34" selection-start-column="26" selection-end-line="34" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vinspier-search/src/main/java/com/vinspier/search/controller/SearchController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="25" column="59" lean-forward="false" selection-start-line="25" selection-start-column="53" selection-end-line="25" selection-end-column="59" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vinspier-goods-web/src/main/java/com/vinspier/goods/service/impl/GoodsServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="543">
-          <caret line="55" column="30" lean-forward="false" selection-start-line="55" selection-start-column="24" selection-end-line="55" selection-end-column="30" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/amqp/spring-amqp/2.1.13.RELEASE/spring-amqp-2.1.13.RELEASE.jar!/org/springframework/amqp/core/ExchangeTypes.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="7" column="35" lean-forward="false" selection-start-line="7" selection-start-column="22" selection-end-line="7" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vinspier-search/src/main/java/com/vinspier/search/service/SearchService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="17" column="46" lean-forward="false" selection-start-line="17" selection-start-column="46" selection-end-line="17" selection-end-column="46" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vinspier-search/src/main/java/com/vinspier/search/service/impl/SearchServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="193" column="37" lean-forward="false" selection-start-line="193" selection-start-column="37" selection-end-line="193" selection-end-column="37" />
-          <folding>
-            <element signature="method#search#0;class#SearchServiceImpl#0" expanded="false" />
-            <element signature="method#getCategoryAggResult#0;class#SearchServiceImpl#0" expanded="false" />
-            <element signature="docComment;method#getBrandAggResult#0;class#SearchServiceImpl#0" expanded="false" />
-            <element signature="method#getParamAggResult#0;class#SearchServiceImpl#0" expanded="false" />
-            <element signature="method#buildBoolQueryBuilder#0;class#SearchServiceImpl#0" expanded="false" />
-            <element signature="method#chooseSegment#0;class#SearchServiceImpl#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vinspier-search/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="40" column="21" lean-forward="false" selection-start-line="36" selection-start-column="8" selection-end-line="40" selection-end-column="21" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vinspier-search/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="21" column="70" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="21" selection-end-column="70" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vinspier-goods-web/src/main/resources/application.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="18" lean-forward="false" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/vinspier-goods-web/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="557">
+        <state relative-caret-position="608">
           <caret line="32" column="21" lean-forward="false" selection-start-line="32" selection-start-column="21" selection-end-line="32" selection-end-column="21" />
           <folding />
         </state>
@@ -1509,7 +972,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/vinspier-goods-web/src/main/java/com/vinspier/goods/controller/GoodsController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="372">
+        <state relative-caret-position="513">
           <caret line="36" column="37" lean-forward="false" selection-start-line="36" selection-start-column="25" selection-end-line="36" selection-end-column="37" />
           <folding />
         </state>
@@ -1519,7 +982,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
           <caret line="44" column="13" lean-forward="false" selection-start-line="44" selection-start-column="13" selection-end-line="44" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1535,7 +997,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="106">
           <caret line="103" column="0" lean-forward="false" selection-start-line="103" selection-start-column="0" selection-end-line="103" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1543,7 +1004,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="106">
           <caret line="474" column="0" lean-forward="false" selection-start-line="474" selection-start-column="0" selection-end-line="474" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1551,7 +1011,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="106">
           <caret line="69" column="0" lean-forward="false" selection-start-line="69" selection-start-column="0" selection-end-line="69" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1559,21 +1018,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="106">
           <caret line="175" column="0" lean-forward="false" selection-start-line="175" selection-start-column="0" selection-end-line="175" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/vinspie-ritem/vinspier-item-service/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="55" column="21" lean-forward="true" selection-start-line="55" selection-start-column="21" selection-end-line="55" selection-end-column="21" />
+        <state relative-caret-position="1045">
+          <caret line="55" column="21" lean-forward="false" selection-start-line="55" selection-start-column="21" selection-end-line="55" selection-end-column="21" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/vinspie-ritem/vinspier-item-service/src/main/java/com/vinspier/item/ItemServiceApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="98">
+        <state relative-caret-position="133">
           <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
           <folding />
         </state>
@@ -1581,7 +1039,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/vinspie-ritem/vinspier-item-service/src/main/java/com/vinspier/item/controller/GoodsController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
+        <state relative-caret-position="2052">
           <caret line="120" column="39" lean-forward="false" selection-start-line="120" selection-start-column="26" selection-end-line="120" selection-end-column="39" />
           <folding />
         </state>
@@ -1592,51 +1050,33 @@
         <state relative-caret-position="95">
           <caret line="5" column="4" lean-forward="false" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="4" />
           <folding>
-            <element signature="e#311#312#0" expanded="true" />
-            <element signature="e#341#342#0" expanded="true" />
-            <element signature="e#371#372#0" expanded="true" />
-            <element signature="e#397#398#0" expanded="true" />
+            <element signature="e#311#312#0" expanded="false" />
+            <element signature="e#341#342#0" expanded="false" />
+            <element signature="e#371#372#0" expanded="false" />
+            <element signature="e#397#398#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/vinspie-ritem/vinspier-item-service/src/main/java/com/vinspier/item/service/GoodsService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
+        <state relative-caret-position="1026">
           <caret line="60" column="0" lean-forward="false" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vinspie-ritem/vinspier-item-service/src/main/java/com/vinspier/item/service/impl/GoodsServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="122">
-          <caret line="194" column="32" lean-forward="false" selection-start-line="194" selection-start-column="25" selection-end-line="194" selection-end-column="32" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vinspie-ritem/vinspier-item-service/src/main/java/com/vinspier/item/service/impl/RabbitMsgServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="159">
-          <caret line="30" column="70" lean-forward="false" selection-start-line="30" selection-start-column="70" selection-end-line="30" selection-end-column="70" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/vinspier-goods-web/src/main/java/com/vinspier/goods/service/GoodsHtmlService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
-          <caret line="4" column="7" lean-forward="true" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
+          <caret line="4" column="7" lean-forward="false" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="7" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/vinspier-search/src/main/java/com/vinspier/search/SearchApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="98">
+        <state relative-caret-position="266">
           <caret line="17" column="13" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
           <folding />
         </state>
@@ -1644,7 +1084,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/vinspier-goods-web/src/main/java/com/vinspier/goods/GoodsWebApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
+        <state relative-caret-position="133">
           <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
           <folding />
         </state>
@@ -1652,31 +1092,718 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/vinspier-search/src/main/java/com/vinspier/search/listener/GoodsListener.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="79">
-          <caret line="52" column="56" lean-forward="true" selection-start-line="52" selection-start-column="56" selection-end-line="52" selection-end-column="56" />
+        <state relative-caret-position="855">
+          <caret line="52" column="56" lean-forward="false" selection-start-line="52" selection-start-column="56" selection-end-line="52" selection-end-column="56" />
           <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vinspier-goods-web/src/main/java/com/vinspier/goods/listener/GoodsListener.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="177">
-          <caret line="53" column="39" lean-forward="false" selection-start-line="53" selection-start-column="29" selection-end-line="53" selection-end-column="39" />
-          <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/vinspier-goods-web/src/main/java/com/vinspier/goods/service/impl/GoodsHtmlServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="159">
-          <caret line="78" column="26" lean-forward="false" selection-start-line="78" selection-start-column="26" selection-end-line="78" selection-end-column="26" />
+        <state relative-caret-position="1178">
+          <caret line="76" column="66" lean-forward="false" selection-start-line="76" selection-start-column="66" selection-end-line="76" selection-end-column="66" />
           <folding>
-            <element signature="e#1038#1039#0" expanded="true" />
-            <element signature="e#1101#1102#0" expanded="true" />
+            <element signature="e#1038#1039#0" expanded="false" />
+            <element signature="e#1101#1102#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day16-用户注册.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding>
+              <marker date="1562167059771" expanded="true" signature="747:1251" ph="..." />
+              <marker date="1562167059771" expanded="true" signature="931:1073" ph="..." />
+              <marker date="1562167059771" expanded="true" signature="1488:3417" ph="..." />
+              <marker date="1562167059771" expanded="true" signature="1672:1814" ph="..." />
+              <marker date="1562167059771" expanded="true" signature="1998:3405" ph="..." />
+              <marker date="1562167059771" expanded="true" signature="2019:2158" ph="..." />
+              <marker date="1562167059771" expanded="true" signature="2179:2338" ph="..." />
+              <marker date="1562167059771" expanded="true" signature="2359:2499" ph="..." />
+              <marker date="1562167059771" expanded="true" signature="2548:2690" ph="..." />
+              <marker date="1562167059771" expanded="true" signature="2740:2868" ph="..." />
+              <marker date="1562167059771" expanded="true" signature="2914:3031" ph="..." />
+              <marker date="1562167059771" expanded="true" signature="3052:3224" ph="..." />
+              <marker date="1562167059771" expanded="true" signature="3245:3385" ph="..." />
+              <marker date="1562167059771" expanded="true" signature="3439:3521" ph="@{...}" />
+              <marker date="1562167059771" expanded="false" signature="3601:3612" ph=" { " />
+              <marker date="1562167059771" expanded="false" signature="3668:3674" ph=" }" />
+            </folding>
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day14.商品详情及静态化.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding>
+              <marker date="1562167030148" expanded="true" signature="538:1941" ph="..." />
+              <marker date="1562167030148" expanded="true" signature="722:861" ph="..." />
+              <marker date="1562167030148" expanded="true" signature="1043:1930" ph="..." />
+              <marker date="1562167030148" expanded="true" signature="1064:1203" ph="..." />
+              <marker date="1562167030148" expanded="true" signature="1224:1383" ph="..." />
+              <marker date="1562167030148" expanded="true" signature="1404:1551" ph="..." />
+              <marker date="1562167030148" expanded="true" signature="1572:1717" ph="..." />
+              <marker date="1562167030148" expanded="true" signature="1738:1910" ph="..." />
+              <marker date="1562167030148" expanded="true" signature="1975:2040" ph="@{...}" />
+              <marker date="1562167030148" expanded="false" signature="2123:2134" ph=" { " />
+              <marker date="1562167030148" expanded="false" signature="2194:2200" ph=" }" />
+              <marker date="1562167030148" expanded="true" signature="4094:4142" ph="/**...*/" />
+              <marker date="1562167030148" expanded="true" signature="10335:10598" ph="..." />
+              <marker date="1562167030148" expanded="true" signature="10351:10368" ph="/*...*/" />
+              <marker date="1562167030148" expanded="true" signature="10387:10404" ph="/*...*/" />
+              <marker date="1562167030148" expanded="true" signature="10423:10444" ph="/*...*/" />
+              <marker date="1562167030148" expanded="true" signature="10463:10477" ph="/*...*/" />
+              <marker date="1562167030148" expanded="true" signature="10496:10516" ph="/*...*/" />
+              <marker date="1562167030148" expanded="true" signature="10535:10550" ph="/*...*/" />
+              <marker date="1562167030148" expanded="true" signature="10569:10585" ph="/*...*/" />
+              <marker date="1562167030148" expanded="true" signature="11879:12088" ph="..." />
+              <marker date="1562167030148" expanded="true" signature="11911:11926" ph="/*...*/" />
+              <marker date="1562167030148" expanded="true" signature="11969:11986" ph="/*...*/" />
+              <marker date="1562167030148" expanded="true" signature="12042:12074" ph="/*...*/" />
+              <marker date="1562167030148" expanded="true" signature="15970:15977" ph="..." />
+            </folding>
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day15-rabbitmq及数据同步.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding>
+              <marker date="1562167040801" expanded="true" signature="2216:3136" ph="..." />
+              <marker date="1562167040801" expanded="true" signature="2478:2624" ph="..." />
+              <marker date="1562167040801" expanded="true" signature="2638:2688" ph="..." />
+              <marker date="1562167040801" expanded="true" signature="2704:3125" ph="..." />
+              <marker date="1562167040801" expanded="true" signature="2719:2846" ph="..." />
+              <marker date="1562167040801" expanded="true" signature="2861:2977" ph="..." />
+              <marker date="1562167040801" expanded="true" signature="2992:3108" ph="..." />
+              <marker date="1562167040801" expanded="true" signature="3221:3294" ph="/**...*/" />
+              <marker date="1562167040801" expanded="true" signature="3357:3798" ph="{...}" />
+              <marker date="1562167040801" expanded="true" signature="4679:5280" ph="{...}" />
+              <marker date="1562167040801" expanded="true" signature="4866:4944" ph="//..." />
+              <marker date="1562167040801" expanded="true" signature="5699:6523" ph="{...}" />
+              <marker date="1562167040801" expanded="true" signature="6021:6424" ph="{...}" />
+              <marker date="1562167040801" expanded="true" signature="6255:6414" ph="{...}" />
+              <marker date="1562167040801" expanded="true" signature="7323:8250" ph="{...}" />
+              <marker date="1562167040801" expanded="true" signature="7651:8149" ph="{...}" />
+              <marker date="1562167040801" expanded="true" signature="7885:8139" ph="{...}" />
+              <marker date="1562167040801" expanded="true" signature="13206:14102" ph="{...}" />
+              <marker date="1562167040801" expanded="true" signature="13608:14014" ph="{...}" />
+              <marker date="1562167040801" expanded="true" signature="13842:14004" ph="{...}" />
+              <marker date="1562167040801" expanded="true" signature="14384:15288" ph="{...}" />
+              <marker date="1562167040801" expanded="true" signature="14794:15200" ph="{...}" />
+              <marker date="1562167040801" expanded="true" signature="15028:15190" ph="{...}" />
+              <marker date="1562167040801" expanded="true" signature="16201:16759" ph="{...}" />
+              <marker date="1562167040801" expanded="true" signature="17049:18065" ph="{...}" />
+              <marker date="1562167040801" expanded="true" signature="17572:17978" ph="{...}" />
+              <marker date="1562167040801" expanded="true" signature="17806:17968" ph="{...}" />
+              <marker date="1562167040801" expanded="true" signature="24479:24595" ph="..." />
+              <marker date="1562167040801" expanded="true" signature="24893:25243" ph="@{...}" />
+              <marker date="1562167040801" expanded="false" signature="25278:25288" ph=" { " />
+              <marker date="1562167040801" expanded="false" signature="25323:25329" ph=" }" />
+              <marker date="1562167040801" expanded="true" signature="26822:26938" ph="..." />
+              <marker date="1562167040801" expanded="true" signature="28019:28135" ph="..." />
+              <marker date="1562167040801" expanded="true" signature="28166:28275" ph="spring: &lt;1 key&gt;" />
+              <marker date="1562167040801" expanded="true" signature="28176:28275" ph="rabbitmq: &lt;4 keys&gt;" />
+              <marker date="1562167040801" expanded="true" signature="28196:28210" ph="192.168.56.101" />
+              <marker date="1562167040801" expanded="true" signature="28225:28230" ph="leyou" />
+              <marker date="1562167040801" expanded="true" signature="28245:28250" ph="leyou" />
+              <marker date="1562167040801" expanded="true" signature="28269:28275" ph="/leyou" />
+              <marker date="1562167040801" expanded="true" signature="28492:28578" ph="/**...*/" />
+              <marker date="1562167040801" expanded="true" signature="28583:28949" ph="@{...}" />
+              <marker date="1562167040801" expanded="true" signature="29005:29131" ph="{...}" />
+              <marker date="1562167040801" expanded="true" signature="29137:29191" ph="/**...*/" />
+              <marker date="1562167040801" expanded="true" signature="29196:29545" ph="@{...}" />
+              <marker date="1562167040801" expanded="true" signature="29584:29707" ph="{...}" />
+              <marker date="1562167040801" expanded="true" signature="30306:30422" ph="..." />
+              <marker date="1562167040801" expanded="true" signature="30453:30562" ph="spring: &lt;1 key&gt;" />
+              <marker date="1562167040801" expanded="true" signature="30463:30562" ph="rabbitmq: &lt;4 keys&gt;" />
+              <marker date="1562167040801" expanded="true" signature="30483:30497" ph="192.168.56.101" />
+              <marker date="1562167040801" expanded="true" signature="30512:30517" ph="leyou" />
+              <marker date="1562167040801" expanded="true" signature="30532:30537" ph="leyou" />
+              <marker date="1562167040801" expanded="true" signature="30556:30562" ph="/leyou" />
+            </folding>
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day17-授权中心.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding>
+              <marker date="1562167026927" expanded="true" signature="3563:4054" ph="..." />
+              <marker date="1562167026927" expanded="true" signature="3747:3886" ph="..." />
+              <marker date="1562167026927" expanded="true" signature="4310:4815" ph="..." />
+              <marker date="1562167026927" expanded="true" signature="4494:4636" ph="..." />
+              <marker date="1562167026927" expanded="true" signature="5084:6672" ph="..." />
+              <marker date="1562167026927" expanded="true" signature="5268:5410" ph="..." />
+              <marker date="1562167026927" expanded="true" signature="5594:6660" ph="..." />
+              <marker date="1562167026927" expanded="true" signature="5615:5774" ph="..." />
+              <marker date="1562167026927" expanded="true" signature="5795:5942" ph="..." />
+              <marker date="1562167026927" expanded="true" signature="5963:6102" ph="..." />
+              <marker date="1562167026927" expanded="true" signature="6123:6292" ph="..." />
+              <marker date="1562167026927" expanded="true" signature="6313:6479" ph="..." />
+              <marker date="1562167026927" expanded="true" signature="6500:6640" ph="..." />
+              <marker date="1562167026927" expanded="true" signature="6695:6760" ph="@{...}" />
+              <marker date="1562167026927" expanded="false" signature="6840:6851" ph=" { " />
+              <marker date="1562167026927" expanded="false" signature="6907:6913" ph=" }" />
+              <marker date="1562167026927" expanded="true" signature="6948:6968" ph="server: &lt;1 key&gt;" />
+              <marker date="1562167026927" expanded="true" signature="6964:6968" ph="8087" />
+              <marker date="1562167026927" expanded="true" signature="6969:7014" ph="spring: &lt;1 key&gt;" />
+              <marker date="1562167026927" expanded="true" signature="6979:7014" ph="application: &lt;1 key&gt;" />
+              <marker date="1562167026927" expanded="true" signature="7002:7014" ph="auth-service" />
+              <marker date="1562167026927" expanded="true" signature="7015:7249" ph="eureka: &lt;2 keys&gt;" />
+              <marker date="1562167026927" expanded="true" signature="7025:7138" ph="client: &lt;2 keys&gt;" />
+              <marker date="1562167026927" expanded="true" signature="7037:7098" ph="service-url: &lt;1 key&gt;" />
+              <marker date="1562167026927" expanded="true" signature="7069:7098" ph="http://12…086/eureka" />
+              <marker date="1562167026927" expanded="true" signature="7136:7138" ph="10" />
+              <marker date="1562167026927" expanded="true" signature="7141:7249" ph="instance: &lt;2 keys&gt;" />
+              <marker date="1562167026927" expanded="true" signature="7247:7249" ph="10" />
+              <marker date="1562167026927" expanded="true" signature="7367:7547" ph="zuul: &lt;2 keys&gt;" />
+              <marker date="1562167026927" expanded="true" signature="7383:7387" ph="/api" />
+              <marker date="1562167026927" expanded="true" signature="7399:7547" ph="routes: &lt;4 keys&gt;" />
+              <marker date="1562167026927" expanded="true" signature="7425:7433" ph="/item/**" />
+              <marker date="1562167026927" expanded="true" signature="7467:7477" ph="/search/**" />
+              <marker date="1562167026927" expanded="true" signature="7504:7512" ph="/user/**" />
+              <marker date="1562167026927" expanded="true" signature="7539:7547" ph="/auth/**" />
+              <marker date="1562167026927" expanded="true" signature="7717:8125" ph="..." />
+              <marker date="1562167026927" expanded="true" signature="7734:7845" ph="..." />
+              <marker date="1562167026927" expanded="true" signature="7862:7994" ph="..." />
+              <marker date="1562167026927" expanded="true" signature="8011:8109" ph="..." />
+              <marker date="1562167026927" expanded="true" signature="8523:8591" ph="{...}" />
+              <marker date="1562167026927" expanded="true" signature="8651:8780" ph="{...}" />
+              <marker date="1562167026927" expanded="true" signature="8845:9008" ph="{...}" />
+              <marker date="1562167026927" expanded="true" signature="9070:9559" ph="{...}" />
+              <marker date="1562167026927" expanded="true" signature="10286:10456" ph="leyou: &lt;1 key&gt;" />
+              <marker date="1562167026927" expanded="true" signature="10295:10456" ph="jwt: &lt;4 keys&gt;" />
+              <marker date="1562167026927" expanded="true" signature="10312:10341" ph="leyou@Log…31)&amp;heiMa%" />
+              <marker date="1562167026927" expanded="true" signature="10368:10389" ph="C:\\tmp\\…a\\rsa.pub" />
+              <marker date="1562167026927" expanded="true" signature="10413:10434" ph="C:\\tmp\\…a\\rsa.pri" />
+              <marker date="1562167026927" expanded="true" signature="10454:10456" ph="30" />
+              <marker date="1562167026927" expanded="true" signature="10895:10942" ph="/**...*/" />
+              <marker date="1562167026927" expanded="true" signature="10984:11549" ph="{...}" />
+              <marker date="1562167026927" expanded="true" signature="11724:11791" ph="@{...}" />
+              <marker date="1562167026927" expanded="true" signature="11928:12019" ph="/**...*/" />
+              <marker date="1562167026927" expanded="true" signature="12289:12736" ph="{...}" />
+              <marker date="1562167026927" expanded="true" signature="13032:13140" ph="..." />
+              <marker date="1562167026927" expanded="true" signature="13340:13480" ph="..." />
+              <marker date="1562167026927" expanded="true" signature="14233:14791" ph="{...}" />
+              <marker date="1562167026927" expanded="true" signature="18447:18495" ph="/**...*/" />
+              <marker date="1562167026927" expanded="true" signature="19334:19382" ph="/**...*/" />
+              <marker date="1562167026927" expanded="true" signature="20364:20498" ph="..." />
+              <marker date="1562167026927" expanded="true" signature="20511:20648" ph="..." />
+              <marker date="1562167026927" expanded="true" signature="20696:20780" ph="leyou: &lt;1 key&gt;" />
+              <marker date="1562167026927" expanded="true" signature="20705:20780" ph="jwt: &lt;2 keys&gt;" />
+              <marker date="1562167026927" expanded="true" signature="20727:20748" ph="C:\\tmp\\…a\\rsa.pub" />
+              <marker date="1562167026927" expanded="true" signature="20772:20780" ph="LY_TOKEN" />
+              <marker date="1562167026927" expanded="true" signature="21179:21412" ph="{...}" />
+              <marker date="1562167026927" expanded="false" signature="21447:21458" ph=" { " />
+              <marker date="1562167026927" expanded="false" signature="21476:21482" ph=" }" />
+              <marker date="1562167026927" expanded="false" signature="21532:21543" ph=" { " />
+              <marker date="1562167026927" expanded="false" signature="21572:21578" ph=" }" />
+              <marker date="1562167026927" expanded="false" signature="21615:21626" ph=" { " />
+              <marker date="1562167026927" expanded="false" signature="21643:21649" ph=" }" />
+              <marker date="1562167026927" expanded="false" signature="21700:21711" ph=" { " />
+              <marker date="1562167026927" expanded="false" signature="21738:21744" ph=" }" />
+              <marker date="1562167026927" expanded="false" signature="21779:21790" ph=" { " />
+              <marker date="1562167026927" expanded="false" signature="21808:21814" ph=" }" />
+              <marker date="1562167026927" expanded="false" signature="21864:21875" ph=" { " />
+              <marker date="1562167026927" expanded="false" signature="21904:21910" ph=" }" />
+              <marker date="1562167026927" expanded="true" signature="22055:22117" ph="@{...}" />
+              <marker date="1562167026927" expanded="false" signature="22263:22274" ph=" { " />
+              <marker date="1562167026927" expanded="false" signature="22287:22293" ph=" }" />
+              <marker date="1562167026927" expanded="false" signature="22337:22348" ph=" { " />
+              <marker date="1562167026927" expanded="false" signature="22357:22363" ph=" }" />
+              <marker date="1562167026927" expanded="false" signature="22412:22423" ph=" { " />
+              <marker date="1562167026927" expanded="false" signature="22435:22441" ph=" }" />
+              <marker date="1562167026927" expanded="true" signature="22502:23134" ph="{...}" />
+              <marker date="1562167026927" expanded="true" signature="23551:23713" ph="leyou: &lt;1 key&gt;" />
+              <marker date="1562167026927" expanded="true" signature="23560:23713" ph="filter: &lt;1 key&gt;" />
+              <marker date="1562167026927" expanded="true" signature="23572:23713" ph="allowPaths: &lt;6 items&gt;" />
+              <marker date="1562167026927" expanded="true" signature="23592:23601" ph="/api/auth" />
+              <marker date="1562167026927" expanded="true" signature="23610:23621" ph="/api/search" />
+              <marker date="1562167026927" expanded="true" signature="23630:23648" ph="/api/user/register" />
+              <marker date="1562167026927" expanded="true" signature="23657:23672" ph="/api/user/check" />
+              <marker date="1562167026927" expanded="true" signature="23681:23695" ph="/api/user/code" />
+              <marker date="1562167026927" expanded="true" signature="23704:23713" ph="/api/item" />
+              <marker date="1562167026927" expanded="false" signature="23948:23959" ph=" { " />
+              <marker date="1562167026927" expanded="false" signature="23977:23983" ph=" }" />
+              <marker date="1562167026927" expanded="false" signature="24039:24050" ph=" { " />
+              <marker date="1562167026927" expanded="false" signature="24079:24085" ph=" }" />
+              <marker date="1562167026927" expanded="true" signature="24137:24225" ph="@{...}" />
+              <marker date="1562167026927" expanded="false" signature="24511:24522" ph=" { " />
+              <marker date="1562167026927" expanded="false" signature="24535:24541" ph=" }" />
+              <marker date="1562167026927" expanded="false" signature="24585:24596" ph=" { " />
+              <marker date="1562167026927" expanded="false" signature="24605:24611" ph=" }" />
+              <marker date="1562167026927" expanded="true" signature="24661:25132" ph="{...}" />
+              <marker date="1562167026927" expanded="true" signature="24890:24919" ph="//..." />
+              <marker date="1562167026927" expanded="true" signature="25193:25841" ph="{...}" />
+            </folding>
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day18-购物车.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding>
+              <marker date="1562167036249" expanded="true" signature="272:1477" ph="..." />
+              <marker date="1562167036249" expanded="true" signature="456:595" ph="..." />
+              <marker date="1562167036249" expanded="true" signature="771:1466" ph="..." />
+              <marker date="1562167036249" expanded="true" signature="792:931" ph="..." />
+              <marker date="1562167036249" expanded="true" signature="952:1111" ph="..." />
+              <marker date="1562167036249" expanded="true" signature="1132:1279" ph="..." />
+              <marker date="1562167036249" expanded="true" signature="1300:1446" ph="..." />
+              <marker date="1562167036249" expanded="true" signature="1507:1527" ph="server: &lt;1 key&gt;" />
+              <marker date="1562167036249" expanded="true" signature="1523:1527" ph="8088" />
+              <marker date="1562167036249" expanded="true" signature="1528:1607" ph="spring: &lt;2 keys&gt;" />
+              <marker date="1562167036249" expanded="true" signature="1538:1573" ph="application: &lt;1 key&gt;" />
+              <marker date="1562167036249" expanded="true" signature="1561:1573" ph="cart-service" />
+              <marker date="1562167036249" expanded="true" signature="1576:1607" ph="redis: &lt;1 key&gt;" />
+              <marker date="1562167036249" expanded="true" signature="1593:1607" ph="192.168.56.101" />
+              <marker date="1562167036249" expanded="true" signature="1608:1829" ph="eureka: &lt;2 keys&gt;" />
+              <marker date="1562167036249" expanded="true" signature="1618:1731" ph="client: &lt;2 keys&gt;" />
+              <marker date="1562167036249" expanded="true" signature="1630:1691" ph="service-url: &lt;1 key&gt;" />
+              <marker date="1562167036249" expanded="true" signature="1662:1691" ph="http://12…086/eureka" />
+              <marker date="1562167036249" expanded="true" signature="1729:1731" ph="10" />
+              <marker date="1562167036249" expanded="true" signature="1734:1829" ph="instance: &lt;2 keys&gt;" />
+              <marker date="1562167036249" expanded="true" signature="1827:1829" ph="15" />
+              <marker date="1562167036249" expanded="true" signature="1857:1922" ph="@{...}" />
+              <marker date="1562167036249" expanded="false" signature="2002:2013" ph=" { " />
+              <marker date="1562167036249" expanded="false" signature="2069:2075" ph=" }" />
+              <marker date="1562167036249" expanded="true" signature="2799:2939" ph="{...}" />
+              <marker date="1562167036249" expanded="true" signature="2981:3006" ph="[...]" />
+              <marker date="1562167036249" expanded="true" signature="4213:4350" ph="{...}" />
+              <marker date="1562167036249" expanded="true" signature="4256:4293" ph="{...}" />
+              <marker date="1562167036249" expanded="true" signature="4305:4347" ph="{...}" />
+              <marker date="1562167036249" expanded="true" signature="4395:5240" ph="{...}" />
+              <marker date="1562167036249" expanded="true" signature="4427:4467" ph="{...}" />
+              <marker date="1562167036249" expanded="true" signature="4479:5236" ph="{...}" />
+              <marker date="1562167036249" expanded="true" signature="4489:4538" ph="//..." />
+              <marker date="1562167036249" expanded="true" signature="4683:4752" ph="{...}" />
+              <marker date="1562167036249" expanded="true" signature="4758:5081" ph="{...}" />
+              <marker date="1562167036249" expanded="true" signature="4803:5041" ph="{...}" />
+              <marker date="1562167036249" expanded="true" signature="6507:6711" ph="{...}" />
+              <marker date="1562167036249" expanded="true" signature="6561:6604" ph="{...}" />
+              <marker date="1562167036249" expanded="true" signature="6618:6704" ph="{...}" />
+              <marker date="1562167036249" expanded="true" signature="6730:6990" ph="{...}" />
+              <marker date="1562167036249" expanded="true" signature="6756:6787" ph="{...}" />
+              <marker date="1562167036249" expanded="true" signature="6840:6883" ph="{...}" />
+              <marker date="1562167036249" expanded="true" signature="6897:6983" ph="{...}" />
+              <marker date="1562167036249" expanded="true" signature="7100:7278" ph="{...}" />
+              <marker date="1562167036249" expanded="true" signature="7132:7162" ph="{...}" />
+              <marker date="1562167036249" expanded="true" signature="7174:7275" ph="{...}" />
+              <marker date="1562167036249" expanded="true" signature="7701:7821" ph="{...}" />
+              <marker date="1562167036249" expanded="true" signature="7720:7819" ph="{...}" />
+              <marker date="1562167036249" expanded="true" signature="8137:8274" ph="..." />
+              <marker date="1562167036249" expanded="true" signature="8305:8385" ph="leyou: &lt;1 key&gt;" />
+              <marker date="1562167036249" expanded="true" signature="8314:8385" ph="jwt: &lt;2 keys&gt;" />
+              <marker date="1562167036249" expanded="true" signature="8335:8353" ph="C:/tmp/rsa/rsa.pub" />
+              <marker date="1562167036249" expanded="true" signature="8377:8385" ph="LY_TOKEN" />
+              <marker date="1562167036249" expanded="true" signature="8792:9025" ph="{...}" />
+              <marker date="1562167036249" expanded="false" signature="9060:9071" ph=" { " />
+              <marker date="1562167036249" expanded="false" signature="9089:9095" ph=" }" />
+              <marker date="1562167036249" expanded="false" signature="9145:9156" ph=" { " />
+              <marker date="1562167036249" expanded="false" signature="9185:9191" ph=" }" />
+              <marker date="1562167036249" expanded="false" signature="9228:9239" ph=" { " />
+              <marker date="1562167036249" expanded="false" signature="9256:9262" ph=" }" />
+              <marker date="1562167036249" expanded="false" signature="9313:9324" ph=" { " />
+              <marker date="1562167036249" expanded="false" signature="9351:9357" ph=" }" />
+              <marker date="1562167036249" expanded="false" signature="9392:9403" ph=" { " />
+              <marker date="1562167036249" expanded="false" signature="9421:9427" ph=" }" />
+              <marker date="1562167036249" expanded="false" signature="9477:9488" ph=" { " />
+              <marker date="1562167036249" expanded="false" signature="9517:9523" ph=" }" />
+              <marker date="1562167036249" expanded="false" signature="9947:9958" ph=" { " />
+              <marker date="1562167036249" expanded="false" signature="9993:9999" ph=" }" />
+              <marker date="1562167036249" expanded="true" signature="10135:10796" ph="{...}" />
+              <marker date="1562167036249" expanded="true" signature="10949:10977" ph="{...}" />
+              <marker date="1562167036249" expanded="false" signature="11020:11031" ph=" { " />
+              <marker date="1562167036249" expanded="false" signature="11047:11053" ph=" }" />
+              <marker date="1562167036249" expanded="true" signature="11271:11337" ph="@{...}" />
+              <marker date="1562167036249" expanded="false" signature="11505:11516" ph=" { " />
+              <marker date="1562167036249" expanded="false" signature="11559:11565" ph=" }" />
+              <marker date="1562167036249" expanded="true" signature="11643:11726" ph="{...}" />
+              <marker date="1562167036249" expanded="false" signature="12460:12471" ph=" { " />
+              <marker date="1562167036249" expanded="false" signature="12485:12491" ph=" }" />
+              <marker date="1562167036249" expanded="false" signature="12531:12542" ph=" { " />
+              <marker date="1562167036249" expanded="false" signature="12563:12569" ph=" }" />
+              <marker date="1562167036249" expanded="false" signature="12597:12608" ph=" { " />
+              <marker date="1562167036249" expanded="false" signature="12621:12627" ph=" }" />
+              <marker date="1562167036249" expanded="false" signature="12665:12676" ph=" { " />
+              <marker date="1562167036249" expanded="false" signature="12695:12701" ph=" }" />
+              <marker date="1562167036249" expanded="false" signature="12731:12742" ph=" { " />
+              <marker date="1562167036249" expanded="false" signature="12755:12761" ph=" }" />
+              <marker date="1562167036249" expanded="false" signature="12801:12812" ph=" { " />
+              <marker date="1562167036249" expanded="false" signature="12831:12837" ph=" }" />
+              <marker date="1562167036249" expanded="false" signature="12867:12878" ph=" { " />
+              <marker date="1562167036249" expanded="false" signature="12891:12897" ph=" }" />
+              <marker date="1562167036249" expanded="false" signature="12937:12948" ph=" { " />
+              <marker date="1562167036249" expanded="false" signature="12967:12973" ph=" }" />
+              <marker date="1562167036249" expanded="false" signature="13001:13012" ph=" { " />
+              <marker date="1562167036249" expanded="false" signature="13025:13031" ph=" }" />
+              <marker date="1562167036249" expanded="false" signature="13069:13080" ph=" { " />
+              <marker date="1562167036249" expanded="false" signature="13099:13105" ph=" }" />
+              <marker date="1562167036249" expanded="false" signature="13134:13145" ph=" { " />
+              <marker date="1562167036249" expanded="false" signature="13156:13162" ph=" }" />
+              <marker date="1562167036249" expanded="false" signature="13199:13210" ph=" { " />
+              <marker date="1562167036249" expanded="false" signature="13225:13231" ph=" }" />
+              <marker date="1562167036249" expanded="false" signature="13263:13274" ph=" { " />
+              <marker date="1562167036249" expanded="false" signature="13289:13295" ph=" }" />
+              <marker date="1562167036249" expanded="false" signature="13339:13350" ph=" { " />
+              <marker date="1562167036249" expanded="false" signature="13373:13379" ph=" }" />
+              <marker date="1562167036249" expanded="true" signature="13561:13620" ph="{...}" />
+              <marker date="1562167036249" expanded="true" signature="13892:13938" ph="/**...*/" />
+              <marker date="1562167036249" expanded="true" signature="14020:14111" ph="{...}" />
+              <marker date="1562167036249" expanded="true" signature="14656:15850" ph="{...}" />
+              <marker date="1562167036249" expanded="true" signature="15905:16045" ph="..." />
+              <marker date="1562167036249" expanded="true" signature="16906:16938" ph="/**...*/" />
+            </folding>
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day19-下单.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="0">
+            <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <folding>
+              <marker date="1562167024141" expanded="true" signature="1600:1727" ph="..." />
+              <marker date="1562167024141" expanded="true" signature="1740:1869" ph="..." />
+              <marker date="1562167024141" expanded="true" signature="1897:1927" ph="@{...}" />
+              <marker date="1562167024141" expanded="true" signature="1991:2322" ph="{...}" />
+              <marker date="1562167024141" expanded="true" signature="2354:2535" ph="{...}" />
+              <marker date="1562167024141" expanded="true" signature="2597:2652" ph="@{...}" />
+              <marker date="1562167024141" expanded="true" signature="2793:2868" ph="/**...*/" />
+              <marker date="1562167024141" expanded="true" signature="2873:3032" ph="@{...}" />
+              <marker date="1562167024141" expanded="true" signature="3110:3234" ph="{...}" />
+              <marker date="1562167024141" expanded="true" signature="3240:3324" ph="/**...*/" />
+              <marker date="1562167024141" expanded="true" signature="3329:3868" ph="@{...}" />
+              <marker date="1562167024141" expanded="true" signature="4152:4397" ph="{...}" />
+              <marker date="1562167024141" expanded="true" signature="4422:4715" ph="/**...*/" />
+              <marker date="1562167024141" expanded="true" signature="5157:5832" ph="{&quot;totalPay&quot;: 236800...}" />
+              <marker date="1562167024141" expanded="true" signature="5305:5590" ph="[...]" />
+              <marker date="1562167024141" expanded="true" signature="5311:5586" ph="{&quot;skuId&quot;: 3893493...}" />
+              <marker date="1562167024141" expanded="true" signature="6801:6853" ph="leyou: &lt;1 key&gt;" />
+              <marker date="1562167024141" expanded="true" signature="6810:6853" ph="worker: &lt;2 keys&gt;" />
+              <marker date="1562167024141" expanded="false" signature="7063:7074" ph=" { " />
+              <marker date="1562167024141" expanded="false" signature="7090:7096" ph=" }" />
+              <marker date="1562167024141" expanded="false" signature="7140:7151" ph=" { " />
+              <marker date="1562167024141" expanded="false" signature="7176:7182" ph=" }" />
+              <marker date="1562167024141" expanded="false" signature="7217:7228" ph=" { " />
+              <marker date="1562167024141" expanded="false" signature="7248:7254" ph=" }" />
+              <marker date="1562167024141" expanded="false" signature="7306:7317" ph=" { " />
+              <marker date="1562167024141" expanded="false" signature="7350:7356" ph=" }" />
+              <marker date="1562167024141" expanded="true" signature="7380:7451" ph="@{...}" />
+              <marker date="1562167024141" expanded="true" signature="7547:7627" ph="{...}" />
+              <marker date="1562167024141" expanded="true" signature="9048:9201" ph="{...}" />
+              <marker date="1562167024141" expanded="true" signature="9113:9195" ph="//..." />
+              <marker date="1562167024141" expanded="true" signature="9248:10971" ph="{...}" />
+              <marker date="1562167024141" expanded="true" signature="10977:11046" ph="/**...*/" />
+              <marker date="1562167024141" expanded="true" signature="11092:12115" ph="{...}" />
+              <marker date="1562167024141" expanded="true" signature="11534:11579" ph="//..." />
+              <marker date="1562167024141" expanded="true" signature="13108:13348" ph="{...}" />
+              <marker date="1562167024141" expanded="true" signature="13155:13229" ph="{...}" />
+              <marker date="1562167024141" expanded="true" signature="13243:13345" ph="{...}" />
+              <marker date="1562167024141" expanded="true" signature="14462:15434" ph="..." />
+              <marker date="1562167024141" expanded="true" signature="14514:15428" ph="..." />
+              <marker date="1562167024141" expanded="true" signature="14546:15418" ph="..." />
+              <marker date="1562167024141" expanded="true" signature="14578:15403" ph="..." />
+              <marker date="1562167024141" expanded="true" signature="14618:14725" ph="..." />
+              <marker date="1562167024141" expanded="true" signature="14766:15005" ph="..." />
+              <marker date="1562167024141" expanded="true" signature="14865:14983" ph="..." />
+              <marker date="1562167024141" expanded="true" signature="15046:15156" ph="..." />
+              <marker date="1562167024141" expanded="true" signature="15197:15275" ph="..." />
+              <marker date="1562167024141" expanded="true" signature="15316:15385" ph="..." />
+              <marker date="1562167024141" expanded="true" signature="15749:16028" ph="{...}" />
+              <marker date="1562167024141" expanded="true" signature="15765:15833" ph="{...}" />
+              <marker date="1562167024141" expanded="true" signature="15849:15929" ph="{...}" />
+              <marker date="1562167024141" expanded="true" signature="15946:16026" ph="{...}" />
+              <marker date="1562167024141" expanded="true" signature="16508:17428" ph="{...}" />
+              <marker date="1562167024141" expanded="true" signature="16523:17426" ph="{...}" />
+              <marker date="1562167024141" expanded="true" signature="16721:17007" ph="{&quot;receiver&quot;: addr.name...}" />
+              <marker date="1562167024141" expanded="true" signature="17067:17180" ph="{&quot;orderDetails&quot;: orderDetails...}" />
+              <marker date="1562167024141" expanded="true" signature="17259:17355" ph="{...}" />
+              <marker date="1562167024141" expanded="true" signature="17373:17419" ph="{...}" />
+              <marker date="1562167024141" expanded="true" signature="17829:17919" ph="{...}" />
+              <marker date="1562167024141" expanded="true" signature="17854:17917" ph="[...]" />
+              <marker date="1562167024141" expanded="true" signature="17878:17911" ph="{...}" />
+              <marker date="1562167024141" expanded="true" signature="18812:19429" ph="{&quot;el&quot;: &quot;##payVm&quot;...}" />
+              <marker date="1562167024141" expanded="true" signature="18840:18885" ph="{&quot;ly&quot;: ly...}" />
+              <marker date="1562167024141" expanded="true" signature="18900:19345" ph="{...}" />
+              <marker date="1562167024141" expanded="true" signature="18967:19225" ph="{...}" />
+              <marker date="1562167024141" expanded="true" signature="19151:19214" ph="{...}" />
+              <marker date="1562167024141" expanded="true" signature="19239:19338" ph="{...}" />
+              <marker date="1562167024141" expanded="true" signature="19363:19427" ph="{...}" />
+              <marker date="1562167024141" expanded="true" signature="20050:20504" ph="{...}" />
+              <marker date="1562167024141" expanded="true" signature="20194:20501" ph="{...}" />
+              <marker date="1562167024141" expanded="true" signature="20255:20489" ph="{&quot;text&quot;: resp.data...}" />
+              <marker date="1562167024141" expanded="true" signature="20518:20601" ph="{...}" />
+              <marker date="1562167024141" expanded="true" signature="20863:21310" ph="{...}" />
+              <marker date="1562167024141" expanded="true" signature="20935:21307" ph="{...}" />
+              <marker date="1562167024141" expanded="true" signature="20985:21147" ph="{...}" />
+              <marker date="1562167024141" expanded="true" signature="21166:21301" ph="{...}" />
+            </folding>
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vinspier-search/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="342">
+          <caret line="21" column="70" lean-forward="false" selection-start-line="19" selection-start-column="6" selection-end-line="21" selection-end-column="70" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vinspier-user/user-interface/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="429">
+          <caret line="32" column="21" lean-forward="false" selection-start-line="32" selection-start-column="21" selection-end-line="32" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vinspier-user/user-interface/src/main/java/com/vinspier/user/api/UserApi.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vinspier-user/user-interface/src/main/java/com/vinspier/user/pojo/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/service-gateway/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="16" column="37" lean-forward="false" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vinspier-user/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="13" column="31" lean-forward="false" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vinspier-common/src/main/java/com/vinspier/common/util/NumberUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-678">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vinspier-user/user-service/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="348">
+          <caret line="66" column="26" lean-forward="false" selection-start-line="66" selection-start-column="26" selection-end-line="66" selection-end-column="26" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vinspier-user/user-service/src/main/java/com/vinspier/user/util/CodecUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vinspie-ritem/vinspier-item-service/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="28" column="70" lean-forward="false" selection-start-line="20" selection-start-column="2" selection-end-line="28" selection-end-column="70" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vinspie-ritem/vinspier-item-service/src/main/java/com/vinspier/item/service/impl/GoodsServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="429">
+          <caret line="194" column="32" lean-forward="false" selection-start-line="194" selection-start-column="25" selection-end-line="194" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vinspier-goods-web/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="6" column="18" lean-forward="false" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vinspier-user/user-service/src/main/java/com/vinspier/user/UserApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="58" lean-forward="false" selection-start-line="12" selection-start-column="58" selection-end-line="12" selection-end-column="58" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#430#431#0" expanded="false" />
+            <element signature="e#495#496#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vinspier-user/user-service/src/main/java/com/vinspier/user/mapper/UserMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="47" lean-forward="false" selection-start-line="5" selection-start-column="47" selection-end-line="5" selection-end-column="47" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vinspier-user/user-service/src/main/java/com/vinspier/user/service/UserService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="443">
+          <caret line="33" column="4" lean-forward="false" selection-start-line="33" selection-start-column="4" selection-end-line="33" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vinspie-ritem/vinspier-item-service/src/main/java/com/vinspier/item/service/impl/RabbitMsgServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="353">
+          <caret line="31" column="58" lean-forward="false" selection-start-line="31" selection-start-column="40" selection-end-line="31" selection-end-column="58" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vinspier-goods-web/src/main/java/com/vinspier/goods/listener/GoodsListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="353">
+          <caret line="46" column="64" lean-forward="false" selection-start-line="46" selection-start-column="42" selection-end-line="46" selection-end-column="64" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vinspier-user/user-service/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="14" column="27" lean-forward="false" selection-start-line="14" selection-start-column="27" selection-end-line="14" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vinspier-user/user-service/src/main/java/com/vinspier/user/service/impl/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="56" column="86" lean-forward="false" selection-start-line="56" selection-start-column="86" selection-end-line="56" selection-end-column="86" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vinspier-sms/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="779">
+          <caret line="41" column="21" lean-forward="false" selection-start-line="41" selection-start-column="21" selection-end-line="41" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vinspier-sms/src/main/java/com/vinspier/sms/SmsApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="57" lean-forward="false" selection-start-line="8" selection-start-column="57" selection-end-line="8" selection-end-column="57" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#244#245#0" expanded="true" />
+            <element signature="e#308#309#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vinspier-user/user-service/src/main/java/com/vinspier/user/controller/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="58" column="0" lean-forward="false" selection-start-line="58" selection-start-column="0" selection-end-line="59" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vinspier-sms/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="10" lean-forward="false" selection-start-line="1" selection-start-column="10" selection-end-line="1" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vinspier-sms/src/main/java/com/vinspier/sms/config/SmsProperties.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="13" column="22" lean-forward="false" selection-start-line="13" selection-start-column="11" selection-end-line="13" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vinspier-sms/src/main/java/com/vinspier/sms/listener/SmsListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="481">
+          <caret line="48" column="33" lean-forward="false" selection-start-line="48" selection-start-column="26" selection-end-line="48" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vinspier-sms/src/main/java/com/vinspier/sms/util/SmsUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="394">
+          <caret line="52" column="20" lean-forward="false" selection-start-line="52" selection-start-column="16" selection-end-line="52" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1733,7 +1860,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>vinspier-search</last-edited>
+          <last-edited>vinspier-sms</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

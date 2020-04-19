@@ -8,11 +8,14 @@
         <outputRelativeToContentRoot value="true" />
         <module name="register-center" />
         <module name="service-gateway" />
+        <module name="user-interface" />
+        <module name="user-service" />
         <module name="vinspier-common" />
         <module name="vinspier-goods-web" />
         <module name="vinspier-item-interface" />
         <module name="vinspier-item-service" />
         <module name="vinspier-search" />
+        <module name="vinspier-sms" />
         <module name="vinspier-upload" />
       </profile>
     </annotationProcessing>
@@ -20,6 +23,8 @@
       <module name="register-center" target="1.8" />
       <module name="service-gateway" target="1.8" />
       <module name="test" target="1.8" />
+      <module name="user-interface" target="1.8" />
+      <module name="user-service" target="1.8" />
       <module name="vinspie-ritem" target="1.8" />
       <module name="vinspier" target="1.8" />
       <module name="vinspier-common" target="1.8" />
@@ -29,7 +34,9 @@
       <module name="vinspier-item-service" target="1.8" />
       <module name="vinspier-ritem-interface" target="1.8" />
       <module name="vinspier-search" target="1.8" />
+      <module name="vinspier-sms" target="1.8" />
       <module name="vinspier-upload" target="1.8" />
+      <module name="vinspier-user" target="1.8" />
       <module name="vinspiertest" target="1.8" />
     </bytecodeTargetLevel>
   </component>

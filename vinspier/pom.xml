@@ -17,6 +17,7 @@
         <module>vinspier-goods-web</module>
         <module>vinspier-user</module>
         <module>vinspier-sms</module>
+        <module>vinspier-auth</module>
     </modules>
     <packaging>pom</packaging>
 

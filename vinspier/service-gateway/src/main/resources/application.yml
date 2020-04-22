@@ -11,12 +11,29 @@ eureka:
     service-url:
       defaultZone: http://localhost:8080/eureka/
 zuul:
+  prefix: /api # 路由前缀
   routes:
     item-service: /item/** # 商品微服务的映射路径
     search-service: /search/** # 商品搜索服务映射路径
     user-service: /user/** # 用户服务映射路径
-  prefix: /api # 路由前缀
+    auth-service: /auth/** # 授权中心微服务
+  add-host-header: true # 允许携带请求者自身的头部信息 方式nginx转发cookie设置无效
+  sensitive-headers:  # 覆盖敏感默认头信息 允许set-cookie
   # 路径匹配
   # ignored-services: /upload/**
   # 服务匹配规则
   ignored-patterns: upload-servie
+
+vinspier:
+  jwt:
+    pubKeyPath: C:\\tmp\\rsa\\rsa.pub # 公钥地址
+    cookieName: access_token # token存放与cookie中的key
+  # 设置白名单 对不需要进行鉴权的路劲放行
+  filter:
+    allowPaths:
+    - /api/auth
+    - /api/search
+    - /api/user/register
+    - /api/user/check
+    - /api/user/code
+    - /api/item

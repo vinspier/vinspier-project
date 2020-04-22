@@ -3,12 +3,20 @@ package com.vinspier.zuul.filter;
 import com.netflix.zuul.ZuulFilter;
 import com.netflix.zuul.context.RequestContext;
 import com.netflix.zuul.exception.ZuulException;
+import com.vinspier.auth.utils.JwtUtils;
+import com.vinspier.common.util.CookieUtils;
 import com.vinspier.zuul.common.FilterType;
 import com.vinspier.zuul.common.ResponseTemplate;
+import com.vinspier.zuul.config.FilterProperties;
+import com.vinspier.zuul.config.JwtProperties;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.boot.context.properties.EnableConfigurationProperties;
+import org.springframework.http.HttpStatus;
 import org.springframework.stereotype.Component;
 import org.springframework.util.StringUtils;
 
 import javax.servlet.http.HttpServletRequest;
+import java.util.List;
 
 
 /**
@@ -32,7 +40,14 @@ import javax.servlet.http.HttpServletRequest;
  * 3、服务调用时长统计：pre和post结合使用。
  * */
 @Component
+@EnableConfigurationProperties({JwtProperties.class, FilterProperties.class})
 public class LoginFilter extends ZuulFilter {
+
+    @Autowired
+    private JwtProperties jwtProperties;
+
+    @Autowired
+    private FilterProperties filterProperties;
 
     @Override
     public String filterType() {
@@ -44,14 +59,46 @@ public class LoginFilter extends ZuulFilter {
         return 1;
     }
 
+    /**
+     * 判断请求路劲时候在白名单中
+     * */
     @Override
     public boolean shouldFilter() {
-        return true;
+        // 获取白名单
+        List<String> allowPaths = this.filterProperties.getAllowPaths();
+        // 初始化运行上下文
+        RequestContext context = RequestContext.getCurrentContext();
+        // 获取request对象
+        HttpServletRequest request = context.getRequest();
+        String url = request.getRequestURI();
+//        for (String allowPath : allowPaths) {
+//            if (org.apache.commons.lang.StringUtils.contains(url, allowPath)){
+//                return false;
+//            }
+//        }
+        return allowPaths.contains(url);
     }
 
+    /**
+     * 对需要鉴权的路径 进行拦截
+     * */
     @Override
     public Object run() throws ZuulException {
-        System.out.println("===========进入服务网关拦截器 根据规则路由到具体服务===========");
+        System.out.println("===========进入服务网关拦截器 鉴权拦截 ===========");
+        // 初始化运行上下文
+        RequestContext context = RequestContext.getCurrentContext();
+        // 获取request对象
+        HttpServletRequest request = context.getRequest();
+        String token = CookieUtils.getCookieValue(request, this.jwtProperties.getCookieName());
+
+        try {
+            JwtUtils.getInfoFromToken(token,this.jwtProperties.getPublicKey());
+        } catch (Exception e) {
+            e.printStackTrace();
+            context.setSendZuulResponse(false);
+            context.setResponseStatusCode(HttpStatus.UNAUTHORIZED.value());
+
+        }
         return null;
     }
 

@@ -22,6 +22,7 @@ public class CorsConfig {
         config.addAllowedOrigin("http://manage.vinspier.com");
         config.addAllowedOrigin("http://www.vinspier.com");
         //2) 是否发送Cookie信息
+         /** 浏览器发起ajax需要指定withCredentials 为true */
         config.setAllowCredentials(true);
         //3) 允许的请求方式
         config.addAllowedMethod("OPTIONS");

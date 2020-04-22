@@ -2,11 +2,14 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/vinspier-auth/auth-common/auth-common.iml" filepath="$PROJECT_DIR$/vinspier-auth/auth-common/auth-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/vinspier-auth/auth-service/auth-service.iml" filepath="$PROJECT_DIR$/vinspier-auth/auth-service/auth-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/register-center/register-center.iml" filepath="$PROJECT_DIR$/register-center/register-center.iml" />
       <module fileurl="file://$PROJECT_DIR$/service-gateway/service-gateway.iml" filepath="$PROJECT_DIR$/service-gateway/service-gateway.iml" />
       <module fileurl="file://$PROJECT_DIR$/vinspier-user/user-interface/user-interface.iml" filepath="$PROJECT_DIR$/vinspier-user/user-interface/user-interface.iml" />
       <module fileurl="file://$PROJECT_DIR$/vinspier-user/user-service/user-service.iml" filepath="$PROJECT_DIR$/vinspier-user/user-service/user-service.iml" />
       <module fileurl="file://$PROJECT_DIR$/vinspier.iml" filepath="$PROJECT_DIR$/vinspier.iml" />
+      <module fileurl="file://$PROJECT_DIR$/vinspier-auth/vinspier-auth.iml" filepath="$PROJECT_DIR$/vinspier-auth/vinspier-auth.iml" />
       <module fileurl="file://$PROJECT_DIR$/vinspier-common/vinspier-common.iml" filepath="$PROJECT_DIR$/vinspier-common/vinspier-common.iml" />
       <module fileurl="file://$PROJECT_DIR$/vinspier-goods-web/vinspier-goods-web.iml" filepath="$PROJECT_DIR$/vinspier-goods-web/vinspier-goods-web.iml" />
       <module fileurl="file://$PROJECT_DIR$/vinspie-ritem/vinspier-item.iml" filepath="$PROJECT_DIR$/vinspie-ritem/vinspier-item.iml" />

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>vinspier</artifactId>
+        <groupId>com.vinspier.parent</groupId>
+        <version>1.0.0-SNAPSHOT</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>com.vinspier.auth</groupId>
+    <artifactId>vinspier-auth</artifactId>
+    <version>1.0.0-SNAPSHOT</version>
+    <modules>
+        <module>auth-common</module>
+        <module>auth-service</module>
+    </modules>
+    <!-- 聚合工程 打包方式为pom -->
+    <packaging>pom</packaging>
+
+    <dependencies>
+        <!-- 公共资源 -->
+        <dependency>
+            <groupId>com.vinspier.common</groupId>
+            <artifactId>vinspier-common</artifactId>
+            <version>1.0.0-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>com.vinspier.user</groupId>
+            <artifactId>user-interface</artifactId>
+            <version>1.0.0-SNAPSHOT</version>
+        </dependency>
+    </dependencies>
+
+</project>

@@ -55,11 +55,12 @@ public class UserController {
 
     /**
      * 根据用户名和密码查询用户
+     * 为auth授权中心提供验证账户信息
      */
     @GetMapping("query")
     @ResponseBody
     public ResponseTemplate<User> queryUser(@RequestParam("username")String username,@RequestParam("password")String password){
-        System.out.println("进入UserController："+username+": "+password);
+        System.out.println("进入UserController：" + username + ": "+password);
         User user = this.userService.queryUser(username, password);
         System.out.println("从数据库查询：" + username + "的结果是：" + user);
         return ResponseTemplate.ok(user);

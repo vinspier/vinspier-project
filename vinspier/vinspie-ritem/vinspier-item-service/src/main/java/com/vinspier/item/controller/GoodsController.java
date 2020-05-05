@@ -8,6 +8,7 @@ import com.vinspier.item.pojo.Spu;
 import com.vinspier.item.pojo.SpuDetail;
 import com.vinspier.item.service.GoodsService;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Controller;
 import org.springframework.util.CollectionUtils;
 import org.springframework.web.bind.annotation.*;
@@ -121,6 +122,18 @@ public class GoodsController {
         this.goodsService.deleteBySpuId(spuId);
        // return ResponseEntity.status(HttpStatus.OK).build();
         return ResponseTemplate.ok();
+    }
+
+    /**
+     * 根据id查询sku
+     */
+    @GetMapping("sku/{skuId}")
+    public ResponseEntity<Sku> querySkuBySkuId(@PathVariable("skuId")Long skuId){
+        Sku sku = this.goodsService.querySkuBySkuId(skuId);
+        if (sku == null){
+            return ResponseEntity.notFound().build();
+        }
+        return ResponseEntity.ok(sku);
     }
 
 }

@@ -59,4 +59,11 @@ public interface GoodsService {
      * @param spuId
      */
     void deleteBySpuId(Long spuId);
+
+    /**
+     * 根据skuId 查询sku
+     * @param skuId
+     * @return
+     */
+    Sku querySkuBySkuId(Long skuId);
 }

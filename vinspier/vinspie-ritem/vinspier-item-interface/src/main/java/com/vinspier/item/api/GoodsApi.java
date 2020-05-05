@@ -50,4 +50,12 @@ public interface GoodsApi {
      */
     @GetMapping("/sku/list")
     ResponseTemplate<List<Sku>> querySkusBySpuId(@RequestParam("id")Long spuId);
+
+    /**
+     * 根据skuId 查询Sku
+     * @param skuId
+     * @return
+     */
+    @GetMapping("sku/{skuId}")
+    Sku querySkuBySkuId(@PathVariable("skuId")Long skuId);
 }

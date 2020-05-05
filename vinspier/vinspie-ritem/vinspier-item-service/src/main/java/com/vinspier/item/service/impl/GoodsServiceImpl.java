@@ -194,4 +194,14 @@ public class GoodsServiceImpl implements GoodsService {
         /** 发送消息给队列 */
         rabbitMsgService.sendMsg(RabbitRouteKeyEnum.DELETE.getKey(),spuId);
     }
+
+    /**
+     * 根据skuId 查询sku
+     * @param skuId
+     * @return
+     */
+    @Override
+    public Sku querySkuBySkuId(Long skuId) {
+        return skuMapper.selectByPrimaryKey(skuId);
+    }
 }

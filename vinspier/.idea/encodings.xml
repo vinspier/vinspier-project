@@ -10,8 +10,10 @@
     <file url="file://$PROJECT_DIR$/vinspier-auth" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/vinspier-auth/auth-common" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/vinspier-auth/auth-service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/vinspier-cart" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/vinspier-common" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/vinspier-goods-web" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/vinspier-order" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/vinspier-search" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/vinspier-sms" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/vinspier-upload" charset="UTF-8" />

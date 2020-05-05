@@ -12,10 +12,12 @@
         <module name="service-gateway" />
         <module name="user-interface" />
         <module name="user-service" />
+        <module name="vinspier-cart" />
         <module name="vinspier-common" />
         <module name="vinspier-goods-web" />
         <module name="vinspier-item-interface" />
         <module name="vinspier-item-service" />
+        <module name="vinspier-order" />
         <module name="vinspier-search" />
         <module name="vinspier-sms" />
         <module name="vinspier-upload" />
@@ -32,11 +34,13 @@
       <module name="vinspie-ritem" target="1.8" />
       <module name="vinspier" target="1.8" />
       <module name="vinspier-auth" target="1.8" />
+      <module name="vinspier-cart" target="1.8" />
       <module name="vinspier-common" target="1.8" />
       <module name="vinspier-goods-web" target="1.8" />
       <module name="vinspier-item" target="1.8" />
       <module name="vinspier-item-interface" target="1.8" />
       <module name="vinspier-item-service" target="1.8" />
+      <module name="vinspier-order" target="1.8" />
       <module name="vinspier-ritem-interface" target="1.8" />
       <module name="vinspier-search" target="1.8" />
       <module name="vinspier-sms" target="1.8" />

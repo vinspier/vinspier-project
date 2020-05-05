@@ -17,6 +17,8 @@ zuul:
     search-service: /search/** # 商品搜索服务映射路径
     user-service: /user/** # 用户服务映射路径
     auth-service: /auth/** # 授权中心微服务
+    cart-service: /cart/** # 购物车服务
+    order-service: /order/** # 订单服务
   add-host-header: true # 允许携带请求者自身的头部信息 方式nginx转发cookie设置无效
   sensitive-headers:  # 覆盖敏感默认头信息 允许set-cookie
   # 路径匹配

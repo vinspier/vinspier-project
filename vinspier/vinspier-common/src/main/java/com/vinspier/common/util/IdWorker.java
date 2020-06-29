@@ -40,7 +40,7 @@ public class IdWorker {
     private final static long datacenterIdShift = sequenceBits + workerIdBits;
     // 时间毫秒左移22位
     private final static long timestampLeftShift = sequenceBits + workerIdBits + datacenterIdBits;
-
+    // 1毫秒内产生的最大值2^12 - 1 = 4095
     private final static long sequenceMask = -1L ^ (-1L << sequenceBits);
     /* 上次生产id时间戳 */
     private static long lastTimestamp = -1L;
@@ -159,4 +159,8 @@ public class IdWorker {
     }
 
 
+    public static void main(String[] args) {
+        IdWorker idWorker = new IdWorker();
+        idWorker.nextId();
+    }
 }

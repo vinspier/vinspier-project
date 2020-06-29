@@ -1,7 +1,7 @@
 package com.leyou.config;
 
 
-import com.leyou.common.utils.RsaUtils;
+import com.vinspier.auth.utils.RsaUtils;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.boot.context.properties.ConfigurationProperties;

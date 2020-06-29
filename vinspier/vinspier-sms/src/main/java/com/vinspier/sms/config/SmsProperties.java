@@ -5,7 +5,7 @@ import org.springframework.boot.context.properties.ConfigurationProperties;
 
 /**
  *
- * 读取属性配置文件中的leyou.sms中的属性
+ * 读取属性配置文件中的vinspier.sms中的属性
  */
 @ConfigurationProperties(prefix = "vinspier.sms")
 public class SmsProperties {

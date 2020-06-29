@@ -38,4 +38,6 @@ vinspier:
     - /api/user/register
     - /api/user/check
     - /api/user/code
+    - /api/user/query
+    - /api/user/sendCode
     - /api/item

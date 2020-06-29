@@ -10,7 +10,7 @@
     <modules>
         <module>register-center</module>
         <module>service-gateway</module>
-        <module>vinspie-ritem</module>
+        <module>vinspier-item</module>
         <module>vinspier-common</module>
         <module>vinspier-upload</module>
         <module>vinspier-search</module>

@@ -32,7 +32,7 @@ public class GoodsListener {
     )
     public void listenInsert(Long id) throws Exception{
         if (id != null){
-            System.out.println("=========== 创建/新增索引信息 id : " + id + "=========");
+            System.out.println("=========== 创建/修改索引信息 id : " + id + "=========");
             searchService.createIndex(id);
         }
     }

@@ -2,13 +2,109 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="27ce5c01-fc3e-43fe-8b6f-903d49a3f098" name="Default" comment="添加用户注册模块和短信发送模块">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_alibaba_druid_1_1_10.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_drtrang_druid_spring_boot2_autoconfigure_1_1_10.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_github_drtrang_druid_spring_boot2_starter_1_1_10.xml" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/service-gateway/src/main/resources/application.yml" afterPath="$PROJECT_DIR$/service-gateway/src/main/resources/application.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vinspie-ritem/vinspier-item-interface/src/main/java/com/vinspier/item/api/GoodsApi.java" afterPath="$PROJECT_DIR$/vinspie-ritem/vinspier-item-interface/src/main/java/com/vinspier/item/api/GoodsApi.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vinspier-auth/auth-service/src/main/java/com/vinspier/auth/config/JwtProperties.java" afterPath="$PROJECT_DIR$/vinspier-auth/auth-service/src/main/java/com/vinspier/auth/config/JwtProperties.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vinspier-auth/auth-service/src/main/java/com/vinspier/auth/service/impl/AuthServiceImpl.java" afterPath="$PROJECT_DIR$/vinspier-auth/auth-service/src/main/java/com/vinspier/auth/service/impl/AuthServiceImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vinspier-auth/auth-service/src/main/resources/application.yml" afterPath="$PROJECT_DIR$/vinspier-auth/auth-service/src/main/resources/application.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vinspier-cart/src/main/java/com/vinspier/interceptor/LoginInterceptor.java" afterPath="$PROJECT_DIR$/vinspier-cart/src/main/java/com/vinspier/interceptor/LoginInterceptor.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vinspier-common/src/main/java/com/vinspier/common/util/IdWorker.java" afterPath="$PROJECT_DIR$/vinspier-common/src/main/java/com/vinspier/common/util/IdWorker.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vinspier-order/src/main/java/com/leyou/config/JwtProperties.java" afterPath="$PROJECT_DIR$/vinspier-order/src/main/java/com/leyou/config/JwtProperties.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vinspier-order/src/main/resources/application.yml" afterPath="$PROJECT_DIR$/vinspier-order/src/main/resources/application.yml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vinspier-search/pom.xml" afterPath="$PROJECT_DIR$/vinspier-search/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vinspier-search/src/main/java/com/vinspier/search/listener/GoodsListener.java" afterPath="$PROJECT_DIR$/vinspier-search/src/main/java/com/vinspier/search/listener/GoodsListener.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vinspier-sms/src/main/java/com/vinspier/sms/config/SmsProperties.java" afterPath="$PROJECT_DIR$/vinspier-sms/src/main/java/com/vinspier/sms/config/SmsProperties.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vinspier-user/user-service/src/main/java/com/vinspier/user/service/impl/UserServiceImpl.java" afterPath="$PROJECT_DIR$/vinspier-user/user-service/src/main/java/com/vinspier/user/service/impl/UserServiceImpl.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/vinspier-user/vinspier-user.iml" afterPath="$PROJECT_DIR$/vinspier-user/vinspier-user.iml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/vinspie-ritem/pom.xml" afterPath="$PROJECT_DIR$/vinspier-item/pom.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/vinspie-ritem/vinspier-item-interface/pom.xml" afterPath="$PROJECT_DIR$/vinspier-item/vinspier-item-interface/pom.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/vinspie-ritem/vinspier-item-interface/src/main/java/com/vinspier/item/api/BrandApi.java" afterPath="$PROJECT_DIR$/vinspier-item/vinspier-item-interface/src/main/java/com/vinspier/item/api/BrandApi.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/vinspie-ritem/vinspier-item-interface/src/main/java/com/vinspier/item/api/CategoryApi.java" afterPath="$PROJECT_DIR$/vinspier-item/vinspier-item-interface/src/main/java/com/vinspier/item/api/CategoryApi.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/vinspie-ritem/vinspier-item-interface/src/main/java/com/vinspier/item/api/GoodsApi.java" afterPath="$PROJECT_DIR$/vinspier-item/vinspier-item-interface/src/main/java/com/vinspier/item/api/GoodsApi.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/vinspie-ritem/vinspier-item-interface/src/main/java/com/vinspier/item/api/SpecApi.java" afterPath="$PROJECT_DIR$/vinspier-item/vinspier-item-interface/src/main/java/com/vinspier/item/api/SpecApi.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/vinspie-ritem/vinspier-item-interface/src/main/java/com/vinspier/item/bo/SpuBo.java" afterPath="$PROJECT_DIR$/vinspier-item/vinspier-item-interface/src/main/java/com/vinspier/item/bo/SpuBo.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/vinspie-ritem/vinspier-item-interface/src/main/java/com/vinspier/item/pojo/Brand.java" afterPath="$PROJECT_DIR$/vinspier-item/vinspier-item-interface/src/main/java/com/vinspier/item/pojo/Brand.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/vinspie-ritem/vinspier-item-interface/src/main/java/com/vinspier/item/pojo/Category.java" afterPath="$PROJECT_DIR$/vinspier-item/vinspier-item-interface/src/main/java/com/vinspier/item/pojo/Category.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/vinspie-ritem/vinspier-item-interface/src/main/java/com/vinspier/item/pojo/Sku.java" afterPath="$PROJECT_DIR$/vinspier-item/vinspier-item-interface/src/main/java/com/vinspier/item/pojo/Sku.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/vinspie-ritem/vinspier-item-interface/src/main/java/com/vinspier/item/pojo/SpecGroup.java" afterPath="$PROJECT_DIR$/vinspier-item/vinspier-item-interface/src/main/java/com/vinspier/item/pojo/SpecGroup.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/vinspie-ritem/vinspier-item-interface/src/main/java/com/vinspier/item/pojo/SpecParam.java" afterPath="$PROJECT_DIR$/vinspier-item/vinspier-item-interface/src/main/java/com/vinspier/item/pojo/SpecParam.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/vinspie-ritem/vinspier-item-interface/src/main/java/com/vinspier/item/pojo/Spu.java" afterPath="$PROJECT_DIR$/vinspier-item/vinspier-item-interface/src/main/java/com/vinspier/item/pojo/Spu.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/vinspie-ritem/vinspier-item-interface/src/main/java/com/vinspier/item/pojo/SpuDetail.java" afterPath="$PROJECT_DIR$/vinspier-item/vinspier-item-interface/src/main/java/com/vinspier/item/pojo/SpuDetail.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/vinspie-ritem/vinspier-item-interface/src/main/java/com/vinspier/item/pojo/Stock.java" afterPath="$PROJECT_DIR$/vinspier-item/vinspier-item-interface/src/main/java/com/vinspier/item/pojo/Stock.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/vinspie-ritem/vinspier-item-interface/target/classes/com/vinspier/item/api/BrandApi.class" afterPath="$PROJECT_DIR$/vinspier-item/vinspier-item-interface/target/classes/com/vinspier/item/api/BrandApi.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/vinspie-ritem/vinspier-item-interface/target/classes/com/vinspier/item/api/CategoryApi.class" afterPath="$PROJECT_DIR$/vinspier-item/vinspier-item-interface/target/classes/com/vinspier/item/api/CategoryApi.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/vinspie-ritem/vinspier-item-interface/target/classes/com/vinspier/item/api/GoodsApi.class" afterPath="$PROJECT_DIR$/vinspier-item/vinspier-item-interface/target/classes/com/vinspier/item/api/GoodsApi.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/vinspie-ritem/vinspier-item-interface/target/classes/com/vinspier/item/api/SpecApi.class" afterPath="$PROJECT_DIR$/vinspier-item/vinspier-item-interface/target/classes/com/vinspier/item/api/SpecApi.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/vinspie-ritem/vinspier-item-interface/target/classes/com/vinspier/item/bo/SpuBo.class" afterPath="$PROJECT_DIR$/vinspier-item/vinspier-item-interface/target/classes/com/vinspier/item/bo/SpuBo.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/vinspie-ritem/vinspier-item-interface/target/classes/com/vinspier/item/pojo/Brand.class" afterPath="$PROJECT_DIR$/vinspier-item/vinspier-item-interface/target/classes/com/vinspier/item/pojo/Brand.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/vinspie-ritem/vinspier-item-interface/target/classes/com/vinspier/item/pojo/Category.class" afterPath="$PROJECT_DIR$/vinspier-item/vinspier-item-interface/target/classes/com/vinspier/item/pojo/Category.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/vinspie-ritem/vinspier-item-interface/target/classes/com/vinspier/item/pojo/Sku.class" afterPath="$PROJECT_DIR$/vinspier-item/vinspier-item-interface/target/classes/com/vinspier/item/pojo/Sku.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/vinspie-ritem/vinspier-item-interface/target/classes/com/vinspier/item/pojo/SpecGroup.class" afterPath="$PROJECT_DIR$/vinspier-item/vinspier-item-interface/target/classes/com/vinspier/item/pojo/SpecGroup.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/vinspie-ritem/vinspier-item-interface/target/classes/com/vinspier/item/pojo/SpecParam.class" afterPath="$PROJECT_DIR$/vinspier-item/vinspier-item-interface/target/classes/com/vinspier/item/pojo/SpecParam.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/vinspie-ritem/vinspier-item-interface/target/classes/com/vinspier/item/pojo/Spu.class" afterPath="$PROJECT_DIR$/vinspier-item/vinspier-item-interface/target/classes/com/vinspier/item/pojo/Spu.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/vinspie-ritem/vinspier-item-interface/target/classes/com/vinspier/item/pojo/SpuDetail.class" afterPath="$PROJECT_DIR$/vinspier-item/vinspier-item-interface/target/classes/com/vinspier/item/pojo/SpuDetail.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/vinspie-ritem/vinspier-item-interface/target/classes/com/vinspier/item/pojo/Stock.class" afterPath="$PROJECT_DIR$/vinspier-item/vinspier-item-interface/target/classes/com/vinspier/item/pojo/Stock.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/vinspie-ritem/vinspier-item-interface/vinspier-item-interface.iml" afterPath="$PROJECT_DIR$/vinspier-item/vinspier-item-interface/vinspier-item-interface.iml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/vinspie-ritem/vinspier-item-service/pom.xml" afterPath="$PROJECT_DIR$/vinspier-item/vinspier-item-service/pom.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/vinspie-ritem/vinspier-item-service/src/main/java/com/vinspier/item/ItemServiceApplication.java" afterPath="$PROJECT_DIR$/vinspier-item/vinspier-item-service/src/main/java/com/vinspier/item/ItemServiceApplication.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/vinspie-ritem/vinspier-item-service/src/main/java/com/vinspier/item/controller/BrandController.java" afterPath="$PROJECT_DIR$/vinspier-item/vinspier-item-service/src/main/java/com/vinspier/item/controller/BrandController.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/vinspie-ritem/vinspier-item-service/src/main/java/com/vinspier/item/controller/CategoryController.java" afterPath="$PROJECT_DIR$/vinspier-item/vinspier-item-service/src/main/java/com/vinspier/item/controller/CategoryController.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/vinspie-ritem/vinspier-item-service/src/main/java/com/vinspier/item/controller/GoodsController.java" afterPath="$PROJECT_DIR$/vinspier-item/vinspier-item-service/src/main/java/com/vinspier/item/controller/GoodsController.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/vinspie-ritem/vinspier-item-service/src/main/java/com/vinspier/item/controller/SpecController.java" afterPath="$PROJECT_DIR$/vinspier-item/vinspier-item-service/src/main/java/com/vinspier/item/controller/SpecController.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/vinspie-ritem/vinspier-item-service/src/main/java/com/vinspier/item/mapper/BrandMapper.java" afterPath="$PROJECT_DIR$/vinspier-item/vinspier-item-service/src/main/java/com/vinspier/item/mapper/BrandMapper.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/vinspie-ritem/vinspier-item-service/src/main/java/com/vinspier/item/mapper/CategoryMapper.java" afterPath="$PROJECT_DIR$/vinspier-item/vinspier-item-service/src/main/java/com/vinspier/item/mapper/CategoryMapper.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/vinspie-ritem/vinspier-item-service/src/main/java/com/vinspier/item/mapper/SkuMapper.java" afterPath="$PROJECT_DIR$/vinspier-item/vinspier-item-service/src/main/java/com/vinspier/item/mapper/SkuMapper.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/vinspie-ritem/vinspier-item-service/src/main/java/com/vinspier/item/mapper/SpecGroupMapper.java" afterPath="$PROJECT_DIR$/vinspier-item/vinspier-item-service/src/main/java/com/vinspier/item/mapper/SpecGroupMapper.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/vinspie-ritem/vinspier-item-service/src/main/java/com/vinspier/item/mapper/SpecParamMapper.java" afterPath="$PROJECT_DIR$/vinspier-item/vinspier-item-service/src/main/java/com/vinspier/item/mapper/SpecParamMapper.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/vinspie-ritem/vinspier-item-service/src/main/java/com/vinspier/item/mapper/SpuDetailMapper.java" afterPath="$PROJECT_DIR$/vinspier-item/vinspier-item-service/src/main/java/com/vinspier/item/mapper/SpuDetailMapper.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/vinspie-ritem/vinspier-item-service/src/main/java/com/vinspier/item/mapper/SpuMapper.java" afterPath="$PROJECT_DIR$/vinspier-item/vinspier-item-service/src/main/java/com/vinspier/item/mapper/SpuMapper.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/vinspie-ritem/vinspier-item-service/src/main/java/com/vinspier/item/mapper/StockMapper.java" afterPath="$PROJECT_DIR$/vinspier-item/vinspier-item-service/src/main/java/com/vinspier/item/mapper/StockMapper.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/vinspie-ritem/vinspier-item-service/src/main/java/com/vinspier/item/service/BrandService.java" afterPath="$PROJECT_DIR$/vinspier-item/vinspier-item-service/src/main/java/com/vinspier/item/service/BrandService.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/vinspie-ritem/vinspier-item-service/src/main/java/com/vinspier/item/service/CategoryService.java" afterPath="$PROJECT_DIR$/vinspier-item/vinspier-item-service/src/main/java/com/vinspier/item/service/CategoryService.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/vinspie-ritem/vinspier-item-service/src/main/java/com/vinspier/item/service/GoodsService.java" afterPath="$PROJECT_DIR$/vinspier-item/vinspier-item-service/src/main/java/com/vinspier/item/service/GoodsService.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/vinspie-ritem/vinspier-item-service/src/main/java/com/vinspier/item/service/RabbitMsgService.java" afterPath="$PROJECT_DIR$/vinspier-item/vinspier-item-service/src/main/java/com/vinspier/item/service/RabbitMsgService.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/vinspie-ritem/vinspier-item-service/src/main/java/com/vinspier/item/service/SpecService.java" afterPath="$PROJECT_DIR$/vinspier-item/vinspier-item-service/src/main/java/com/vinspier/item/service/SpecService.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/vinspie-ritem/vinspier-item-service/src/main/java/com/vinspier/item/service/impl/BrandServiceImpl.java" afterPath="$PROJECT_DIR$/vinspier-item/vinspier-item-service/src/main/java/com/vinspier/item/service/impl/BrandServiceImpl.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/vinspie-ritem/vinspier-item-service/src/main/java/com/vinspier/item/service/impl/CategoryServiceImpl.java" afterPath="$PROJECT_DIR$/vinspier-item/vinspier-item-service/src/main/java/com/vinspier/item/service/impl/CategoryServiceImpl.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/vinspie-ritem/vinspier-item-service/src/main/java/com/vinspier/item/service/impl/GoodsServiceImpl.java" afterPath="$PROJECT_DIR$/vinspier-item/vinspier-item-service/src/main/java/com/vinspier/item/service/impl/GoodsServiceImpl.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/vinspie-ritem/vinspier-item-service/src/main/java/com/vinspier/item/service/impl/RabbitMsgServiceImpl.java" afterPath="$PROJECT_DIR$/vinspier-item/vinspier-item-service/src/main/java/com/vinspier/item/service/impl/RabbitMsgServiceImpl.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/vinspie-ritem/vinspier-item-service/src/main/java/com/vinspier/item/service/impl/SpecServiceImpl.java" afterPath="$PROJECT_DIR$/vinspier-item/vinspier-item-service/src/main/java/com/vinspier/item/service/impl/SpecServiceImpl.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/vinspie-ritem/vinspier-item-service/src/main/resources/application.yml" afterPath="$PROJECT_DIR$/vinspier-item/vinspier-item-service/src/main/resources/application.yml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/vinspie-ritem/vinspier-item-service/src/main/resources/com/vinspier/item/mapper/BrandMapper.xml" afterPath="$PROJECT_DIR$/vinspier-item/vinspier-item-service/src/main/resources/com/vinspier/item/mapper/BrandMapper.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/vinspie-ritem/vinspier-item-service/target/classes/application.yml" afterPath="$PROJECT_DIR$/vinspier-item/vinspier-item-service/target/classes/application.yml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/vinspie-ritem/vinspier-item-service/target/classes/com/vinspier/item/ItemServiceApplication.class" afterPath="$PROJECT_DIR$/vinspier-item/vinspier-item-service/target/classes/com/vinspier/item/ItemServiceApplication.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/vinspie-ritem/vinspier-item-service/target/classes/com/vinspier/item/controller/BrandController.class" afterPath="$PROJECT_DIR$/vinspier-item/vinspier-item-service/target/classes/com/vinspier/item/controller/BrandController.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/vinspie-ritem/vinspier-item-service/target/classes/com/vinspier/item/controller/CategoryController.class" afterPath="$PROJECT_DIR$/vinspier-item/vinspier-item-service/target/classes/com/vinspier/item/controller/CategoryController.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/vinspie-ritem/vinspier-item-service/target/classes/com/vinspier/item/controller/GoodsController.class" afterPath="$PROJECT_DIR$/vinspier-item/vinspier-item-service/target/classes/com/vinspier/item/controller/GoodsController.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/vinspie-ritem/vinspier-item-service/target/classes/com/vinspier/item/controller/SpecController.class" afterPath="$PROJECT_DIR$/vinspier-item/vinspier-item-service/target/classes/com/vinspier/item/controller/SpecController.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/vinspie-ritem/vinspier-item-service/target/classes/com/vinspier/item/mapper/BrandMapper.class" afterPath="$PROJECT_DIR$/vinspier-item/vinspier-item-service/target/classes/com/vinspier/item/mapper/BrandMapper.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/vinspie-ritem/vinspier-item-service/target/classes/com/vinspier/item/mapper/BrandMapper.xml" afterPath="$PROJECT_DIR$/vinspier-item/vinspier-item-service/target/classes/com/vinspier/item/mapper/BrandMapper.xml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/vinspie-ritem/vinspier-item-service/target/classes/com/vinspier/item/mapper/CategoryMapper.class" afterPath="$PROJECT_DIR$/vinspier-item/vinspier-item-service/target/classes/com/vinspier/item/mapper/CategoryMapper.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/vinspie-ritem/vinspier-item-service/target/classes/com/vinspier/item/mapper/SkuMapper.class" afterPath="$PROJECT_DIR$/vinspier-item/vinspier-item-service/target/classes/com/vinspier/item/mapper/SkuMapper.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/vinspie-ritem/vinspier-item-service/target/classes/com/vinspier/item/mapper/SpecGroupMapper.class" afterPath="$PROJECT_DIR$/vinspier-item/vinspier-item-service/target/classes/com/vinspier/item/mapper/SpecGroupMapper.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/vinspie-ritem/vinspier-item-service/target/classes/com/vinspier/item/mapper/SpecParamMapper.class" afterPath="$PROJECT_DIR$/vinspier-item/vinspier-item-service/target/classes/com/vinspier/item/mapper/SpecParamMapper.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/vinspie-ritem/vinspier-item-service/target/classes/com/vinspier/item/mapper/SpuDetailMapper.class" afterPath="$PROJECT_DIR$/vinspier-item/vinspier-item-service/target/classes/com/vinspier/item/mapper/SpuDetailMapper.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/vinspie-ritem/vinspier-item-service/target/classes/com/vinspier/item/mapper/SpuMapper.class" afterPath="$PROJECT_DIR$/vinspier-item/vinspier-item-service/target/classes/com/vinspier/item/mapper/SpuMapper.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/vinspie-ritem/vinspier-item-service/target/classes/com/vinspier/item/mapper/StockMapper.class" afterPath="$PROJECT_DIR$/vinspier-item/vinspier-item-service/target/classes/com/vinspier/item/mapper/StockMapper.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/vinspie-ritem/vinspier-item-service/target/classes/com/vinspier/item/service/BrandService.class" afterPath="$PROJECT_DIR$/vinspier-item/vinspier-item-service/target/classes/com/vinspier/item/service/BrandService.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/vinspie-ritem/vinspier-item-service/target/classes/com/vinspier/item/service/CategoryService.class" afterPath="$PROJECT_DIR$/vinspier-item/vinspier-item-service/target/classes/com/vinspier/item/service/CategoryService.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/vinspie-ritem/vinspier-item-service/target/classes/com/vinspier/item/service/GoodsService.class" afterPath="$PROJECT_DIR$/vinspier-item/vinspier-item-service/target/classes/com/vinspier/item/service/GoodsService.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/vinspie-ritem/vinspier-item-service/target/classes/com/vinspier/item/service/RabbitMsgService.class" afterPath="$PROJECT_DIR$/vinspier-item/vinspier-item-service/target/classes/com/vinspier/item/service/RabbitMsgService.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/vinspie-ritem/vinspier-item-service/target/classes/com/vinspier/item/service/SpecService.class" afterPath="$PROJECT_DIR$/vinspier-item/vinspier-item-service/target/classes/com/vinspier/item/service/SpecService.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/vinspie-ritem/vinspier-item-service/target/classes/com/vinspier/item/service/impl/BrandServiceImpl.class" afterPath="$PROJECT_DIR$/vinspier-item/vinspier-item-service/target/classes/com/vinspier/item/service/impl/BrandServiceImpl.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/vinspie-ritem/vinspier-item-service/target/classes/com/vinspier/item/service/impl/CategoryServiceImpl.class" afterPath="$PROJECT_DIR$/vinspier-item/vinspier-item-service/target/classes/com/vinspier/item/service/impl/CategoryServiceImpl.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/vinspie-ritem/vinspier-item-service/target/classes/com/vinspier/item/service/impl/GoodsServiceImpl.class" afterPath="$PROJECT_DIR$/vinspier-item/vinspier-item-service/target/classes/com/vinspier/item/service/impl/GoodsServiceImpl.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/vinspie-ritem/vinspier-item-service/target/classes/com/vinspier/item/service/impl/RabbitMsgServiceImpl.class" afterPath="$PROJECT_DIR$/vinspier-item/vinspier-item-service/target/classes/com/vinspier/item/service/impl/RabbitMsgServiceImpl.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/vinspie-ritem/vinspier-item-service/target/classes/com/vinspier/item/service/impl/SpecServiceImpl.class" afterPath="$PROJECT_DIR$/vinspier-item/vinspier-item-service/target/classes/com/vinspier/item/service/impl/SpecServiceImpl.class" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/vinspie-ritem/vinspier-item-service/vinspier-item-service.iml" afterPath="$PROJECT_DIR$/vinspier-item/vinspier-item-service/vinspier-item-service.iml" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/vinspie-ritem/vinspier-item.iml" afterPath="$PROJECT_DIR$/vinspier-item/vinspier-item.iml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -31,6 +127,9 @@
     <ignored path="$PROJECT_DIR$/vinspier-auth/auth-service/target/" />
     <ignored path="$PROJECT_DIR$/vinspier-order/target/" />
     <ignored path="$PROJECT_DIR$/vinspier-cart/target/" />
+    <ignored path="$PROJECT_DIR$/vinspier-item/vinspier-item-interface/target/" />
+    <ignored path="$PROJECT_DIR$/vinspier-item/vinspier-item-service/target/" />
+    <ignored path="$PROJECT_DIR$/vinspier-item/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -40,11 +139,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="GoodsServiceImpl.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vinspie-ritem/vinspier-item-service/src/main/java/com/vinspier/item/service/impl/GoodsServiceImpl.java">
+      <file leaf-file-name="JwtProperties.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vinspier-order/src/main/java/com/leyou/config/JwtProperties.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="65" column="55" lean-forward="false" selection-start-line="65" selection-start-column="40" selection-end-line="65" selection-end-column="55" />
+            <state relative-caret-position="266">
+              <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -52,31 +151,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SpecController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vinspie-ritem/vinspier-item-service/src/main/java/com/vinspier/item/controller/SpecController.java">
+      <file leaf-file-name="OrderController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vinspier-order/src/main/java/com/leyou/order/controller/OrderController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1604">
-              <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+            <state relative-caret-position="361">
+              <caret line="37" column="41" lean-forward="false" selection-start-line="37" selection-start-column="41" selection-end-line="37" selection-end-column="41" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GoodsController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vinspie-ritem/vinspier-item-service/src/main/java/com/vinspier/item/controller/GoodsController.java">
+      <file leaf-file-name="OrderService.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/vinspier-order/src/main/java/com/leyou/order/service/OrderService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="437">
-              <caret line="36" column="18" lean-forward="false" selection-start-line="36" selection-start-column="8" selection-end-line="36" selection-end-column="18" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BrandServiceImpl.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/vinspie-ritem/vinspier-item-service/src/main/java/com/vinspier/item/service/impl/BrandServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-418">
-              <caret line="41" column="32" lean-forward="false" selection-start-line="41" selection-start-column="24" selection-end-line="41" selection-end-column="32" />
+            <state relative-caret-position="114">
+              <caret line="27" column="15" lean-forward="true" selection-start-line="27" selection-start-column="15" selection-end-line="27" selection-end-column="15" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -84,11 +173,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SelectByExampleMapper.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/tk/mybatis/mapper-base/1.0.1/mapper-base-1.0.1.jar!/tk/mybatis/mapper/common/example/SelectByExampleMapper.class">
+      <file leaf-file-name="IdWorker.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/vinspier-common/src/main/java/com/vinspier/common/util/IdWorker.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="228">
-              <caret line="18" column="12" lean-forward="false" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
+            <state relative-caret-position="380">
+              <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -128,6 +217,9 @@
       <find>UserInfo</find>
       <find>Page</find>
       <find>PageResult</find>
+      <find>getSystemC</find>
+      <find>getClassLoader</find>
+      <find>leyou</find>
     </findStrings>
     <replaceStrings>
       <replace>specService</replace>
@@ -135,6 +227,7 @@
     </replaceStrings>
   </component>
   <component name="Git.Settings">
+    <option name="UPDATE_TYPE" value="MERGE" />
     <option name="ROOT_SYNC" value="DONT_SYNC" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
@@ -146,15 +239,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/vinspier-sms/src/main/java/com/vinspier/sms/SmsApplication.java" />
-        <option value="$PROJECT_DIR$/vinspier-sms/src/main/java/com/vinspier/sms/util/SmsUtils.java" />
-        <option value="$PROJECT_DIR$/vinspier-sms/src/main/java/com/vinspier/sms/config/SmsProperties.java" />
-        <option value="$PROJECT_DIR$/vinspier-sms/src/main/java/com/vinspier/sms/listener/SmsListener.java" />
-        <option value="$PROJECT_DIR$/vinspier-auth/auth-service/src/main/java/com/vinspier/auth/AuthenticationApplication.java" />
-        <option value="$PROJECT_DIR$/vinspier-auth/auth-common/src/main/java/com/vinspier/auth/pojo/UserInfo.java" />
-        <option value="$PROJECT_DIR$/vinspier-auth/auth-common/src/main/java/com/vinspier/auth/utils/JwtUtils.java" />
-        <option value="$PROJECT_DIR$/vinspier-auth/auth-common/src/test/java/com/vinspier/JwtTest.java" />
-        <option value="$PROJECT_DIR$/vinspier-common/src/main/java/com/vinspier/common/util/IdWorker.java" />
         <option value="$PROJECT_DIR$/vinspier-common/pom.xml" />
         <option value="$PROJECT_DIR$/vinspier-auth/auth-common/pom.xml" />
         <option value="$PROJECT_DIR$/vinspier-auth/auth-service/src/main/java/com/vinspier/auth/client/UserClient.java" />
@@ -164,9 +248,6 @@
         <option value="$PROJECT_DIR$/vinspier-user/user-service/pom.xml" />
         <option value="$PROJECT_DIR$/vinspier-user/pom.xml" />
         <option value="$PROJECT_DIR$/vinspier-user/user-interface/src/main/java/com/vinspier/user/api/UserApi.java" />
-        <option value="$PROJECT_DIR$/vinspier-auth/auth-service/src/main/java/com/vinspier/auth/service/impl/AuthServiceImpl.java" />
-        <option value="$PROJECT_DIR$/vinspier-auth/auth-service/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/vinspier-auth/auth-service/src/main/java/com/vinspier/auth/config/JwtProperties.java" />
         <option value="$PROJECT_DIR$/service-gateway/src/main/java/com/vinspier/zuul/config/CorsConfig.java" />
         <option value="$PROJECT_DIR$/vinspier-common/src/main/java/com/vinspier/common/util/CookieUtils.java" />
         <option value="$PROJECT_DIR$/note.md" />
@@ -177,10 +258,8 @@
         <option value="$PROJECT_DIR$/service-gateway/src/main/java/com/vinspier/zuul/config/JwtProperties.java" />
         <option value="$PROJECT_DIR$/service-gateway/src/main/java/com/vinspier/zuul/filter/LoginFilter.java" />
         <option value="$PROJECT_DIR$/vinspier-cart/pom.xml" />
-        <option value="$PROJECT_DIR$/service-gateway/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/vinspier-cart/src/main/java/com/vinspier/CartApplication.java" />
         <option value="$PROJECT_DIR$/vinspier-cart/src/main/java/com/vinspier/pojo/Cart.java" />
-        <option value="$PROJECT_DIR$/vinspier-cart/src/main/java/com/vinspier/interceptor/LoginInterceptor.java" />
         <option value="$PROJECT_DIR$/vinspier-cart/src/main/java/com/vinspier/config/CustomWebMvcConfiguration.java" />
         <option value="$PROJECT_DIR$/vinspier-cart/src/main/java/com/vinspier/client/GoodsClient.java" />
         <option value="$PROJECT_DIR$/vinspier-cart/src/main/java/com/vinspier/controller/CartController.java" />
@@ -188,15 +267,29 @@
         <option value="$PROJECT_DIR$/vinspie-ritem/vinspier-item-service/src/main/java/com/vinspier/item/controller/GoodsController.java" />
         <option value="$PROJECT_DIR$/vinspie-ritem/vinspier-item-service/src/main/java/com/vinspier/item/service/GoodsService.java" />
         <option value="$PROJECT_DIR$/vinspie-ritem/vinspier-item-service/src/main/java/com/vinspier/item/service/impl/GoodsServiceImpl.java" />
-        <option value="$PROJECT_DIR$/vinspier-cart/src/main/java/com/vinspier/service/CartService.java" />
         <option value="$PROJECT_DIR$/vinspier-cart/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/vinspier-cart/src/main/java/com/vinspier/config/JwtProperties.java" />
         <option value="$PROJECT_DIR$/vinspier-order/pom.xml" />
         <option value="$PROJECT_DIR$/vinspier-order/src/main/java/order/service/OrderService.java" />
         <option value="$PROJECT_DIR$/vinspier-order/src/main/java/com/leyou/order/interceptor/LoginInterceptor.java" />
-        <option value="$PROJECT_DIR$/vinspier-order/src/main/java/com/leyou/order/service/OrderService.java" />
         <option value="$PROJECT_DIR$/vinspier-order/src/main/java/com/leyou/order/controller/OrderController.java" />
+        <option value="$PROJECT_DIR$/vinspier-auth/auth-service/src/main/java/com/vinspier/auth/config/JwtProperties.java" />
+        <option value="$PROJECT_DIR$/register-center/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/vinspier-search/src/main/java/com/vinspier/search/listener/GoodsListener.java" />
+        <option value="$PROJECT_DIR$/vinspier-sms/src/main/java/com/vinspier/sms/config/SmsProperties.java" />
+        <option value="$PROJECT_DIR$/vinspier-item/vinspier-item-service/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/vinspier-search/pom.xml" />
+        <option value="$PROJECT_DIR$/vinspier-cart/src/main/java/com/vinspier/service/CartService.java" />
+        <option value="$PROJECT_DIR$/service-gateway/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/vinspier-auth/auth-service/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/vinspier-auth/auth-service/src/main/java/com/vinspier/auth/service/impl/AuthServiceImpl.java" />
+        <option value="$PROJECT_DIR$/vinspier-cart/src/main/java/com/vinspier/interceptor/LoginInterceptor.java" />
+        <option value="$PROJECT_DIR$/vinspier-user/user-service/src/main/java/com/vinspier/user/service/impl/UserServiceImpl.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/vinspier-order/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/vinspier-order/src/main/java/com/leyou/config/JwtProperties.java" />
+        <option value="$PROJECT_DIR$/vinspier-order/src/main/java/com/leyou/order/service/OrderService.java" />
+        <option value="$PROJECT_DIR$/vinspier-common/src/main/java/com/vinspier/common/util/IdWorker.java" />
       </list>
     </option>
   </component>
@@ -227,7 +320,26 @@
       <expand>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="vinspier-sms" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="auth-common" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="auth-common" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="auth-common" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Plugins" type="7aea1407:MavenProjectsStructure$PluginsNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="vinspier-search" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="vinspier-search" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
         </path>
       </expand>
       <select />
@@ -257,6 +369,9 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -267,34 +382,25 @@
             <path>
               <item name="vinspier" type="b2602c69:ProjectViewProjectNode" />
               <item name="vinspier" type="462c0819:PsiDirectoryNode" />
-              <item name="vinspie-ritem" type="462c0819:PsiDirectoryNode" />
+              <item name="vinspier-common" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="vinspier" type="b2602c69:ProjectViewProjectNode" />
               <item name="vinspier" type="462c0819:PsiDirectoryNode" />
-              <item name="vinspie-ritem" type="462c0819:PsiDirectoryNode" />
-              <item name="vinspier-item-service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="vinspier" type="b2602c69:ProjectViewProjectNode" />
-              <item name="vinspier" type="462c0819:PsiDirectoryNode" />
-              <item name="vinspie-ritem" type="462c0819:PsiDirectoryNode" />
-              <item name="vinspier-item-service" type="462c0819:PsiDirectoryNode" />
+              <item name="vinspier-common" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="vinspier" type="b2602c69:ProjectViewProjectNode" />
               <item name="vinspier" type="462c0819:PsiDirectoryNode" />
-              <item name="vinspie-ritem" type="462c0819:PsiDirectoryNode" />
-              <item name="vinspier-item-service" type="462c0819:PsiDirectoryNode" />
+              <item name="vinspier-common" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="vinspier" type="b2602c69:ProjectViewProjectNode" />
               <item name="vinspier" type="462c0819:PsiDirectoryNode" />
-              <item name="vinspie-ritem" type="462c0819:PsiDirectoryNode" />
-              <item name="vinspier-item-service" type="462c0819:PsiDirectoryNode" />
+              <item name="vinspier-common" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
@@ -302,60 +408,152 @@
             <path>
               <item name="vinspier" type="b2602c69:ProjectViewProjectNode" />
               <item name="vinspier" type="462c0819:PsiDirectoryNode" />
-              <item name="vinspie-ritem" type="462c0819:PsiDirectoryNode" />
-              <item name="vinspier-item-service" type="462c0819:PsiDirectoryNode" />
+              <item name="vinspier-common" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="item" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="vinspier" type="b2602c69:ProjectViewProjectNode" />
               <item name="vinspier" type="462c0819:PsiDirectoryNode" />
-              <item name="vinspie-ritem" type="462c0819:PsiDirectoryNode" />
-              <item name="vinspier-item-service" type="462c0819:PsiDirectoryNode" />
+              <item name="vinspier-common" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="item" type="462c0819:PsiDirectoryNode" />
+              <item name="common" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vinspier" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vinspier" type="462c0819:PsiDirectoryNode" />
+              <item name="vinspier-order" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vinspier" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vinspier" type="462c0819:PsiDirectoryNode" />
+              <item name="vinspier-order" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vinspier" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vinspier" type="462c0819:PsiDirectoryNode" />
+              <item name="vinspier-order" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vinspier" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vinspier" type="462c0819:PsiDirectoryNode" />
+              <item name="vinspier-order" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vinspier" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vinspier" type="462c0819:PsiDirectoryNode" />
+              <item name="vinspier-order" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="leyou" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vinspier" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vinspier" type="462c0819:PsiDirectoryNode" />
+              <item name="vinspier-order" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="leyou" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vinspier" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vinspier" type="462c0819:PsiDirectoryNode" />
+              <item name="vinspier-order" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="leyou" type="462c0819:PsiDirectoryNode" />
+              <item name="order" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vinspier" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vinspier" type="462c0819:PsiDirectoryNode" />
+              <item name="vinspier-order" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="leyou" type="462c0819:PsiDirectoryNode" />
+              <item name="order" type="462c0819:PsiDirectoryNode" />
               <item name="controller" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="vinspier" type="b2602c69:ProjectViewProjectNode" />
               <item name="vinspier" type="462c0819:PsiDirectoryNode" />
-              <item name="vinspie-ritem" type="462c0819:PsiDirectoryNode" />
-              <item name="vinspier-item-service" type="462c0819:PsiDirectoryNode" />
+              <item name="vinspier-order" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="item" type="462c0819:PsiDirectoryNode" />
+              <item name="leyou" type="462c0819:PsiDirectoryNode" />
+              <item name="order" type="462c0819:PsiDirectoryNode" />
               <item name="service" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="vinspier" type="b2602c69:ProjectViewProjectNode" />
               <item name="vinspier" type="462c0819:PsiDirectoryNode" />
-              <item name="vinspie-ritem" type="462c0819:PsiDirectoryNode" />
-              <item name="vinspier-item-service" type="462c0819:PsiDirectoryNode" />
+              <item name="vinspier-order" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="item" type="462c0819:PsiDirectoryNode" />
+              <item name="leyou" type="462c0819:PsiDirectoryNode" />
+              <item name="order" type="462c0819:PsiDirectoryNode" />
               <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="impl" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vinspier" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vinspier" type="462c0819:PsiDirectoryNode" />
+              <item name="vinspier-order" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="leyou" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vinspier" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vinspier" type="462c0819:PsiDirectoryNode" />
+              <item name="vinspier-order" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vinspier" type="b2602c69:ProjectViewProjectNode" />
+              <item name="vinspier" type="462c0819:PsiDirectoryNode" />
+              <item name="vinspier-order" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="vinspier" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="Scratches" />
-      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="editing.templates" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/vinspier-auth/auth-common/src/main/resources" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/vinspier-item/pom.xml" />
     <property name="nodejs_interpreter_path" value="D:/NodeJs/node" />
     <property name="JavaScriptPreferStrict" value="false" />
     <property name="JavaScriptWeakerCompletionTypeGuess" value="true" />
@@ -371,7 +569,7 @@
     <property name="RequestMappingsPanelWidth2" value="75" />
     <property name="RequestMappingsPanelOrder2" value="2" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
-    <property name="SearchEverywhereHistoryKey" value="GoodsHtmlService&#9;FILE&#9;file://E:/vinspier-project/vinspier/vinspier-goods-web/src/main/java/com/vinspier/goods/service/GoodsHtmlService.java&#10;GenericTokenParser&#9;PSI&#9;JAVA://org.apache.ibatis.parsing.GenericTokenParser&#10;ThreadL&#9;PSI&#9;JAVA://java.lang.ThreadLocal" />
+    <property name="SearchEverywhereHistoryKey" value="DispatcherSer&#9;PSI&#9;JAVA://org.springframework.web.servlet.DispatcherServlet&#10;ClassLoad&#9;PSI&#9;JAVA://java.lang.ClassLoader&#10;ExecutorService&#9;PSI&#9;JAVA://com.vinspier.goods.GoodsWebApplication#executorService&#10;log&#9;PSI&#9;JAVA://com.vinspier.auth.config.JwtProperties#logger&#10;GoodsHtmlService&#9;FILE&#9;file://E:/vinspier-project/vinspier/vinspier-goods-web/src/main/java/com/vinspier/goods/service/GoodsHtmlService.java&#10;GenericTokenParser&#9;PSI&#9;JAVA://org.apache.ibatis.parsing.GenericTokenParser&#10;ThreadL&#9;PSI&#9;JAVA://java.lang.ThreadLocal" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -413,6 +611,13 @@
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.vinspier.auth.AuthenticationApplication" />
       <option name="SHOW_IN_DASHBOARD" value="true" />
       <module name="auth-service" />
+      <envs />
+    </configuration>
+    <configuration name="CartApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.vinspier.CartApplication" />
+      <option name="SHOW_IN_DASHBOARD" value="true" />
+      <module name="vinspier-cart" />
       <envs />
     </configuration>
     <configuration name="GoodsWebApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
@@ -508,6 +713,13 @@
       </option>
       <envs />
       <patterns />
+    </configuration>
+    <configuration name="OrderApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.leyou.OrderApplication" />
+      <option name="SHOW_IN_DASHBOARD" value="true" />
+      <module name="vinspier-order" />
+      <envs />
     </configuration>
     <configuration name="RegisterCenterApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
@@ -663,7 +875,7 @@
       <properties />
       <listeners />
     </configuration>
-    <list size="13">
+    <list size="15">
       <item index="0" class="java.lang.String" itemvalue="Spring Boot.ZuulGatewayApplication" />
       <item index="1" class="java.lang.String" itemvalue="Spring Boot.RegisterCenterApplication" />
       <item index="2" class="java.lang.String" itemvalue="Spring Boot.ItemServiceApplication" />
@@ -672,11 +884,13 @@
       <item index="5" class="java.lang.String" itemvalue="Spring Boot.UserApplication" />
       <item index="6" class="java.lang.String" itemvalue="Spring Boot.SmsApplication" />
       <item index="7" class="java.lang.String" itemvalue="Spring Boot.AuthenticationApplication" />
-      <item index="8" class="java.lang.String" itemvalue="JUnit.SearchApplicationTest.createDocs" />
-      <item index="9" class="java.lang.String" itemvalue="Spring Boot.GoodsWebApplication" />
-      <item index="10" class="java.lang.String" itemvalue="JUnit.JwtTest.testRsa" />
-      <item index="11" class="java.lang.String" itemvalue="JUnit.JwtTest.testGenerateToken" />
-      <item index="12" class="java.lang.String" itemvalue="JUnit.JwtTest.testParseToken" />
+      <item index="8" class="java.lang.String" itemvalue="Spring Boot.OrderApplication" />
+      <item index="9" class="java.lang.String" itemvalue="Spring Boot.CartApplication" />
+      <item index="10" class="java.lang.String" itemvalue="JUnit.SearchApplicationTest.createDocs" />
+      <item index="11" class="java.lang.String" itemvalue="Spring Boot.GoodsWebApplication" />
+      <item index="12" class="java.lang.String" itemvalue="JUnit.JwtTest.testRsa" />
+      <item index="13" class="java.lang.String" itemvalue="JUnit.JwtTest.testGenerateToken" />
+      <item index="14" class="java.lang.String" itemvalue="JUnit.JwtTest.testParseToken" />
     </list>
     <recent_temporary>
       <list size="5">
@@ -730,6 +944,21 @@
       <workItem from="1587561179301" duration="9635000" />
       <workItem from="1587652748387" duration="1249000" />
       <workItem from="1588688557987" duration="2819000" />
+      <workItem from="1591803122345" duration="1165000" />
+      <workItem from="1592023659143" duration="6128000" />
+      <workItem from="1592150189236" duration="34000" />
+      <workItem from="1592376065313" duration="4475000" />
+      <workItem from="1592452059608" duration="14724000" />
+      <workItem from="1592834508899" duration="1486000" />
+      <workItem from="1592918848330" duration="3666000" />
+      <workItem from="1592985731321" duration="1869000" />
+      <workItem from="1593059731588" duration="5908000" />
+      <workItem from="1593096721221" duration="1458000" />
+      <workItem from="1593138165644" duration="820000" />
+      <workItem from="1593229948999" duration="1990000" />
+      <workItem from="1593263090840" duration="2687000" />
+      <workItem from="1593314525373" duration="2710000" />
+      <workItem from="1593416428641" duration="1705000" />
     </task>
     <task id="LOCAL-00001" summary="简单电商后台管理项目初始搭建">
       <created>1584640950705</created>
@@ -984,7 +1213,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="131720000" />
+    <option name="totallyTimeSpent" value="182545000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -992,34 +1221,34 @@
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294893" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4364599" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2677761" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30937973" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31316188" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4497529" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run Dashboard" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41186163" sideWeight="0.5" order="8" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5403624" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294893" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3623298" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Run Dashboard" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41186163" sideWeight="0.5" order="12" side_tool="false" content_ui="combo" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294893" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.42174628" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23524962" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294893" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294893" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294893" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
@@ -1033,27 +1262,27 @@
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30937973" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31316188" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4497529" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294893" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run Dashboard" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41186163" sideWeight="0.5" order="13" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294893" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Run Dashboard" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41186163" sideWeight="0.5" order="12" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294893" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5403624" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294893" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.28744328" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.30408472" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294893" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1091,367 +1320,129 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/vinspier-cart/src/main/java/com/vinspier/config/JwtProperties.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/tk/mybatis/mapper-base/1.0.1/mapper-base-1.0.1.jar!/tk/mybatis/mapper/common/base/select/SelectCountMapper.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="163">
-          <caret line="10" column="37" lean-forward="true" selection-start-line="10" selection-start-column="37" selection-end-line="10" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="228">
+          <caret line="17" column="8" lean-forward="false" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vinspier-cart/src/main/resources/application.yml">
+    <entry file="jar://$MAVEN_REPOSITORY$/tk/mybatis/mapper-core/1.0.2/mapper-core-1.0.2.jar!/tk/mybatis/mapper/entity/EntityColumn.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="15" column="8" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="8" />
-          <folding />
+        <state relative-caret-position="114">
+          <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vinspier-order/src/main/resources/mapper/OrderMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1525431712285" expanded="true" signature="630:1098" ph="SELECT o.ord... tb_order" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vinspier-order/src/main/java/utils/PayHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vinspier-order/src/main/java/config/IdWorkerConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vinspier-order/src/main/java/config/PayProperties.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vinspier-order/src/main/java/order/mapper/OrderMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vinspier-order/src/main/java/config/MvcConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vinspier-order/src/main/java/order/pojo/OrderDetail.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vinspier-order/src/main/java/order/pojo/OrderStatus.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vinspier-order/src/main/java/order/mapper/OrderDetailMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vinspier-order/src/main/java/config/IdWorkerProperties.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vinspier-order/src/main/java/order/controller/OrderController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vinspier-order/src/main/java/order/mapper/OrderStatusMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vinspier-order/src/main/java/config/SwaggerConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vinspier-order/src/main/java/config/PayConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vinspier-order/src/main/java/LeyouOrderApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vinspier-order/src/main/java/config/JwtProperties.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vinspier-order/src/main/java/order/service/api/GoodsService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vinspier-order/src/main/java/order/interceptor/LoginInterceptor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vinspier-order/src/main/java/utils/PayState.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vinspier-order/src/main/java/order/pojo/Order.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vinspier-order/src/main/java/order/service/OrderService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="2" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vinspier-order/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="215">
-          <caret line="51" column="24" lean-forward="false" selection-start-line="51" selection-start-column="24" selection-end-line="51" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vinspier-order/src/main/java/com/leyou/config/IdWorkerConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vinspier-order/src/main/java/com/leyou/config/PayProperties.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vinspier-order/src/main/java/com/leyou/order/mapper/OrderMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vinspier-order/src/main/java/com/leyou/config/MvcConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vinspier-order/src/main/java/com/leyou/order/mapper/OrderDetailMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vinspier-order/src/main/java/com/leyou/config/IdWorkerProperties.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vinspier-order/src/main/java/com/leyou/order/mapper/OrderStatusMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vinspier-order/src/main/java/com/leyou/config/SwaggerConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vinspier-order/src/main/java/com/leyou/config/PayConfig.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vinspier-order/src/main/java/com/leyou/OrderApplication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vinspier-order/src/main/java/com/leyou/config/JwtProperties.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vinspier-order/src/main/java/com/leyou/order/service/api/GoodsService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vinspier-order/src/main/java/com/leyou/order/interceptor/LoginInterceptor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="741">
-          <caret line="41" column="24" lean-forward="false" selection-start-line="41" selection-start-column="24" selection-end-line="41" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1802#1803#0" expanded="true" />
-            <element signature="e#1833#1834#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vinspier-order/src/main/java/com/leyou/order/controller/OrderController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="75" column="6" lean-forward="false" selection-start-line="75" selection-start-column="6" selection-end-line="75" selection-end-column="6" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/vinspier-order/src/main/java/com/leyou/order/pojo/Order.java">
+    <entry file="file://$PROJECT_DIR$/vinspier-user/user-interface/src/main/java/com/vinspier/user/pojo/User.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
-          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding />
+          <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vinspier-order/src/main/java/com/leyou/order/pojo/OrderDetail.java">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_74/src.zip!/java/util/Map.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-          <folding />
+        <state relative-caret-position="193">
+          <caret line="211" column="6" lean-forward="false" selection-start-line="211" selection-start-column="6" selection-end-line="211" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vinspier-order/src/main/java/com/leyou/order/pojo/OrderStatus.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/tk/mybatis/mapper-core/1.0.2/mapper-core-1.0.2.jar!/tk/mybatis/mapper/entity/EntityTable.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding />
+        <state relative-caret-position="152">
+          <caret line="29" column="40" lean-forward="false" selection-start-line="29" selection-start-column="40" selection-end-line="29" selection-end-column="40" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vinspier-order/src/main/java/com/leyou/utils/PayHelper.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/tk/mybatis/mapper-core/1.0.2/mapper-core-1.0.2.jar!/tk/mybatis/mapper/entity/Example.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="17" column="13" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-          <folding />
+        <state relative-caret-position="271">
+          <caret line="50" column="42" lean-forward="false" selection-start-line="50" selection-start-column="42" selection-end-line="50" selection-end-column="42" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vinspier-order/src/main/resources/application.yml">
+    <entry file="jar://$MAVEN_REPOSITORY$/tk/mybatis/mapper-core/1.0.2/mapper-core-1.0.2.jar!/tk/mybatis/mapper/mapperhelper/EntityHelper.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="26" column="30" lean-forward="false" selection-start-line="26" selection-start-column="30" selection-end-line="26" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/mybatis/mybatis/3.4.6/mybatis-3.4.6.jar!/org/apache/ibatis/session/RowBounds.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="10" column="17" lean-forward="false" selection-start-line="10" selection-start-column="11" selection-end-line="10" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/tk/mybatis/mapper-base/1.0.1/mapper-base-1.0.1.jar!/tk/mybatis/mapper/common/rowbounds/SelectByExampleRowBoundsMapper.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="11" column="50" lean-forward="true" selection-start-line="11" selection-start-column="50" selection-end-line="11" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/tk/mybatis/mapper-base/1.0.1/mapper-base-1.0.1.jar!/tk/mybatis/mapper/common/base/select/SelectOneMapper.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="17" column="6" lean-forward="false" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/commons-codec/commons-codec/1.11/commons-codec-1.11.jar!/org/apache/commons/codec/digest/DigestUtils.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="129" column="25" lean-forward="false" selection-start-line="129" selection-start-column="25" selection-end-line="129" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vinspier-user/user-service/src/main/java/com/vinspier/user/util/CodecUtils.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="171">
-          <caret line="9" column="18" lean-forward="false" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
-          <folding />
+          <caret line="12" column="29" lean-forward="false" selection-start-line="12" selection-start-column="29" selection-end-line="12" selection-end-column="29" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vinspier-order/src/main/java/com/leyou/order/service/OrderService.java">
+    <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="89" column="17" lean-forward="false" selection-start-line="89" selection-start-column="17" selection-end-line="89" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="76">
+          <caret line="4" column="38" lean-forward="true" selection-start-line="4" selection-start-column="38" selection-end-line="4" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vinspier-item/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vinspier-item/vinspier-item-interface/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-298">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vinspier-item/vinspier-item-service/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-912">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vinspier-goods-web/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-171">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vinspier-search/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-684">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -1459,59 +1450,245 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
           <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vinspier-search/src/main/java/com/vinspier/search/controller/SearchController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="25" column="59" lean-forward="false" selection-start-line="25" selection-start-column="53" selection-end-line="25" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vinspier-search/src/main/java/com/vinspier/search/vo/SearchVo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="66" column="19" lean-forward="false" selection-start-line="66" selection-start-column="19" selection-end-line="66" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vinspier-search/src/main/java/com/vinspier/search/service/impl/SearchServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-328">
+          <caret line="234" column="38" lean-forward="false" selection-start-line="234" selection-start-column="38" selection-end-line="234" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vinspier-common/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-285">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vinspier-search/src/main/java/com/vinspier/search/SearchApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="17" column="13" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vinspier-user/user-service/src/main/java/com/vinspier/user/mapper/UserMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="5" column="44" lean-forward="false" selection-start-line="5" selection-start-column="44" selection-end-line="5" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vinspier-user/user-service/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vinspier-user/user-service/src/main/java/com/vinspier/user/UserApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.1.14.RELEASE/spring-webmvc-5.1.14.RELEASE.jar!/org/springframework/web/servlet/HandlerMapping.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="304">
+          <caret line="20" column="26" lean-forward="false" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.1.14.RELEASE/spring-webmvc-5.1.14.RELEASE.jar!/org/springframework/web/servlet/handler/AbstractHandlerMapping.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3534">
+          <caret line="240" column="66" lean-forward="false" selection-start-line="240" selection-start-column="66" selection-end-line="240" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.1.14.RELEASE/spring-webmvc-5.1.14.RELEASE.jar!/org/springframework/web/servlet/HandlerExecutionChain.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1501">
+          <caret line="96" column="9" lean-forward="false" selection-start-line="96" selection-start-column="9" selection-end-line="96" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.1.14.RELEASE/spring-webmvc-5.1.14.RELEASE.jar!/org/springframework/web/servlet/DispatcherServlet.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="725" column="39" lean-forward="false" selection-start-line="725" selection-start-column="24" selection-end-line="725" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vinspier-item/vinspier-item-interface/src/main/java/com/vinspier/item/pojo/Brand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="13" column="13" lean-forward="false" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vinspier-item/vinspier-item-interface/src/main/java/com/vinspier/item/pojo/Category.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="15" column="13" lean-forward="false" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vinspier-item/vinspier-item-interface/src/main/java/com/vinspier/item/pojo/Sku.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vinspier-item/vinspier-item-interface/src/main/java/com/vinspier/item/pojo/SpecGroup.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vinspier-item/vinspier-item-interface/src/main/java/com/vinspier/item/pojo/SpecParam.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vinspier-item/vinspier-item-interface/src/main/java/com/vinspier/item/pojo/Spu.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="17" column="13" lean-forward="false" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vinspier-item/vinspier-item-interface/src/main/java/com/vinspier/item/pojo/SpuDetail.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vinspier-item/vinspier-item-interface/src/main/java/com/vinspier/item/pojo/Stock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vinspier-item/vinspier-item-service/src/main/java/com/vinspier/item/controller/BrandController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="114">
+          <caret line="14" column="13" lean-forward="false" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vinspier-auth/auth-service/src/main/java/com/vinspier/auth/config/JwtProperties.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="12" column="14" lean-forward="false" selection-start-line="12" selection-start-column="14" selection-end-line="12" selection-end-column="14" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vinspier-order/src/main/java/com/leyou/utils/PayState.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot/2.1.13.RELEASE/spring-boot-2.1.13.RELEASE.jar!/org/springframework/boot/context/properties/ConfigurationProperties.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="12" lean-forward="false" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+        <state relative-caret-position="285">
+          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/tk/mybatis/mapper-base/1.0.1/mapper-base-1.0.1.jar!/tk/mybatis/mapper/common/example/SelectByExampleMapper.class">
+    <entry file="file://$PROJECT_DIR$/vinspier-sms/src/main/java/com/vinspier/sms/util/SmsUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="18" column="12" lean-forward="false" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
+        <state relative-caret-position="19">
+          <caret line="23" column="13" lean-forward="false" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vinspie-ritem/vinspier-item-service/src/main/java/com/vinspier/item/service/impl/GoodsServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/vinspier-sms/src/main/java/com/vinspier/sms/listener/SmsListener.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="65" column="55" lean-forward="false" selection-start-line="65" selection-start-column="40" selection-end-line="65" selection-end-column="55" />
+        <state relative-caret-position="171">
+          <caret line="37" column="92" lean-forward="false" selection-start-line="37" selection-start-column="65" selection-end-line="37" selection-end-column="92" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vinspier-user/user-service/src/main/java/com/vinspier/user/service/impl/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="56" column="32" lean-forward="true" selection-start-line="56" selection-start-column="32" selection-end-line="56" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vinspier-order/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="532">
+          <caret line="28" column="24" lean-forward="false" selection-start-line="28" selection-start-column="24" selection-end-line="28" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vinspier-order/src/main/java/com/leyou/config/JwtProperties.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vinspie-ritem/vinspier-item-service/src/main/java/com/vinspier/item/controller/SpecController.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/io/swagger/swagger-annotations/1.5.14/swagger-annotations-1.5.14.jar!/io/swagger/annotations/ApiOperation.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1604">
-          <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
+        <state relative-caret-position="152">
+          <caret line="14" column="18" lean-forward="false" selection-start-line="14" selection-start-column="18" selection-end-line="14" selection-end-column="18" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vinspie-ritem/vinspier-item-service/src/main/java/com/vinspier/item/controller/GoodsController.java">
+    <entry file="file://$PROJECT_DIR$/vinspier-order/src/main/java/com/leyou/order/controller/OrderController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="36" column="18" lean-forward="false" selection-start-line="36" selection-start-column="8" selection-end-line="36" selection-end-column="18" />
+        <state relative-caret-position="361">
+          <caret line="37" column="41" lean-forward="false" selection-start-line="37" selection-start-column="41" selection-end-line="37" selection-end-column="41" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vinspie-ritem/vinspier-item-service/src/main/java/com/vinspier/item/service/impl/BrandServiceImpl.java">
+    <entry file="file://$PROJECT_DIR$/vinspier-order/src/main/java/com/leyou/order/service/OrderService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-418">
-          <caret line="41" column="32" lean-forward="false" selection-start-line="41" selection-start-column="24" selection-end-line="41" selection-end-column="32" />
+        <state relative-caret-position="114">
+          <caret line="27" column="15" lean-forward="true" selection-start-line="27" selection-start-column="15" selection-end-line="27" selection-end-column="15" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vinspier-common/src/main/java/com/vinspier/common/util/IdWorker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1592,7 +1769,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>Maven: antlr:antlr:2.7.7</last-edited>
+          <last-edited>Maven: com.vinspier.item:vinspier-item-interface:1.0.0-SNAPSHOT</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>

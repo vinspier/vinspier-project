@@ -37,4 +37,9 @@ public class AuthServiceImpl implements AuthService {
         }
         return null;
     }
+
+    @Override
+    public UserInfo verify() {
+        return null;
+    }
 }

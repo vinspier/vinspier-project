@@ -15,7 +15,7 @@ eureka:
 # 公钥和私钥信息
 vinspier:
   jwt:
-    secret: vinspier@Login(Auth}*^31)&heiMa% # 登录校验的密文
+    secret: vinspier@Login(Auth}*^31)&heiMa% # 生成rsa密钥的密文
     pubKeyPath: C:\\tmp\\rsa\\rsa.pub # 公钥地址
     priKeyPath: C:\\tmp\\rsa\\rsa.pri # 私钥地址
     expire: 30 # 过期时间,单位分钟

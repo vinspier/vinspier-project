@@ -54,9 +54,10 @@ public class UserServiceImpl implements UserService {
         HashMap<String, String> msg = new HashMap<>();
         msg.put("phone",phone);
         msg.put("code", code);
-        this.amqpTemplate.convertAndSend("vinspier.sms.exchange","verifyCode.sms", msg);
         // 把验证码保存到redis中 5mi过期时间
         this.redisTemplate.opsForValue().set(KEY_PREFIX + phone,code, 5, TimeUnit.MINUTES);
+        // 把消息发送给消息队列 供消息服务消费
+        this.amqpTemplate.convertAndSend("vinspier.sms.exchange","verifyCode.sms", msg);
     }
 
     @Override
@@ -78,6 +79,7 @@ public class UserServiceImpl implements UserService {
         user.setCreated(new Date());
         this.userMapper.insertSelective(user);
         // ToDo 删除redis中的code
+        this.redisTemplate.delete(KEY_PREFIX + user.getPhone());
     }
 
     @Override

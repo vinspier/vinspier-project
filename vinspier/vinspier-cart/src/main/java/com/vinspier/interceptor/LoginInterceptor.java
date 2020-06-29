@@ -7,6 +7,7 @@ import com.vinspier.common.util.CookieUtils;
 import com.vinspier.config.JwtProperties;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;
+import org.springframework.http.HttpStatus;
 import org.springframework.stereotype.Component;
 import org.springframework.web.servlet.handler.HandlerInterceptorAdapter;
 
@@ -34,6 +35,7 @@ public class LoginInterceptor extends HandlerInterceptorAdapter {
         // 解析token，获取用户信息
         UserInfo userInfo = JwtUtils.getInfoFromToken(token, this.jwtProperties.getPublicKey());
         if (userInfo == null){
+            response.setStatus(HttpStatus.UNAUTHORIZED.value());
             return false;
         }
         //把userInfo放入线程变量

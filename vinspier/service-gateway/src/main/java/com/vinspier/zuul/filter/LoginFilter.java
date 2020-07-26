@@ -3,6 +3,7 @@ package com.vinspier.zuul.filter;
 import com.netflix.zuul.ZuulFilter;
 import com.netflix.zuul.context.RequestContext;
 import com.netflix.zuul.exception.ZuulException;
+import com.vinspier.auth.pojo.UserInfo;
 import com.vinspier.auth.utils.JwtUtils;
 import com.vinspier.common.util.CookieUtils;
 import com.vinspier.zuul.common.FilterType;
@@ -92,7 +93,12 @@ public class LoginFilter extends ZuulFilter {
         String token = CookieUtils.getCookieValue(request, this.jwtProperties.getCookieName());
 
         try {
-            JwtUtils.getInfoFromToken(token,this.jwtProperties.getPublicKey());
+            // 解析成功
+            UserInfo userInfo = JwtUtils.getInfoFromToken(token,this.jwtProperties.getPublicKey());
+            // 解析失败 或 抛出异常
+            if (userInfo == null){
+                throw new RuntimeException("用户未验证");
+            }
         } catch (Exception e) {
             e.printStackTrace();
             context.setSendZuulResponse(false);
